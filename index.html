@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Little Things</title>
+  <meta name="description" content="Cheap, simple things babies and young children actually play with, picked by developmental stage and backed by research. A gift guide for friends with little kids.">
+  <meta property="og:title" content="Little Things: gifts kids actually use">
+  <meta property="og:description" content="Everyday objects and simple toys for 0–6 year olds, sorted by developmental stage, with plastic-free filter and Norwegian store links.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23e8a33d'/><circle cx='50' cy='50' r='22' fill='%23fdf8f0'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">A gift guide for friends with little ones</p>
+      <h1>Little things</h1>
+      <p class="lede">Cheap, simple things babies and young children actually play with, sorted by developmental stage, with the research behind each one. Many of them are already in a kitchen drawer.</p>
+      <ul class="principles">
+        <li><strong>You are the best toy.</strong> For babies, play matters most as time together. Simple things that get adults talking beat toys that talk for them.</li>
+        <li><strong>Fewer is better.</strong> Toddlers with 4 toys played longer and more creatively than toddlers with 16. Pick one or two things.</li>
+        <li><strong>Real things count.</strong> Kids prefer real activities and tools over pretend copies, and everyday objects are great play material.</li>
+      </ul>
+      <p class="hero-links"><a href="#sources">Sources and safety</a> · <a href="https://github.com/dagfrode/little-things">Suggest an item</a></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filters" aria-label="Filters">
+      <div class="filter-group">
+        <h2 class="filter-label" id="lbl-age">Age</h2>
+        <div class="chips" role="group" aria-labelledby="lbl-age" id="f-age"></div>
+      </div>
+
+      <div class="filter-row">
+        <div class="filter-group">
+          <h2 class="filter-label" id="lbl-kind">Type</h2>
+          <div class="seg" role="group" aria-labelledby="lbl-kind" id="f-kind"></div>
+        </div>
+        <div class="filter-group">
+          <h2 class="filter-label" id="lbl-plastic">Plastic</h2>
+          <div class="seg" role="group" aria-labelledby="lbl-plastic" id="f-plastic"></div>
+        </div>
+        <div class="filter-group">
+          <h2 class="filter-label" id="lbl-price">Budget</h2>
+          <div class="seg" role="group" aria-labelledby="lbl-price" id="f-price"></div>
+        </div>
+      </div>
+
+      <details class="more-filters" id="more-filters">
+        <summary>Skills and search</summary>
+        <div class="filter-group">
+          <h2 class="filter-label" id="lbl-skill">Good for (any of)</h2>
+          <div class="chips" role="group" aria-labelledby="lbl-skill" id="f-skill"></div>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label" for="f-q">Search</label>
+          <input type="search" id="f-q" placeholder="e.g. bowl, puzzle, bath" autocomplete="off">
+        </div>
+      </details>
+
+      <div class="result-bar">
+        <p id="count" aria-live="polite"></p>
+        <div class="result-actions">
+          <button type="button" class="link-btn" id="reset">Reset filters</button>
+          <button type="button" class="link-btn" id="share">Copy link to this selection</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="items" class="grid" aria-label="Items"></section>
+    <p id="empty" class="empty" hidden>No matches. Try a wider age or budget.</p>
+
+    <section id="sources" class="about">
+      <h2>Safety basics</h2>
+      <ul>
+        <li><strong>Choking:</strong> for children under 3 (and older ones who still mouth things), anything that fits through a toilet-roll tube is too small. Balls should be larger than about 4.5 cm.</li>
+        <li><strong>Never:</strong> button/coin batteries, loose magnets, balloons, or cords longer than 30 cm near babies.</li>
+        <li><strong>Everyday objects</strong> aren't tested as toys. Check edges and loose parts, and stay close.</li>
+        <li><strong>Plastic:</strong> the EU bans the most harmful phthalates in toys, but enforcement checks still find them in cheap soft-PVC toys. Buying from established stores, buying secondhand quality, or choosing steel, wood, cotton and natural rubber lowers the risk.</li>
+      </ul>
+      <p class="muted">The plastic filter: <em>plastic-free</em> means no plastic parts; <em>little plastic</em> also includes items that are mainly another material with some plastic parts, or polyester stuffing.</p>
+
+      <h2>Sources</h2>
+      <p class="muted">Every item lists the sources behind it. Prices are approximate (NOK), and IKEA prices were checked in October 2026. Other store links open a search, so they keep working when a product changes.</p>
+      <ol id="source-list" class="source-list"></ol>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Made by <a href="https://dagfrode.com">Dag Frode</a> for friends with new babies. Not medical advice; every child develops at their own pace.</p>
+  </footer>
+
+  <template id="card-tpl">
+    <article class="card">
+      <header class="card-head">
+        <h3 class="card-title"></h3>
+        <p class="card-meta"></p>
+      </header>
+      <ul class="badges"></ul>
+      <p class="why"></p>
+      <p class="tip"></p>
+      <p class="safety"></p>
+      <div class="buy"></div>
+      <p class="cites"></p>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

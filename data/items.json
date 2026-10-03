@@ -1,0 +1,2310 @@
+[
+  {
+    "id": "steel-bowls",
+    "name": "Stainless steel bowls",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      6,
+      36
+    ],
+    "price": 89,
+    "skills": [
+      "senses",
+      "hands",
+      "thinking"
+    ],
+    "why": "Bowls make noise, nest inside each other, hold things and reflect light. A sitting baby can bang them, drop things in and tip them out, which is early cause and effect.",
+    "tip": "Give 2–3 bowls of different sizes. Later they become drums, hats and sandpit buckets.",
+    "sources": [
+      "goldschmied",
+      "aap-toys"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "BLANDA BLANK serving bowl",
+        "url": "https://www.ikea.com/no/no/p/blanda-blank-serveringsbolle-rustfritt-stal-50057254/",
+        "price": 89
+      }
+    ]
+  },
+  {
+    "id": "wooden-spoons",
+    "name": "Wooden spoons",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      4,
+      36
+    ],
+    "price": 59,
+    "skills": [
+      "hands",
+      "senses",
+      "music"
+    ],
+    "why": "Easy to grip, safe to mouth and perfect for banging. Babies learn that their actions make sounds. Toddlers stir, drum and serve pretend food with them.",
+    "tip": "Pair them with a steel bowl or a saucepan for a first drum kit.",
+    "safety": "Check now and then for splinters. Untreated or oil-finished wood is best.",
+    "sources": [
+      "goldschmied",
+      "aap-play"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "RÖRT kitchen utensils, 2 pcs (beech)",
+        "url": "https://www.ikea.com/no/no/p/roert-kjokkenredskaper-2-stk-bok-70631401/",
+        "price": 59
+      }
+    ]
+  },
+  {
+    "id": "whisk",
+    "name": "Balloon whisk",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      5,
+      24
+    ],
+    "price": 39,
+    "skills": [
+      "senses",
+      "hands"
+    ],
+    "why": "Light, shiny, springy and easy to hold. It's a classic treasure-basket object for babies exploring with hands and mouth.",
+    "tip": "Push a soft fabric ball inside it and let the baby work out how to get it out.",
+    "safety": "Choose a solid whisk whose wires are firmly fixed in the handle.",
+    "sources": [
+      "goldschmied"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "IDEALISK whisks, set of 2",
+        "url": "https://www.ikea.com/no/no/p/idealisk-visper-sett-med-2-rustfritt-stal-50093172/",
+        "price": 39
+      }
+    ]
+  },
+  {
+    "id": "treasure-basket",
+    "name": "Treasure basket",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      6,
+      12
+    ],
+    "price": 79,
+    "skills": [
+      "senses",
+      "hands",
+      "thinking"
+    ],
+    "why": "Elinor Goldschmied's treasure basket is a low basket of everyday natural objects for a sitting baby to explore on their own: metal, wood, fabric, brush, leather. Babies concentrate on it for a surprisingly long time.",
+    "tip": "A lovely gift: a basket with a wooden spoon, a whisk, a small steel bowl, a soft brush, a ring of keys from the hardware store and a scarf. Add a card that explains the idea.",
+    "safety": "Every object should be bigger than a toilet-roll tube opening. Sit nearby, then let the baby lead.",
+    "sources": [
+      "goldschmied",
+      "nicholson"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "FLÅDIS basket (sea grass)",
+        "url": "https://www.ikea.com/no/no/p/fladis-kurv-siv-60322173/",
+        "price": 79
+      },
+      {
+        "store": "ikea",
+        "label": "BRANÄS basket (rattan)",
+        "url": "https://www.ikea.com/no/no/p/branaes-kurv-rotting-00138432/",
+        "price": 229
+      }
+    ]
+  },
+  {
+    "id": "scarves",
+    "name": "Thin scarves for peekaboo",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      6,
+      60
+    ],
+    "price": 100,
+    "skills": [
+      "thinking",
+      "social",
+      "pretend",
+      "movement"
+    ],
+    "why": "Peekaboo is the first game about things that disappear and come back (object permanence). The same scarves become capes, picnic blankets and dancing ribbons later.",
+    "tip": "Look for light cotton or silk \"play silks\". Old scarves from a drawer work just as well.",
+    "safety": "Supervised play only. Never leave fabric in the cot.",
+    "sources": [
+      "piaget",
+      "aap-play",
+      "nicholson"
+    ],
+    "links": [
+      {
+        "store": "jollyroom",
+        "label": "Search: play silk",
+        "q": "lekeskjerf"
+      },
+      {
+        "store": "amazon",
+        "label": "Search: play silks",
+        "q": "play silks children"
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand silk scarves",
+        "q": "silkeskjerf"
+      }
+    ]
+  },
+  {
+    "id": "tissue-box-pull",
+    "name": "Tissue box of scarves to pull",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      8,
+      18
+    ],
+    "price": 0,
+    "skills": [
+      "hands",
+      "thinking"
+    ],
+    "why": "Pulling things out of a hole is irresistible at this age. It trains the pincer grasp and gives a satisfying 'where did it go?' moment.",
+    "tip": "Free to make: an empty tissue box with knotted scarves or cloth napkins inside.",
+    "safety": "Remove the plastic film from the box opening.",
+    "sources": [
+      "aap-play",
+      "cdc"
+    ],
+    "links": []
+  },
+  {
+    "id": "saucepan-lid",
+    "name": "Saucepan with a lid",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      8,
+      36
+    ],
+    "price": 0,
+    "skills": [
+      "hands",
+      "thinking",
+      "music"
+    ],
+    "why": "Lids are a puzzle: on, off, clang. Babies figure out which lid fits, and toddlers use the pot for pretend cooking.",
+    "tip": "Hand over an old pot from the cupboard. Ask the parents first if they have a spare.",
+    "sources": [
+      "goldschmied",
+      "taggart"
+    ],
+    "links": [
+      {
+        "store": "finn",
+        "label": "Secondhand small saucepans",
+        "q": "liten kasserolle"
+      }
+    ]
+  },
+  {
+    "id": "muffin-tin-balls",
+    "name": "Muffin tin + balls",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      10,
+      36
+    ],
+    "price": 159,
+    "skills": [
+      "hands",
+      "thinking",
+      "math"
+    ],
+    "why": "One ball per hole is early one-to-one correspondence, the start of counting. Putting in and taking out is the main hobby of a 1-year-old.",
+    "tip": "Pair a tin with tennis balls or soft fabric balls. Later, sort coloured socks into it.",
+    "safety": "Balls must be larger than 4.5 cm.",
+    "sources": [
+      "aap-play",
+      "cdc"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "VARDAGEN muffin tin (steel)",
+        "url": "https://www.ikea.com/no/no/p/vardagen-muffinsform-solvfarget-70256993/",
+        "price": 159
+      },
+      {
+        "store": "ikea",
+        "label": "SANDBI fabric ball",
+        "url": "https://www.ikea.com/no/no/p/sandbi-toyleke-ball-flerfarget-70564473/",
+        "price": 39
+      }
+    ]
+  },
+  {
+    "id": "measuring-cups",
+    "name": "Nesting measuring cups",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      9,
+      48
+    ],
+    "price": 79,
+    "skills": [
+      "hands",
+      "thinking",
+      "math"
+    ],
+    "why": "They work as a stacking toy that's also a real kitchen tool: nesting, stacking, pouring and comparing sizes. Spatial skills like these predict later maths.",
+    "tip": "Great for bath time and the sandpit too.",
+    "sources": [
+      "verdine",
+      "taggart"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "VARDAGEN measuring cups, set of 5",
+        "url": "https://www.ikea.com/no/no/p/vardagen-malebeger-sett-5-stk-60324723/",
+        "price": 79
+      },
+      {
+        "store": "ikea",
+        "label": "UPPFYLLD measuring cups, 6 pcs (plastic)",
+        "url": "https://www.ikea.com/no/no/p/uppfylld-malebeger-6-stk-offwhite-20640530/",
+        "price": 29
+      }
+    ]
+  },
+  {
+    "id": "cardboard-box",
+    "name": "A big cardboard box",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      8,
+      72
+    ],
+    "price": 0,
+    "skills": [
+      "movement",
+      "pretend",
+      "creativity"
+    ],
+    "why": "The joke that kids prefer the box is backed by research. Open-ended 'loose parts' invite more invention than single-purpose toys. A box becomes a cave, car, boat or rocket.",
+    "tip": "Gift idea for older kids: a big box with a pack of crayons, tape and a note that says 'build anything'.",
+    "safety": "Remove staples and plastic tape.",
+    "sources": [
+      "nicholson",
+      "dauch"
+    ],
+    "links": [
+      {
+        "store": "clasohlson",
+        "label": "Moving boxes",
+        "q": "flytteeske"
+      }
+    ]
+  },
+  {
+    "id": "metal-tins",
+    "name": "Tins with lids",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      12,
+      48
+    ],
+    "price": 50,
+    "skills": [
+      "hands",
+      "thinking"
+    ],
+    "why": "Opening and closing lids, and hiding something inside to find later, builds fine motor control and memory. Toddlers will happily do it for ages.",
+    "tip": "Old tea or biscuit tins are perfect. Put a surprise inside when you give them.",
+    "safety": "Check the rims for sharp edges.",
+    "sources": [
+      "aap-play",
+      "piaget"
+    ],
+    "links": [
+      {
+        "store": "clasohlson",
+        "label": "Search: tin box",
+        "q": "blikkboks"
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand tins",
+        "q": "blikkboks"
+      }
+    ]
+  },
+  {
+    "id": "colander-straws",
+    "name": "Colander + pipe cleaners",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      18,
+      48
+    ],
+    "price": 49,
+    "skills": [
+      "hands",
+      "thinking"
+    ],
+    "why": "Poking pipe cleaners or straws through the holes is a focused fine motor 'posting' task that toddlers repeat over and over, practising the pincer grip they'll later use for pencils.",
+    "tip": "Turn the colander upside down so the holes face up.",
+    "safety": "Fold the sharp ends of pipe cleaners. Supervised play.",
+    "sources": [
+      "aap-play",
+      "montessori"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "IDEALISK strainer, 14 cm (steel)",
+        "url": "https://www.ikea.com/no/no/p/idealisk-sil-rustfritt-stal-10633733/",
+        "price": 49
+      },
+      {
+        "store": "panduro",
+        "label": "Pipe cleaners",
+        "q": "piperensere"
+      }
+    ]
+  },
+  {
+    "id": "pouring-set",
+    "name": "Pouring set: jug, funnel, cups",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      12,
+      60
+    ],
+    "price": 60,
+    "skills": [
+      "senses",
+      "hands",
+      "math"
+    ],
+    "why": "Water play in the bath or a washing-up bowl teaches volume, cause and effect, and hand control. It's also calming.",
+    "tip": "Add a small sponge to squeeze.",
+    "safety": "Always stay with a child near water.",
+    "sources": [
+      "aap-play",
+      "taggart"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "UPPFYLLD funnel",
+        "url": "https://www.ikea.com/no/no/p/uppfylld-trakt-klargul-80521930/",
+        "price": 19
+      },
+      {
+        "store": "ikea",
+        "label": "IDEALISK measuring jug, 1 l (steel)",
+        "url": "https://www.ikea.com/no/no/p/idealisk-litermal-gradert-rustfritt-stal-16968300/",
+        "price": 99
+      },
+      {
+        "store": "ikea",
+        "label": "PEPPRIG wash basin, 10 l",
+        "url": "https://www.ikea.com/no/no/p/pepprig-vaskebalje-sammenleggbar-gronn-70572963/",
+        "price": 99
+      }
+    ]
+  },
+  {
+    "id": "own-cup-cutlery",
+    "name": "Their own cup and cutlery",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      9,
+      48
+    ],
+    "price": 99,
+    "skills": [
+      "independence",
+      "hands"
+    ],
+    "why": "Drinking from an open cup and feeding themselves are CDC milestones toddlers are proud to reach. Real, child-size things invite them to try.",
+    "tip": "Small stainless cutlery plus a small glass or steel cup.",
+    "sources": [
+      "cdc",
+      "montessori",
+      "taggart"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "FABLER children's cutlery, 3 pcs (steel)",
+        "url": "https://www.ikea.com/no/no/p/fabler-bestikk-3-deler-rustfritt-stal-60137571/",
+        "price": 99
+      },
+      {
+        "store": "ikea",
+        "label": "DUKTIG glasses (small glass)",
+        "url": "https://www.ikea.com/no/no/p/duktig-glass-flerfarget-00190689/",
+        "price": 49
+      },
+      {
+        "store": "ikea",
+        "label": "KALAS cup (plastic)",
+        "url": "https://www.ikea.com/no/no/p/kalas-krus-flere-farger-00461379/",
+        "price": 19
+      }
+    ]
+  },
+  {
+    "id": "step-stool",
+    "name": "Step stool for the kitchen counter",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      18,
+      72
+    ],
+    "price": 299,
+    "skills": [
+      "independence",
+      "movement",
+      "social"
+    ],
+    "why": "Pre-schoolers strongly prefer real activities to pretend ones and stay with them about twice as long. A stool lets them actually help: wash vegetables, stir, crack eggs.",
+    "tip": "A gift parents use daily. A 'learning tower' is a safer, more expensive version for under-3s.",
+    "safety": "Always supervise at the counter. Under 3 years, a learning tower with rails is safer.",
+    "sources": [
+      "taggart",
+      "montessori"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "BEKVÄM step stool (wood)",
+        "url": "https://www.ikea.com/no/no/p/bekvaem-trappestige-bok-90190411/",
+        "price": 449
+      },
+      {
+        "store": "ikea",
+        "label": "TROGEN children's step stool",
+        "url": "https://www.ikea.com/no/no/p/trogen-barnekrakk-gul-80371520/",
+        "price": 299
+      },
+      {
+        "store": "jollyroom",
+        "label": "Search: learning tower",
+        "q": "læringstårn"
+      }
+    ]
+  },
+  {
+    "id": "broom-dustpan",
+    "name": "Small broom and dustpan",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      18,
+      60
+    ],
+    "price": 100,
+    "skills": [
+      "independence",
+      "movement",
+      "social"
+    ],
+    "why": "Toddlers want to do what adults do. Real child-size tools make 'helping' possible and build independence and coordination.",
+    "tip": "Get a real one, not a toy one: it actually works, and that's the point.",
+    "sources": [
+      "taggart",
+      "montessori"
+    ],
+    "links": [
+      {
+        "store": "clasohlson",
+        "label": "Search: broom and dustpan",
+        "q": "feiebrett kost"
+      },
+      {
+        "store": "jollyroom",
+        "label": "Search: children's cleaning set",
+        "q": "vaskesett barn"
+      }
+    ]
+  },
+  {
+    "id": "watering-can",
+    "name": "Small watering can",
+    "kind": "everyday",
+    "plastic": "plastic",
+    "ages": [
+      18,
+      72
+    ],
+    "price": 19,
+    "skills": [
+      "independence",
+      "nature",
+      "movement"
+    ],
+    "why": "Watering plants is a real job with a visible result. It mixes gross motor skills (carrying) with care and patience.",
+    "tip": "Add a pot of herb seeds for a complete gift.",
+    "sources": [
+      "taggart",
+      "montessori"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "IKEA PS 2002 watering can 1.2 l (plastic)",
+        "url": "https://www.ikea.com/no/no/p/ikea-ps-2002-vannkanne-hvit-60289946/",
+        "price": 19
+      },
+      {
+        "store": "clasohlson",
+        "label": "Search: children's watering can",
+        "q": "vannkanne barn"
+      }
+    ]
+  },
+  {
+    "id": "garden-tools",
+    "name": "Child-size garden tools",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      30,
+      72
+    ],
+    "price": 150,
+    "skills": [
+      "independence",
+      "nature",
+      "movement"
+    ],
+    "why": "A real rake and spade that work let kids dig, sort leaves and help in the garden, which is real activity, outdoors and active.",
+    "tip": "Metal heads with wooden handles last for years.",
+    "sources": [
+      "taggart",
+      "who-activity"
+    ],
+    "links": [
+      {
+        "store": "clasohlson",
+        "label": "Search: children's garden tools",
+        "q": "hageredskap barn"
+      },
+      {
+        "store": "jollyroom",
+        "label": "Search: garden tools for children",
+        "q": "hageredskap barn"
+      }
+    ]
+  },
+  {
+    "id": "water-painting",
+    "name": "Big brushes for water painting",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      18,
+      60
+    ],
+    "price": 39,
+    "skills": [
+      "hands",
+      "creativity",
+      "nature"
+    ],
+    "why": "A bucket of water and a wide brush turns a fence or a wall into a canvas that dries and disappears. It's mess-free 'painting' that builds arm and hand control.",
+    "tip": "Add a small bucket.",
+    "sources": [
+      "aap-play"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "MÅLA brushes, set of 6",
+        "url": "https://www.ikea.com/no/no/p/mala-pensel-sett-6-stk-10193319/",
+        "price": 39
+      },
+      {
+        "store": "ikea",
+        "label": "SANDIG spade",
+        "url": "https://www.ikea.com/no/no/p/sandig-spade-bla-60577678/",
+        "price": 19
+      }
+    ]
+  },
+  {
+    "id": "sock-matching",
+    "name": "Sock-matching game",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      24,
+      54
+    ],
+    "price": 0,
+    "skills": [
+      "thinking",
+      "math",
+      "independence"
+    ],
+    "why": "Pairing socks is real sorting and matching, the same skill memory games train, done while 'helping' with laundry.",
+    "tip": "A gift twist: a pack of colourful kids' socks wrapped as a 'find the pairs' game.",
+    "sources": [
+      "taggart",
+      "cdc"
+    ],
+    "links": []
+  },
+  {
+    "id": "cushion-course",
+    "name": "Couch-cushion obstacle course",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      9,
+      60
+    ],
+    "price": 0,
+    "skills": [
+      "movement"
+    ],
+    "why": "Crawling over, climbing on and jumping between cushions builds strength, balance and body awareness. The WHO recommends plenty of active play every day for this age.",
+    "tip": "If you want to give a toy version: stackable floor cushions.",
+    "safety": "Keep the course on a soft floor away from sharp furniture corners.",
+    "sources": [
+      "who-activity",
+      "aap-play"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "GREJSIMOJS floor cushions, 3 pcs",
+        "url": "https://www.ikea.com/no/no/p/grejsimojs-gulvpute-3-stk-kan-stables-flerfarget-90602011/",
+        "price": 799
+      }
+    ]
+  },
+  {
+    "id": "paper-roll-crayons",
+    "name": "Paper roll + chunky crayons",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      15,
+      72
+    ],
+    "price": 74,
+    "skills": [
+      "hands",
+      "creativity"
+    ],
+    "why": "Scribbling appears around 15–18 months and is the start of writing. A long roll on the floor gives room to make big arm movements.",
+    "tip": "Tape the paper to the floor or the table.",
+    "safety": "Choose chunky crayons for the youngest; they're harder to bite off and choke on.",
+    "sources": [
+      "cdc",
+      "aap-play"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "MÅLA drawing paper roll, 30 m",
+        "url": "https://www.ikea.com/no/no/p/mala-tegnepapirrull-70461088/",
+        "price": 45
+      },
+      {
+        "store": "ikea",
+        "label": "MÅLA wax crayons",
+        "url": "https://www.ikea.com/no/no/p/mala-fettstifter-flere-farger-00455547/",
+        "price": 29
+      },
+      {
+        "store": "panduro",
+        "label": "Search: chunky crayons",
+        "q": "tykke fargestifter"
+      }
+    ]
+  },
+  {
+    "id": "play-dough",
+    "name": "Play dough",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      24,
+      72
+    ],
+    "price": 59,
+    "skills": [
+      "hands",
+      "creativity",
+      "senses",
+      "pretend"
+    ],
+    "why": "Squishing, rolling and cutting dough strengthens hand muscles needed later for writing, and it's endlessly open-ended.",
+    "tip": "Homemade dough (flour, salt, water, oil) in a jar with a rolling pin and cookie cutters makes a cheap, lovely gift.",
+    "safety": "Homemade dough is very salty; don't let it be eaten in quantity.",
+    "sources": [
+      "aap-play",
+      "nicholson"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "MÅLA modelling clay",
+        "url": "https://www.ikea.com/no/no/p/mala-modellkitt-flere-farger-20493666/",
+        "price": 59
+      },
+      {
+        "store": "panduro",
+        "label": "Search: play dough",
+        "q": "trolldeig"
+      }
+    ]
+  },
+  {
+    "id": "ice-tray-tongs",
+    "name": "Ice-cube tray + tongs sorting",
+    "kind": "everyday",
+    "plastic": "plastic",
+    "ages": [
+      30,
+      72
+    ],
+    "price": 19,
+    "skills": [
+      "hands",
+      "math",
+      "thinking"
+    ],
+    "why": "Moving pom-poms or beans into the cells with tongs trains the hand grip used for pencils, plus sorting and counting.",
+    "tip": "Pair it with kitchen tongs or salad tongs from the drawer.",
+    "safety": "Pom-poms and beans are choking hazards. Only for children who no longer mouth things, and supervised.",
+    "sources": [
+      "montessori",
+      "aap-play",
+      "cpsc-small"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "SURSÖT ice cube tray",
+        "url": "https://www.ikea.com/no/no/p/sursoet-isterningsbrett-mork-bla-20512938/",
+        "price": 19
+      },
+      {
+        "store": "panduro",
+        "label": "Search: pom-poms",
+        "q": "pompom"
+      }
+    ]
+  },
+  {
+    "id": "sensory-bin",
+    "name": "Sensory bin (rice, oats, lentils)",
+    "kind": "everyday",
+    "plastic": "plastic",
+    "ages": [
+      30,
+      72
+    ],
+    "price": 139,
+    "skills": [
+      "senses",
+      "hands",
+      "pretend",
+      "math"
+    ],
+    "why": "Scooping, pouring and hiding things in dry rice or oats is calming sensory play that also builds measuring and pretend play (a 'construction site', 'bakery').",
+    "tip": "Gift a box with a lid, a scoop, a funnel and a few small toys to bury.",
+    "safety": "Dry grains and lentils are a choking hazard under 3. Always supervise.",
+    "sources": [
+      "aap-play",
+      "nicholson",
+      "cpsc-small"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "SAMLA box with lid",
+        "url": "https://www.ikea.com/no/no/p/samla-kasse-med-lokk-transparent-s69440761/",
+        "price": 139
+      }
+    ]
+  },
+  {
+    "id": "torch",
+    "name": "A real torch",
+    "kind": "everyday",
+    "plastic": "plastic",
+    "ages": [
+      30,
+      72
+    ],
+    "price": 99,
+    "skills": [
+      "thinking",
+      "pretend",
+      "nature"
+    ],
+    "why": "Shadow puppets, den play and evening walks. Kids love a real tool that actually works rather than a toy copy.",
+    "tip": "Pick one with a screw-closed battery compartment and normal AA/AAA batteries.",
+    "safety": "Never coin/button batteries. The battery lid must need a screwdriver or be very hard to open.",
+    "sources": [
+      "taggart",
+      "cpsc-small"
+    ],
+    "links": [
+      {
+        "store": "clasohlson",
+        "label": "Search: children's torch",
+        "q": "lommelykt barn"
+      }
+    ]
+  },
+  {
+    "id": "magnifier",
+    "name": "Magnifying glass",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      36,
+      72
+    ],
+    "price": 79,
+    "skills": [
+      "nature",
+      "thinking",
+      "language"
+    ],
+    "why": "In the 'real thing' study, a real microscope held kids' attention far longer than a toy one. A magnifier turns a walk into an expedition: bugs, leaves, snow crystals.",
+    "tip": "Pair it with a jar for collecting (and releasing) bugs.",
+    "sources": [
+      "taggart"
+    ],
+    "links": [
+      {
+        "store": "clasohlson",
+        "label": "Search: magnifying glass",
+        "q": "forstørrelsesglass"
+      }
+    ]
+  },
+  {
+    "id": "clothes-pegs",
+    "name": "Wooden clothes pegs",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      36,
+      72
+    ],
+    "price": 40,
+    "skills": [
+      "hands",
+      "math"
+    ],
+    "why": "Pinching a peg open is excellent pre-writing hand training. Clip them around a tin, sort them by colour, and use them to build a den with sheets.",
+    "tip": "Add a cardboard ring with numbers to clip the matching number of pegs on.",
+    "safety": "Pegs can pinch fingers, which is part of learning; the springs can come loose on cheap ones.",
+    "sources": [
+      "montessori",
+      "aap-play"
+    ],
+    "links": [
+      {
+        "store": "clasohlson",
+        "label": "Search: wooden pegs",
+        "q": "klesklyper tre"
+      }
+    ]
+  },
+  {
+    "id": "contrast-book",
+    "name": "High-contrast baby book",
+    "kind": "book",
+    "plastic": "none",
+    "ages": [
+      0,
+      6
+    ],
+    "price": 129,
+    "skills": [
+      "senses",
+      "language",
+      "social"
+    ],
+    "why": "Newborns see strong contrasts and faces best. A board book with bold black-and-white images is something to look at together during tummy time and while talking, and reading from birth is recommended by the AAP.",
+    "tip": "Fold it open on the floor in front of a baby on their tummy.",
+    "sources": [
+      "literacy",
+      "hewitt",
+      "cdc"
+    ],
+    "links": [
+      {
+        "store": "norli",
+        "label": "Search: contrast book",
+        "q": "kontrastbok"
+      },
+      {
+        "store": "ikea",
+        "label": "GRÖNFINK baby book",
+        "url": "https://www.ikea.com/no/no/p/groenfink-barnebok-flerfarget-10572466/",
+        "price": 129
+      }
+    ]
+  },
+  {
+    "id": "board-books",
+    "name": "Board books",
+    "kind": "book",
+    "plastic": "none",
+    "ages": [
+      3,
+      36
+    ],
+    "price": 150,
+    "skills": [
+      "language",
+      "social"
+    ],
+    "why": "Shared reading from early infancy predicts vocabulary and reading skills years later. Books also produced more back-and-forth talk than electronic toys in Sosa's study.",
+    "tip": "Pick sturdy books with real photos of animals or everyday objects for the youngest. For older toddlers, books with rhymes and repetition.",
+    "sources": [
+      "literacy",
+      "sosa"
+    ],
+    "links": [
+      {
+        "store": "norli",
+        "label": "Search: board books",
+        "q": "pekebok"
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand board books",
+        "q": "pekebøker"
+      }
+    ]
+  },
+  {
+    "id": "flap-books",
+    "name": "Lift-the-flap books",
+    "kind": "book",
+    "plastic": "none",
+    "ages": [
+      10,
+      36
+    ],
+    "price": 150,
+    "skills": [
+      "language",
+      "thinking",
+      "hands"
+    ],
+    "why": "Hidden things behind flaps combine reading with object permanence and fine motor practice. Toddlers ask for them again and again.",
+    "tip": "Classics like 'Where's Spot?' (Hvor er Tassen?) never get old.",
+    "sources": [
+      "literacy",
+      "piaget"
+    ],
+    "links": [
+      {
+        "store": "norli",
+        "label": "Search: lift-the-flap books",
+        "q": "løft og se bok"
+      }
+    ]
+  },
+  {
+    "id": "picture-books",
+    "name": "Picture books with a story",
+    "kind": "book",
+    "plastic": "none",
+    "ages": [
+      24,
+      72
+    ],
+    "price": 200,
+    "skills": [
+      "language",
+      "social",
+      "pretend"
+    ],
+    "why": "Stories build vocabulary, narrative skills and empathy. Talking about the pictures together is the 'dialogic reading' that boosts language most.",
+    "tip": "Write a short dedication on the first page.",
+    "sources": [
+      "literacy"
+    ],
+    "links": [
+      {
+        "store": "norli",
+        "label": "Search: picture books",
+        "q": "bildebok"
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand picture books",
+        "q": "bildebøker barn"
+      }
+    ]
+  },
+  {
+    "id": "baby-mirror",
+    "name": "Baby-safe floor mirror",
+    "kind": "toy",
+    "plastic": "plastic",
+    "ages": [
+      0,
+      18
+    ],
+    "price": 199,
+    "skills": [
+      "senses",
+      "social",
+      "movement"
+    ],
+    "why": "A mirror makes tummy time more interesting: babies lift their heads to look at the 'other baby'. Recognising themselves comes much later (around 18–24 months), which is fascinating to watch.",
+    "tip": "Pick a shatterproof acrylic mirror made for babies.",
+    "safety": "Never glass mirrors on the floor.",
+    "sources": [
+      "hewitt",
+      "amsterdam"
+    ],
+    "links": [
+      {
+        "store": "jollyroom",
+        "label": "Search: baby mirror",
+        "q": "babyspeil"
+      },
+      {
+        "store": "lekmer",
+        "label": "Search: baby mirror",
+        "q": "babyspeil"
+      }
+    ]
+  },
+  {
+    "id": "play-gym",
+    "name": "Wooden play gym",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      0,
+      6
+    ],
+    "price": 299,
+    "skills": [
+      "senses",
+      "hands",
+      "movement"
+    ],
+    "why": "Hanging objects to look at, then swipe at, then grab follow the newborn-to-reaching milestones closely. A simple wooden frame is less overstimulating than flashing electronic gyms.",
+    "tip": "Swap the hanging items now and then for new things to discover (a spoon, a soft ring).",
+    "safety": "Remove once the baby can pull up on it.",
+    "sources": [
+      "cdc",
+      "aap-toys"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "LEKA play gym (birch plywood)",
+        "url": "https://www.ikea.com/no/no/p/leka-babygym-bjorkefiner-flerfarget-70575080/",
+        "price": 299
+      },
+      {
+        "store": "ikea",
+        "label": "GULLIGAST play gym",
+        "url": "https://www.ikea.com/no/no/p/gulligast-babygym-flerfarget-90484258/",
+        "price": 399
+      }
+    ]
+  },
+  {
+    "id": "play-mat",
+    "name": "Play mat for tummy time",
+    "kind": "toy",
+    "plastic": "plastic",
+    "ages": [
+      0,
+      9
+    ],
+    "price": 399,
+    "skills": [
+      "movement",
+      "senses"
+    ],
+    "why": "At least 30 minutes of tummy time a day, spread out, is linked to earlier rolling, sitting and crawling. A soft mat with something to look at makes it more pleasant.",
+    "tip": "A thick cotton blanket works fine. The mat mostly makes it a nice gift.",
+    "sources": [
+      "hewitt",
+      "who-activity"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "SANDBI play mat",
+        "url": "https://www.ikea.com/no/no/p/sandbi-leketeppe-skandinavisk-natur-flerfarget-40564484/",
+        "price": 399
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Simple mobile",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      0,
+      5
+    ],
+    "price": 129,
+    "skills": [
+      "senses"
+    ],
+    "why": "Slow-moving shapes are good for the developing eyes of young babies, who track movement and contrast. It's a calm alternative to screens.",
+    "tip": "Hang it above the changing table, where the baby spends lots of awake time.",
+    "safety": "Remove from the cot once the baby can push up on hands and knees.",
+    "sources": [
+      "cdc",
+      "aap-toys"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "SANDBI mobile",
+        "url": "https://www.ikea.com/no/no/p/sandbi-uro-skandinavisk-natur-flerfarget-20564456/",
+        "price": 129
+      }
+    ]
+  },
+  {
+    "id": "rattle",
+    "name": "Soft rattle",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      2,
+      9
+    ],
+    "price": 49,
+    "skills": [
+      "hands",
+      "senses"
+    ],
+    "why": "Around 3–4 months babies start holding things, and a rattle rewards each shake with a sound. It's the first lesson in 'I can make things happen'.",
+    "sources": [
+      "cdc",
+      "aap-play"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "SANDBI rattle",
+        "url": "https://www.ikea.com/no/no/p/sandbi-rangle-frosk-gronn-60564478/",
+        "price": 49
+      },
+      {
+        "store": "ikea",
+        "label": "GULLIGAST rattle",
+        "url": "https://www.ikea.com/no/no/p/gulligast-rangle-gra-bla-90484263/",
+        "price": 59
+      }
+    ]
+  },
+  {
+    "id": "teether",
+    "name": "Natural rubber teether",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      3,
+      12
+    ],
+    "price": 150,
+    "skills": [
+      "senses",
+      "hands"
+    ],
+    "why": "Everything goes in the mouth at this age. Mouthing is how babies explore. A natural rubber teether is easy to grasp and plastic-free.",
+    "safety": "No amber teething necklaces (choking/strangulation risk). Check regularly for cracks.",
+    "sources": [
+      "aap-play",
+      "cpsc-small"
+    ],
+    "links": [
+      {
+        "store": "jollyroom",
+        "label": "Search: natural rubber teether",
+        "q": "bitering naturgummi"
+      },
+      {
+        "store": "lekmer",
+        "label": "Search: teether",
+        "q": "bitering"
+      }
+    ]
+  },
+  {
+    "id": "fabric-ball",
+    "name": "Soft fabric ball",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      3,
+      36
+    ],
+    "price": 39,
+    "skills": [
+      "movement",
+      "hands",
+      "social"
+    ],
+    "why": "Grab, mouth, roll, chase, throw: a ball follows a child from reaching to running. Rolling it back and forth is also an early turn-taking game.",
+    "sources": [
+      "aap-play",
+      "who-activity"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "SANDBI fabric ball",
+        "url": "https://www.ikea.com/no/no/p/sandbi-toyleke-ball-flerfarget-70564473/",
+        "price": 39
+      }
+    ]
+  },
+  {
+    "id": "object-permanence-box",
+    "name": "Object permanence box",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      7,
+      15
+    ],
+    "price": 300,
+    "skills": [
+      "thinking",
+      "hands"
+    ],
+    "why": "Between 8 and 12 months babies start searching for hidden things. A box where the ball disappears and rolls back out is that discovery turned into a game.",
+    "tip": "DIY: a shoebox with a hole cut in the lid and a tennis ball.",
+    "sources": [
+      "piaget",
+      "montessori"
+    ],
+    "links": [
+      {
+        "store": "barnashus",
+        "label": "Search: object permanence box",
+        "q": "permanensboks"
+      },
+      {
+        "store": "amazon",
+        "label": "Search: object permanence box",
+        "q": "montessori object permanence box"
+      }
+    ]
+  },
+  {
+    "id": "stacking-cups",
+    "name": "Stacking cups",
+    "kind": "toy",
+    "plastic": "plastic",
+    "ages": [
+      6,
+      36
+    ],
+    "price": 99,
+    "skills": [
+      "hands",
+      "thinking",
+      "math"
+    ],
+    "why": "First they're banged and mouthed, then nested, then stacked into towers, and later they're bath toys. Few toys last this long or teach size order this well.",
+    "tip": "Plastic-free alternative: the steel bowls or measuring cups.",
+    "sources": [
+      "verdine",
+      "aap-play",
+      "eu-phthalates"
+    ],
+    "links": [
+      {
+        "store": "jollyroom",
+        "label": "Search: stacking cups",
+        "q": "stablekopper"
+      },
+      {
+        "store": "lekmer",
+        "label": "Search: stacking cups",
+        "q": "stablekopper"
+      }
+    ]
+  },
+  {
+    "id": "pull-toy",
+    "name": "Pull-along toy",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      12,
+      30
+    ],
+    "price": 79,
+    "skills": [
+      "movement"
+    ],
+    "why": "New walkers love having something follow them. It motivates walking and gives them a sense of control.",
+    "safety": "Cords under 30 cm for under-3s.",
+    "sources": [
+      "cdc",
+      "who-activity"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "UPPSTÅ pull toy (hedgehog)",
+        "url": "https://www.ikea.com/no/no/p/uppsta-trekkleke-pinnsvin-flerfarget-90504666/",
+        "price": 79
+      }
+    ]
+  },
+  {
+    "id": "push-walker",
+    "name": "Push walker",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      9,
+      20
+    ],
+    "price": 399,
+    "skills": [
+      "movement"
+    ],
+    "why": "Pushing a stable walker lets a baby who is pulling up practise steps on their own terms. Later it becomes a cart for transporting treasures.",
+    "safety": "Choose a push walker, never a sit-in baby walker (those are linked to injuries).",
+    "sources": [
+      "cdc",
+      "aap-play"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "UPPSTÅ baby walker",
+        "url": "https://www.ikea.com/no/no/p/uppsta-laere-a-ga-vogn-gronn-10513896/",
+        "price": 399
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand push walkers",
+        "q": "gåvogn tre"
+      }
+    ]
+  },
+  {
+    "id": "shape-sorter",
+    "name": "Wooden shape sorter",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      12,
+      30
+    ],
+    "price": 200,
+    "skills": [
+      "thinking",
+      "hands"
+    ],
+    "why": "Fitting shapes into holes is spatial problem-solving: rotating, testing, trying again. Toddlers love to post things into holes anyway.",
+    "tip": "Start with just one or two shapes, then add more.",
+    "sources": [
+      "levine",
+      "verdine"
+    ],
+    "links": [
+      {
+        "store": "jollyroom",
+        "label": "Search: shape sorter",
+        "q": "puttekasse"
+      },
+      {
+        "store": "barnashus",
+        "label": "Search: shape sorter",
+        "q": "puttekasse"
+      }
+    ]
+  },
+  {
+    "id": "bead-maze",
+    "name": "Bead maze",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      12,
+      36
+    ],
+    "price": 199,
+    "skills": [
+      "hands",
+      "thinking"
+    ],
+    "why": "Pushing beads along the wire builds hand-eye coordination and tracking, and the beads can't come off.",
+    "sources": [
+      "aap-play"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "UPPSTÅ bead maze",
+        "url": "https://www.ikea.com/no/no/p/uppsta-kulelabyrint-flerfarget-10562491/",
+        "price": 199
+      }
+    ]
+  },
+  {
+    "id": "wooden-blocks",
+    "name": "Wooden blocks",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      12,
+      84
+    ],
+    "price": 300,
+    "skills": [
+      "thinking",
+      "math",
+      "hands",
+      "creativity"
+    ],
+    "why": "3-year-olds who were better at copying block structures were better at early maths. Blocks are also the definition of open-ended, from knocking down to building whole cities.",
+    "tip": "A plain set of unit blocks beats a themed set. Buy once, use for years.",
+    "sources": [
+      "verdine",
+      "aap-toys"
+    ],
+    "links": [
+      {
+        "store": "barnashus",
+        "label": "Search: wooden blocks",
+        "q": "treklosser"
+      },
+      {
+        "store": "jollyroom",
+        "label": "Search: wooden blocks",
+        "q": "treklosser"
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand wooden blocks",
+        "q": "treklosser"
+      }
+    ]
+  },
+  {
+    "id": "crane-blocks",
+    "name": "Crane with blocks",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      24,
+      60
+    ],
+    "price": 249,
+    "skills": [
+      "thinking",
+      "hands",
+      "pretend"
+    ],
+    "why": "Hoisting blocks combines building with mechanics: how a crank and rope work. It's good for building play together.",
+    "sources": [
+      "verdine"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "UPPSTÅ crane with blocks",
+        "url": "https://www.ikea.com/no/no/p/uppsta-heisekran-med-klosser-flerfarget-bok-40580851/",
+        "price": 249
+      }
+    ]
+  },
+  {
+    "id": "duplo",
+    "name": "Duplo",
+    "kind": "toy",
+    "plastic": "plastic",
+    "ages": [
+      18,
+      60
+    ],
+    "price": 300,
+    "skills": [
+      "thinking",
+      "math",
+      "hands",
+      "creativity"
+    ],
+    "why": "Interlocking bricks are construction and spatial play that toddlers can actually manage. Durable, endlessly combinable, and good for a lifetime of resale.",
+    "tip": "Secondhand Duplo is plentiful on FINN, so it's plastic without buying new plastic.",
+    "sources": [
+      "verdine"
+    ],
+    "links": [
+      {
+        "store": "finn",
+        "label": "Secondhand Duplo",
+        "q": "duplo"
+      },
+      {
+        "store": "lekmer",
+        "label": "Search: Duplo",
+        "q": "duplo"
+      }
+    ]
+  },
+  {
+    "id": "knob-puzzle",
+    "name": "Knob puzzle",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      12,
+      30
+    ],
+    "price": 150,
+    "skills": [
+      "thinking",
+      "hands"
+    ],
+    "why": "Puzzle play between ages 2 and 4 predicted better spatial skills at 4½ years, even after controlling for family income and parent talk. Knob puzzles are the entry point.",
+    "tip": "Start with 3–5 pieces of familiar shapes or animals.",
+    "sources": [
+      "levine"
+    ],
+    "links": [
+      {
+        "store": "jollyroom",
+        "label": "Search: knob puzzle",
+        "q": "knottpuslespill"
+      },
+      {
+        "store": "barnashus",
+        "label": "Search: wooden puzzle",
+        "q": "knottpuslespill"
+      }
+    ]
+  },
+  {
+    "id": "jigsaw-puzzle",
+    "name": "First jigsaw puzzles",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      30,
+      72
+    ],
+    "price": 89,
+    "skills": [
+      "thinking",
+      "math"
+    ],
+    "why": "Rotating pieces to fit is mental rotation, a spatial skill linked to later STEM. Solving puzzles together is also great talking time.",
+    "tip": "4–12 pieces at age 3, 20–50 by age 5.",
+    "sources": [
+      "levine"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "FJÄLLVRÅK puzzle",
+        "url": "https://www.ikea.com/no/no/p/fjaellvrak-puslespill-70582354/",
+        "price": 89
+      },
+      {
+        "store": "norli",
+        "label": "Search: children's puzzles",
+        "q": "puslespill barn"
+      }
+    ]
+  },
+  {
+    "id": "play-cookware",
+    "name": "Small steel pots and pans",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      18,
+      60
+    ],
+    "price": 149,
+    "skills": [
+      "pretend",
+      "language",
+      "social"
+    ],
+    "why": "Pretend cooking is the earliest role play (feeding a doll appears around 18 months). Steel versions look and sound real, which kids prefer.",
+    "tip": "Combine with a few real kitchen items rather than buying a whole play kitchen.",
+    "sources": [
+      "lillard",
+      "taggart",
+      "cdc"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "DUKTIG pots and pans, 5 pcs",
+        "url": "https://www.ikea.com/no/no/p/duktig-sma-gryter-og-panner-5-deler-rustfritt-stalfarge-00130167/",
+        "price": 149
+      },
+      {
+        "store": "ikea",
+        "label": "DUKTIG utensils, 5 pcs",
+        "url": "https://www.ikea.com/no/no/p/duktig-sma-kjokkenredskaper-5-deler-flerfarget-80130168/",
+        "price": 99
+      }
+    ]
+  },
+  {
+    "id": "play-food",
+    "name": "Fabric play food",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      18,
+      48
+    ],
+    "price": 149,
+    "skills": [
+      "pretend",
+      "language"
+    ],
+    "why": "Naming, sorting and 'serving' food is language practice in disguise, and it supports the pretend play linked to social and language development.",
+    "tip": "Real fruit in a basket works too, just not for long.",
+    "sources": [
+      "lillard"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "DUKTIG play vegetables, 14 pcs",
+        "url": "https://www.ikea.com/no/no/p/duktig-lekegronnsaker-14-deler-10185748/",
+        "price": 149
+      }
+    ]
+  },
+  {
+    "id": "doll-bed",
+    "name": "Doll or teddy with a bed",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      18,
+      60
+    ],
+    "price": 299,
+    "skills": [
+      "pretend",
+      "social",
+      "language"
+    ],
+    "why": "Caring for a doll (feeding, putting to bed) is how toddlers practise everyday routines and empathy. It's one of the CDC 18-month pretend milestones.",
+    "sources": [
+      "lillard",
+      "cdc"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "DUKTIG doll bed with bedding",
+        "url": "https://www.ikea.com/no/no/p/duktig-dukkeseng-m-sengesett-furu-flerfarget-50589224/",
+        "price": 299
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand doll beds",
+        "q": "dukkeseng"
+      }
+    ]
+  },
+  {
+    "id": "soft-toy",
+    "name": "A cuddly soft toy",
+    "kind": "toy",
+    "plastic": "plastic",
+    "ages": [
+      12,
+      72
+    ],
+    "price": 49,
+    "skills": [
+      "social",
+      "pretend"
+    ],
+    "why": "A comfort object helps many toddlers through transitions and sleep, and it becomes a main character in pretend play.",
+    "tip": "Note: most soft toys are polyester (plastic). Look for organic cotton/wool if you want plastic-free.",
+    "safety": "Keep soft toys out of the cot for babies under 1 year.",
+    "sources": [
+      "lillard",
+      "eu-phthalates"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "DJUNGELSKOG mini soft toys",
+        "url": "https://www.ikea.com/no/no/p/djungelskog-toyleke-mini-elefant-50606110/",
+        "price": 49
+      },
+      {
+        "store": "jollyroom",
+        "label": "Search: organic cotton soft toy",
+        "q": "kosedyr økologisk bomull"
+      }
+    ]
+  },
+  {
+    "id": "hand-puppets",
+    "name": "Hand and finger puppets",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      6,
+      72
+    ],
+    "price": 99,
+    "skills": [
+      "language",
+      "social",
+      "pretend"
+    ],
+    "why": "A puppet is a toy that only works when an adult talks, which is exactly the kind of interaction the AAP says matters most. Older kids use them to tell their own stories.",
+    "sources": [
+      "aap-toys",
+      "sosa",
+      "lillard"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "AFTONSPARV finger puppets, 5 pcs",
+        "url": "https://www.ikea.com/no/no/p/aftonsparv-fingerdukker-5-stk-flerfarget-80551639/",
+        "price": 99
+      },
+      {
+        "store": "ikea",
+        "label": "NATTHÄGER hand puppets, 3 pcs",
+        "url": "https://www.ikea.com/no/no/p/natthaeger-handdukke-3-stk-krokodille-sebra-tiger-flerfarget-20597254/",
+        "price": 149
+      }
+    ]
+  },
+  {
+    "id": "wooden-train",
+    "name": "Wooden train set",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      24,
+      84
+    ],
+    "price": 199,
+    "skills": [
+      "thinking",
+      "hands",
+      "pretend"
+    ],
+    "why": "Building a track is spatial planning, and driving the train is story play. All the major brands are compatible, so the set can grow over years and between friends.",
+    "tip": "Start with a basic set. More track is always the best follow-up gift.",
+    "safety": "Small connector parts in some sets; check the age label for under-3s.",
+    "sources": [
+      "verdine",
+      "lillard"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "LILLABO train starter set, 20 pcs",
+        "url": "https://www.ikea.com/no/no/p/lillabo-grunnsett-tog-20-deler-flerfarget-00320054/",
+        "price": 199
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand BRIO / wooden track",
+        "q": "brio togbane"
+      }
+    ]
+  },
+  {
+    "id": "toy-vehicles",
+    "name": "Chunky toy vehicles",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      15,
+      60
+    ],
+    "price": 129,
+    "skills": [
+      "pretend",
+      "movement",
+      "language"
+    ],
+    "why": "Pushing cars is an early pretend play and a great source of words (vroom, bus, stop!). Bigger, chunky vehicles are safe for small hands.",
+    "sources": [
+      "lillard",
+      "dauch"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "LILLABO vehicles, 4 pcs",
+        "url": "https://www.ikea.com/no/no/p/lillabo-kjoretoy-4-deler-sportsbil-skolebuss-soppelbil-politibil-flerfarget-50589361/",
+        "price": 129
+      }
+    ]
+  },
+  {
+    "id": "play-tunnel",
+    "name": "Play tunnel",
+    "kind": "toy",
+    "plastic": "plastic",
+    "ages": [
+      9,
+      60
+    ],
+    "price": 199,
+    "skills": [
+      "movement",
+      "thinking",
+      "social"
+    ],
+    "why": "Crawling through tunnels builds strength and coordination, and peekaboo at the other end is object permanence again.",
+    "tip": "Plastic-free alternative: a row of open cardboard boxes.",
+    "sources": [
+      "who-activity",
+      "piaget"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "DVÄRGMÅS play tunnel",
+        "url": "https://www.ikea.com/no/no/p/dvaergmas-leketunnel-gul-beige-40641473/",
+        "price": 199
+      }
+    ]
+  },
+  {
+    "id": "play-tent",
+    "name": "Play tent",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      18,
+      72
+    ],
+    "price": 249,
+    "skills": [
+      "pretend",
+      "social"
+    ],
+    "why": "A hideaway of their own: a reading corner, house, shop or camp. A small space gives a child a sense of control and invites pretend play.",
+    "tip": "Or gift a fitted sheet and clothes pegs for den-building.",
+    "sources": [
+      "lillard",
+      "nicholson"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "DVÄRGMÅS play tent",
+        "url": "https://www.ikea.com/no/no/p/dvaergmas-leketelt-bla-20641469/",
+        "price": 249
+      },
+      {
+        "store": "ikea",
+        "label": "CIRKUSTÄLT play tent",
+        "url": "https://www.ikea.com/no/no/p/cirkustaelt-leketelt-rod-bla-hvit-70581364/",
+        "price": 299
+      }
+    ]
+  },
+  {
+    "id": "balance-board",
+    "name": "Wooden balance board",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      18,
+      84
+    ],
+    "price": 349,
+    "skills": [
+      "movement",
+      "creativity"
+    ],
+    "why": "Rocker, bridge, slide, car, bed: one curved board does dozens of jobs and builds balance and core strength. It's a perfect open-ended toy.",
+    "safety": "Use on a rug or soft floor.",
+    "sources": [
+      "who-activity",
+      "nicholson"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "GREJSIMOJS balance board",
+        "url": "https://www.ikea.com/no/no/p/grejsimojs-balansebrett-for-barn-tre-50598964/",
+        "price": 349
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand balance boards",
+        "q": "balansebrett"
+      }
+    ]
+  },
+  {
+    "id": "climbing-triangle",
+    "name": "Pikler climbing triangle",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      9,
+      48
+    ],
+    "price": 1200,
+    "skills": [
+      "movement",
+      "independence"
+    ],
+    "why": "Lets babies and toddlers practise pulling up, climbing and coming down safely at their own pace, which builds strength, risk assessment and confidence.",
+    "tip": "A bigger group gift. Consider chipping in together.",
+    "safety": "Put a soft mat underneath, and stay nearby when they first use it.",
+    "sources": [
+      "who-activity",
+      "aap-play"
+    ],
+    "links": [
+      {
+        "store": "jollyroom",
+        "label": "Search: climbing triangle",
+        "q": "klatretrekant"
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand Pikler triangles",
+        "q": "pikler"
+      }
+    ]
+  },
+  {
+    "id": "balance-bike",
+    "name": "Balance bike",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      24,
+      60
+    ],
+    "price": 600,
+    "skills": [
+      "movement",
+      "independence"
+    ],
+    "why": "Kids learn balance first and usually skip training wheels later. It's daily exercise disguised as fun, in line with WHO's 3 hours of activity a day.",
+    "tip": "A helmet is a great add-on gift.",
+    "sources": [
+      "who-activity"
+    ],
+    "links": [
+      {
+        "store": "jollyroom",
+        "label": "Search: balance bike",
+        "q": "balansesykkel"
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand balance bikes",
+        "q": "balansesykkel"
+      }
+    ]
+  },
+  {
+    "id": "sand-toys",
+    "name": "Sand toys",
+    "kind": "toy",
+    "plastic": "plastic",
+    "ages": [
+      12,
+      72
+    ],
+    "price": 99,
+    "skills": [
+      "senses",
+      "hands",
+      "pretend",
+      "nature"
+    ],
+    "why": "Filling, pouring, building and baking cakes with sand is sensory, motor and pretend play rolled into one, outdoors.",
+    "tip": "Plastic-free alternative: old metal spoons, a steel bowl and a muffin tin.",
+    "sources": [
+      "aap-play",
+      "nicholson",
+      "eu-phthalates"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "SANDIG sand toys, 7 pcs",
+        "url": "https://www.ikea.com/no/no/p/sandig-sandleker-7-deler-flerfarget-00577676/",
+        "price": 99
+      }
+    ]
+  },
+  {
+    "id": "instruments",
+    "name": "Simple instruments",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      6,
+      60
+    ],
+    "price": 150,
+    "skills": [
+      "music",
+      "senses",
+      "social"
+    ],
+    "why": "Shakers, a drum or a xylophone make music a shared activity. Rhythm and singing together support language and turn-taking.",
+    "tip": "Shakers for babies, a xylophone or drum from about 1 year.",
+    "safety": "Homemade shakers must be sealed shut so nothing small falls out.",
+    "sources": [
+      "aap-play"
+    ],
+    "links": [
+      {
+        "store": "jollyroom",
+        "label": "Search: xylophone",
+        "q": "xylofon"
+      },
+      {
+        "store": "barnashus",
+        "label": "Search: instruments",
+        "q": "musikkinstrumenter"
+      }
+    ]
+  },
+  {
+    "id": "easel",
+    "name": "Easel with chalkboard",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      24,
+      84
+    ],
+    "price": 279,
+    "skills": [
+      "creativity",
+      "hands",
+      "language"
+    ],
+    "why": "Drawing standing up uses the whole arm and shoulder, which is good pre-writing preparation, and a dedicated art spot invites daily drawing.",
+    "tip": "Add the MÅLA paper roll on top of it.",
+    "sources": [
+      "aap-play",
+      "cdc"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "MÅLA easel",
+        "url": "https://www.ikea.com/no/no/p/mala-tavle-pa-stativ-bartre-30488966/",
+        "price": 279
+      }
+    ]
+  },
+  {
+    "id": "first-board-game",
+    "name": "A first cooperative board game",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      30,
+      72
+    ],
+    "price": 300,
+    "skills": [
+      "social",
+      "math",
+      "thinking"
+    ],
+    "why": "Taking turns, following rules and counting spaces are 3–4-year-old milestones. Cooperative games (everyone wins or loses together) are easier for little ones to handle.",
+    "tip": "HABA 'First Orchard' (Min første frukthage) is a classic from age 2.",
+    "sources": [
+      "cdc",
+      "aap-play"
+    ],
+    "links": [
+      {
+        "store": "norli",
+        "label": "Search: My First Orchard",
+        "q": "min første frukthage"
+      },
+      {
+        "store": "barnashus",
+        "label": "Search: children's games",
+        "q": "spill barn 3 år"
+      }
+    ]
+  },
+  {
+    "id": "domino",
+    "name": "Picture domino",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      36,
+      84
+    ],
+    "price": 59,
+    "skills": [
+      "math",
+      "thinking",
+      "social"
+    ],
+    "why": "Matching pictures or dots and taking turns builds number sense and patience. It's quick enough for short attention spans.",
+    "sources": [
+      "cdc"
+    ],
+    "links": [
+      {
+        "store": "ikea",
+        "label": "FJÄLLVRÅK domino",
+        "url": "https://www.ikea.com/no/no/p/fjaellvrak-domino-40582355/",
+        "price": 59
+      }
+    ]
+  },
+  {
+    "id": "memory-game",
+    "name": "Memory card game",
+    "kind": "toy",
+    "plastic": "none",
+    "ages": [
+      36,
+      84
+    ],
+    "price": 150,
+    "skills": [
+      "thinking",
+      "social"
+    ],
+    "why": "Remembering where the match is trains working memory, and kids often beat the adults.",
+    "tip": "Start with 6–8 pairs face up, then turn them over.",
+    "sources": [
+      "cdc"
+    ],
+    "links": [
+      {
+        "store": "norli",
+        "label": "Search: memory game",
+        "q": "memo spill barn"
+      }
+    ]
+  },
+  {
+    "id": "magnetic-tiles",
+    "name": "Magnetic building tiles",
+    "kind": "toy",
+    "plastic": "plastic",
+    "ages": [
+      36,
+      96
+    ],
+    "price": 500,
+    "skills": [
+      "thinking",
+      "math",
+      "creativity"
+    ],
+    "why": "They make 3D building easy: flat shapes become cubes and towers. It's the same spatial assembly that predicts early maths.",
+    "safety": "Only buy from reputable shops and throw away any cracked tile. Loose magnets are very dangerous if swallowed.",
+    "sources": [
+      "verdine",
+      "cpsc-small"
+    ],
+    "links": [
+      {
+        "store": "lekmer",
+        "label": "Search: magnetic tiles",
+        "q": "magnetiske byggeklosser"
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand magnetic tiles",
+        "q": "magna tiles"
+      }
+    ]
+  },
+  {
+    "id": "dress-up",
+    "name": "Dress-up box",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      30,
+      84
+    ],
+    "price": 0,
+    "skills": [
+      "pretend",
+      "social",
+      "language",
+      "independence"
+    ],
+    "why": "Old hats, bags, scarves and jackets turn into characters. It's pretend play, storytelling and practice putting on clothes all at once.",
+    "tip": "Collect from your own wardrobe or secondhand shops into a box. Skip the branded costumes.",
+    "safety": "No cords or drawstrings around the neck.",
+    "sources": [
+      "lillard",
+      "nicholson"
+    ],
+    "links": [
+      {
+        "store": "finn",
+        "label": "Secondhand hats and scarves",
+        "q": "hatter skjerf"
+      }
+    ]
+  }
+]
