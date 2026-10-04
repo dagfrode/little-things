@@ -1,0 +1,12 @@
+{
+  "name": "Små ting · Little things",
+  "short_name": "Små ting",
+  "start_url": "./",
+  "display": "browser",
+  "background_color": "#fdf8f0",
+  "theme_color": "#e8a33d",
+  "icons": [
+    { "src": "img/icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

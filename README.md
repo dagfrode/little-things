@@ -13,6 +13,8 @@ Live at **https://dagfrode.com/little-things/**
 - [wish.html](wish.html): parents build a wish list (child's name, birth month, sizes, interests, optional go-deep
   sets and picked ideas) and share it as one short link. Nothing is stored on a server; the list lives in the URL.
 - English and Norwegian, picked from the browser language with a switch; light/dark follows the system with a switch.
+- Link previews: each page has its own Open Graph/Twitter image and text (Norwegian first). A preview can't depend on the
+  URL on a static site, so a shared wish list shows the generic wish-list card; the list itself appears when opened.
 - [gift-rule.html](gift-rule.html) explains the gift rule and the "go deep, not wide" idea, with sources.
 - Research notes and the full bibliography: [research.md](research.md).
 
@@ -29,6 +31,7 @@ Live at **https://dagfrode.com/little-things/**
 | `data/sources.json` | Sources referenced by items |
 | `scripts/refresh-ikea.py` | Updates IKEA prices and reports discontinued IKEA products |
 | `scripts/check-links.py` | Checks every store and source link |
+| `scripts/make-share-images.py` | Renders the link-preview images (`img/share-*.png`, 1200×630) and icons (`img/icon-*.png`) |
 | `scripts/check-codes.py` | Checks the permanent item codes used in wish-list links and prints the next free one |
 
 ## Run locally
