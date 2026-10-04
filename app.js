@@ -34,6 +34,34 @@
     { id: "600", label: "≤ 600 kr" }
   ];
 
+  // The gift rule: "something you want, need, wear, read", plus the common "do" and "share" lines.
+  // Must match the ids in gift-rule.html.
+  const GIFTS = [
+    { id: "", label: "Any" },
+    { id: "want", label: "Want" },
+    { id: "need", label: "Need" },
+    { id: "wear", label: "Wear" },
+    { id: "read", label: "Read" },
+    { id: "do", label: "Do" },
+    { id: "share", label: "Share" }
+  ];
+  const GIFT_LABEL = { want: "Something they want", need: "Something they need", wear: "Something to wear", read: "Something to read", do: "Something to do", share: "Something to share" };
+
+  // "Go deep": the five kinds of open-ended toy worth building up over years. Must match gift-rule.html#deep.
+  const CORE = [
+    { id: "", label: "Any" },
+    { id: "build", label: "Build" },
+    { id: "smallworld", label: "Small world" },
+    { id: "pretend", label: "Pretend" },
+    { id: "move", label: "Move" },
+    { id: "create", label: "Create" }
+  ];
+  const CORE_LABEL = Object.fromEntries(CORE.filter((c) => c.id).map((c) => [c.id, c.label]));
+
+  // Items whose age range spans at least this many months get a "Lasts for years" badge and filter.
+  const LONG_LASTING = 48;
+  const lastsYears = (item) => item.ages[1] - item.ages[0] >= LONG_LASTING;
+
   const SKILLS = {
     hands: "Hands & fingers",
     movement: "Moving & balance",
@@ -59,6 +87,10 @@
     lekmer: { name: "Lekmer", search: "https://www.lekmer.com/nb-no/search?q=" },
     norli: { name: "Norli", search: "https://www.norli.no/search?q=" },
     panduro: { name: "Panduro", search: "https://www.panduro.com/nb-no/search?q=" },
+    xxl: { name: "XXL", search: "https://www.xxl.no/search?query=" },
+    janus: { name: "Janus", search: "https://www.janus.no/search?q=" },
+    ark: { name: "ARK", search: "https://www.ark.no/sok?text=" },
+    svommeforbund: { name: "Norges Svømmeforbund", search: "" },
     finn: { name: "FINN (used)", search: "https://www.finn.no/recommerce/forsale/search?q=" },
     amazon: { name: "Amazon.se", search: "https://www.amazon.se/s?k=" }
   };
@@ -66,7 +98,7 @@
   const KIND_LABEL = { everyday: "Everyday thing", toy: "Toy", book: "Book" };
   const PLASTIC_LABEL = { none: "Plastic-free", some: "Little plastic", plastic: "Plastic" };
 
-  const state = { age: "", kind: "", plastic: "", price: "", skills: [], q: "" };
+  const state = { age: "", gift: "", core: "", kind: "", plastic: "", price: "", years: false, skills: [], q: "" };
   let items = [];
   let sources = {};
   const sourceOrder = [];
@@ -109,9 +141,12 @@
   function readUrl() {
     const p = new URLSearchParams(location.search);
     state.age = PHASES.some((ph) => ph.id === p.get("age")) ? p.get("age") : "";
+    state.gift = GIFTS.some((g) => g.id === p.get("gift")) ? p.get("gift") : "";
+    state.core = CORE.some((c) => c.id === p.get("core")) ? p.get("core") : "";
     state.kind = KINDS.some((k) => k.id === p.get("type")) ? p.get("type") : "";
     state.plastic = PLASTIC.some((k) => k.id === p.get("plastic")) ? p.get("plastic") : "";
     state.price = PRICES.some((k) => k.id === p.get("budget")) ? p.get("budget") : "";
+    state.years = p.get("years") === "1";
     state.skills = (p.get("skills") || "").split(",").filter((s) => s in SKILLS);
     state.q = p.get("q") || "";
   }
@@ -119,9 +154,12 @@
   function writeUrl() {
     const p = new URLSearchParams();
     if (state.age) p.set("age", state.age);
+    if (state.gift) p.set("gift", state.gift);
+    if (state.core) p.set("core", state.core);
     if (state.kind) p.set("type", state.kind);
     if (state.plastic) p.set("plastic", state.plastic);
     if (state.price) p.set("budget", state.price);
+    if (state.years) p.set("years", "1");
     if (state.skills.length) p.set("skills", state.skills.join(","));
     if (state.q) p.set("q", state.q);
     const qs = p.toString();
@@ -135,10 +173,13 @@
       const ph = PHASES.find((x) => x.id === state.age);
       if (!(item.ages[0] < ph.to && item.ages[1] > ph.from)) return false;
     }
+    if (state.gift && !item.gift.includes(state.gift)) return false;
+    if (state.core && item.core !== state.core) return false;
     if (state.kind && item.kind !== state.kind) return false;
     if (state.plastic === "none" && item.plastic !== "none") return false;
     if (state.plastic === "little" && item.plastic === "plastic") return false;
     if (state.price !== "" && item.price > Number(state.price)) return false;
+    if (state.years && !lastsYears(item)) return false;
     if (state.skills.length && !state.skills.some((s) => item.skills.includes(s))) return false;
     if (state.q) {
       const hay = [item.name, item.why, item.tip, ...(item.links || []).map((l) => l.label)].join(" ").toLowerCase();
@@ -164,6 +205,8 @@
       b.addEventListener("click", () => { state.age = o.id; update(); });
       return b;
     }));
+    renderSeg($("#f-gift"), GIFTS, "gift");
+    renderSeg($("#f-core"), CORE, "core");
     renderSeg($("#f-kind"), KINDS, "kind");
     renderSeg($("#f-plastic"), PLASTIC, "plastic");
     renderSeg($("#f-price"), PRICES, "price");
@@ -180,10 +223,11 @@
 
   // Reflect state on the filter buttons without re-rendering them (keeps keyboard focus).
   function syncFilters() {
-    const groups = { "#f-age": "age", "#f-kind": "kind", "#f-plastic": "plastic", "#f-price": "price" };
+    const groups = { "#f-age": "age", "#f-gift": "gift", "#f-core": "core", "#f-kind": "kind", "#f-plastic": "plastic", "#f-price": "price" };
     for (const [sel, key] of Object.entries(groups)) {
       for (const b of document.querySelectorAll(sel + " button")) b.setAttribute("aria-pressed", String(b.dataset.value === state[key]));
     }
+    $("#f-years").checked = state.years;
     for (const b of document.querySelectorAll("#f-skill button")) b.setAttribute("aria-pressed", String(state.skills.includes(b.dataset.skill)));
   }
 
@@ -202,6 +246,9 @@
       el("li", { class: "badge badge-plastic-" + item.plastic }, PLASTIC_LABEL[item.plastic]),
       el("li", { class: "badge badge-price" }, formatPrice(item.price))
     );
+    if (item.core) badges.append(el("li", { class: "badge badge-core" }, "Core set: " + CORE_LABEL[item.core]));
+    if (lastsYears(item)) badges.append(el("li", { class: "badge badge-years" }, "Lasts for years"));
+    for (const g of item.gift) badges.append(el("li", { class: "badge badge-gift" }, GIFT_LABEL[g]));
     for (const s of item.skills) badges.append(el("li", { class: "badge badge-skill", "data-skill": s }, SKILLS[s]));
 
     node.querySelector(".why").textContent = item.why;
@@ -238,7 +285,8 @@
     $("#empty").hidden = shown.length > 0;
     const ph = PHASES.find((x) => x.id === state.age);
     $("#count").textContent = shown.length + (shown.length === 1 ? " idea" : " ideas") +
-      (ph ? " for " + ph.label.replace("mo", "months").replace("yr", "years") : "");
+      (ph ? " for " + ph.label.replace("mo", "months").replace("yr", "years") : "") +
+      (state.gift ? ": " + GIFT_LABEL[state.gift].toLowerCase() : "");
   }
 
   function renderSources() {
@@ -262,13 +310,14 @@
   function init() {
     readUrl();
     $("#f-q").value = state.q;
+    $("#f-years").addEventListener("change", (e) => { state.years = e.target.checked; update(); });
     let t;
     $("#f-q").addEventListener("input", (e) => {
       clearTimeout(t);
       t = setTimeout(() => { state.q = e.target.value.trim(); writeUrl(); renderItems(); }, 150);
     });
     $("#reset").addEventListener("click", () => {
-      Object.assign(state, { age: "", kind: "", plastic: "", price: "", skills: [], q: "" });
+      Object.assign(state, { age: "", gift: "", core: "", kind: "", plastic: "", price: "", years: false, skills: [], q: "" });
       $("#f-q").value = "";
       update();
     });

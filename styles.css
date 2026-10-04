@@ -235,3 +235,50 @@ h1::after {
   .chip-main { font-size: 0.88rem; }
   .card { padding: 14px 14px 12px; }
 }
+
+/* ---- Gift rule ----------------------------------------------------------- */
+
+.label-help { text-transform: none; letter-spacing: 0; font-weight: 600; margin-left: 6px; }
+.badge-gift { background: var(--warn-bg); color: var(--warn); }
+.badge-gift::before { content: "🎁 "; }
+.badge-years { background: var(--everyday-bg); color: var(--everyday); }
+.toggle { display: flex; align-items: center; gap: 8px; margin: 0 0 14px; font-weight: 600; cursor: pointer; }
+.toggle input { width: 18px; height: 18px; accent-color: var(--accent); margin: 0; }
+.toggle .muted { font-weight: 400; }
+
+.eyebrow a { color: inherit; }
+.rule-intro { max-width: 46em; margin-bottom: 24px; }
+.rule-intro p { margin: 0 0 12px; }
+.rule-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); counter-reset: rule; }
+.rule-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px 18px 16px;
+  box-shadow: var(--shadow);
+  display: flex; flex-direction: column;
+  scroll-margin-top: 16px;
+}
+.rule-card-extra { background: var(--surface-2); box-shadow: none; }
+.rule-num {
+  margin: 0 0 8px;
+  width: 2rem; height: 2rem; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--sun); color: #2b2420;
+  font-family: "Fraunces", Georgia, serif; font-weight: 700;
+}
+.rule-card-extra .rule-num { background: transparent; border: 2px dashed var(--sun); color: var(--text); }
+.rule-card h2 { font-family: "Fraunces", Georgia, serif; font-weight: 500; font-size: 1.4rem; line-height: 1.2; margin: 0 0 8px; }
+.rule-card p { margin: 0 0 10px; }
+.rule-tip { font-size: 0.92rem; color: var(--muted); }
+.rule-tip strong { color: var(--text); }
+.rule-link { margin-top: auto; font-weight: 700; }
+.rule-link::after { content: " →"; }
+.rule-notes { margin-top: 40px; }
+.badge-core { background: var(--toy-bg); color: var(--toy); }
+.deep { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--line); scroll-margin-top: 16px; }
+.section-title { font-family: "Fraunces", Georgia, serif; font-weight: 700; font-size: clamp(1.8rem, 5vw, 2.6rem); line-height: 1.1; margin: 0 0 16px; letter-spacing: -0.01em; }
+.deep-card h3 { font-family: "Fraunces", Georgia, serif; font-weight: 500; font-size: 1.35rem; margin: 0 0 8px; }
+.deep-card { border-top: 5px solid var(--toy); }
+.rule-card-extra.deep-card { border-top-color: var(--line); }
+.deep-filter-note { margin-top: 16px; }

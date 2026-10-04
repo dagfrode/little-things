@@ -86,10 +86,135 @@ across several phases.
 | cpsc-small | US CPSC, 16 CFR Part 1501 (small parts for children under 3). https://www.ecfr.gov/current/title-16/chapter-II/subchapter-C/part-1501 |
 | eu-phthalates | Danish EPA, *Fact sheet: Phthalates in toys and childcare articles* (EU REACH Annex XVII, entries 51–52). https://eng.mst.dk/chemicals/chemicals-in-products/chemical-legislation/fact-sheets-on-legislation/fact-sheet-phthalates-in-toys-and-childcare-articles |
 
+## The gift rule
+
+"Something they want, something they need, something to wear, something to read", often extended with "something to do"
+and "something to share". Its origin is unknown; it spread through parenting blogs and social media in the 2010s (Fox
+News 2019, GoodtoKnow 2019, Hip2Save 2025; links on `gift-rule.html`). There is no research on the rule itself. What
+backs each line:
+
+- **Fewer gifts:** fewer toys at once means longer, more inventive play. [dauch]
+- **Read:** shared reading builds vocabulary [literacy]; homes with many books go with more schooling across 27
+  nations, though this is correlational. [evans-et-al-2010]
+- **Do:** among adults, experiential gifts strengthen relationships more than material ones [chan-mogilner], but children
+  aged 3–12 get *more* happiness from things than from experiences [chaplin-et-al-2020]. So on this site "something to
+  do" is framed as time together, not as better than a toy.
+- **Share:** play with parents supports language, self-regulation and closeness [aap-play]; simple number board games
+  help preschoolers' number sense. [siegler-ramani]
+- **Wear / need:** practical items follow Norwegian public guidance (Helsenorge, Trygg Trafikk, LUB, DSA, Helsedirektoratet)
+  for wool layers, reflectors, helmets, sun, safe sleep and barnehage lists. No scarves or long cords on young children. [cpsc-playground]
+
+## Go deep, not wide
+
+Instead of many different toys, pick about five kinds of open-ended toy and build up the same sets over years. Items
+in these groups have a `core` field.
+
+| core | What | Why |
+|---|---|---|
+| build | Blocks, Duplo, magnetic tiles, letter blocks, marble run | Spatial building relates to later maths (correlational); systems are made to be added to. [verdine], [wolfgang], [lego-duplo] |
+| smallworld | Animals, people, vehicles, train track | Among the top toys for play quality in the TIMPANI preschool study. [trawick-smith], [timpani], [hashmi] |
+| pretend | Play kitchen, mud kitchen, dolls, dress-up, sand | Pretend play links to language and social skills; children prefer real tools. [lillard], [taggart] |
+| move | Balance board, climbing, balance bike | 180 min/day of activity at ages 1–4; outdoor play. [who-activity], [dankiw] |
+| create | Drawing, paint, play dough, instruments | Easels rank high in TIMPANI; materials get used up, so refills are always useful. [timpani], [aap-play] |
+
+Caveats: toy rotation is practitioner advice and hasn't been tested directly [serino]; research on loose parts is thin
+[gibson-loose]; realistic vs fantastical toys gives mixed results [mcloyd]. Books, puzzles and board games are left out
+of the core sets on purpose: books are an always-on extra, and puzzles and games are outgrown once solved.
+
+The "Lasts for years" badge is derived from `ages`: items spanning 48 months or more.
+
+## Sources added October 2026
+
+| id | Source |
+|---|---|
+| chan-mogilner | Chan C, Mogilner C. Experiential Gifts Foster Stronger Social Relationships Than Material Gifts. Journal of Consumer Research 2017;43(6):913–931. https://doi.org/10.1093/jcr/ucw067 |
+| dankiw | Dankiw KA, Tsiros MD, Baldock KL, Kumar S. The impacts of unstructured nature play on health in early childhood development: A systematic review. PLOS ONE 2020;15(2):e0229006. https://doi.org/10.1371/journal.pone.0229006 |
+| gerry | Gerry D, Unrau A, Trainor LJ. Active music classes in infancy enhance musical, communicative and social development. Developmental Science 2012;15(3):398–407. https://doi.org/10.1111/j.1467-7687.2012.01142.x |
+| brenner | Brenner RA, Taneja GS, Haynie DL et al. Association Between Swimming Lessons and Drowning in Childhood: A Case-Control Study. Archives of Pediatrics & Adolescent Medicine 2009;163(3):203–210. https://doi.org/10.1001/archpediatrics.2008.563 |
+| aap-drowning | Denny SA, Quan L, Gilchrist J et al., AAP Council on Injury, Violence, and Poison Prevention. Prevention of Drowning. Pediatrics 2019;143(5):e20190850. https://doi.org/10.1542/peds.2019-0850 |
+| svommeforbund-baby | Norges Svømmeforbund. Babysvømming (water activity for children 0–2 with parents; most programmes start from 6–8 weeks or 4 kg; water at least 32 °C). https://svomming.no/svomming/svomming-forside/norges-svommeskole/babysvomming/ |
+| haden | Haden CA, Jant EA, Hoffman PC, Marcus M, Geddes JR, Gaskins S. Supporting family conversations and children's STEM learning in a children's museum. Early Childhood Research Quarterly 2014;29(3):333–344. https://doi.org/10.1016/j.ecresq.2014.04.004 |
+| lobue | LoBue V, Bloom Pickard M, Sherman K, Axford C, DeLoache JS. Young children's interest in live animals. British Journal of Developmental Psychology 2013;31(1):57–69. https://doi.org/10.1111/j.2044-835X.2012.02078.x |
+| fhi-farm | Folkehelseinstituttet. Barn og voksne på gårdsbesøk (hand washing after animal contact; avoid unpasteurised milk). https://www.fhi.no/sm/smitte-fra-mat-vann-dyr/aktuelt/barn-og-gardsbesok/ |
+| library-act | Lov om folkebibliotek (folkebibliotekloven), LOV-1985-12-20-108. Public libraries must lend free of charge. https://lovdata.no/dokument/NL/lov/1985-12-20-108 |
+| snl-fishing | Store norske leksikon. Fiskerett (rod fishing in the sea is free for all; children under 16 fish free in fresh water 1 January–20 August, except in salmon waters). https://snl.no/fiskerett |
+| rs-lifejacket | Redningsselskapet. Redningsvest til barn – en komplett guide (children should wear a life jacket on piers and near water; collar vests are safest for small children). https://nettbutikk.rs.no/sikkerhetstips/redningsvest-til-barn/ |
+| berries | Miljødirektoratet. Veileder: Hvor kan jeg plukke bær, sopp og urter? (right to roam; regional cloudberry rules). https://www.miljodirektoratet.no/ansvarsomrader/friluftsliv/friluftsliv-og-allemannsretten/plukke-bar-sopp-og-urter/ |
+| allemannsretten | Miljødirektoratet. Allemannsretten gjelder i utmark (camping at least 150 m from houses, max two nights without permission; fire ban 15 April–15 September in or near woodland). https://www.miljodirektoratet.no/ansvarsomrader/friluftsliv/friluftsliv-og-allemannsretten/allemannsretten/ |
+| helsenorge-ticks | Helsenorge. How to avoid and remove ticks. https://www.helsenorge.no/en/helse-og-miljo/insekter-og-skadedyr/ticks-how-to-avoid-and-remove/ |
+| nhi-sledge | Kvam M. Forebygg akeulykker. Norsk Helseinformatikk (NHI.no), 2021. https://nhi.no/familie/barn/forebygg-akeulykker |
+| dnt-barnas | Den Norske Turistforening. Barnas Turlag (family trips and advice for going outdoors with children). https://www.dnt.no/barnas-turlag/ |
+| chawla | Chawla L. Childhood nature connection and constructive hope: A review of research on connecting with nature and coping with environmental loss. People and Nature 2020;2(3):619–642. https://doi.org/10.1002/pan3.10128 |
+| salmon-reese | Salmon K, Reese E. The Benefits of Reminiscing With Young Children. Current Directions in Psychological Science 2016;25(4):233–238. https://doi.org/10.1177/0963721416655100 |
+| vanderhorst | van der Horst K, Ferrage A, Rytz A. Involving children in meal preparation. Effects on food intake. Appetite 2014;79:18–24. https://doi.org/10.1016/j.appet.2014.03.030 |
+| siegler-ramani | Siegler RS, Ramani GB. Playing linear numerical board games promotes low-income children's numerical development. Developmental Science 2008;11(5):655–661. https://doi.org/10.1111/j.1467-7687.2008.00714.x |
+| nhi-cold | Kvam M. Småbarn, babyer og kulde. Norsk Helseinformatikk (NHI.no), updated 14 Jan 2021. Advises several thin layers with wool innermost and windproof outermost; avoid cotton as the inner layer. https://nhi.no/familie/barn/smabarn-babyer-og-kulde |
+| barnashus-bhg | Barnehagestart – slik kler du barnet riktig. Barnas Hus, tips og råd. Wool as the first layer, hat, mittens and neck warmer, indoor shoes or slippers, mark clothes and shoes with the child's name. https://www.barnashus.no/tips-og-rad/slik-kler-du-barnet-riktig/barnehagestart |
+| cpsc-playground | U.S. Consumer Product Safety Commission. Public Playground Safety Handbook, Publication 325, 2025: 'Children should never wear jewelry, neck scarves, jackets or sweatshirts with drawstring hoods, mittens connected by strings through the arms…' https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf |
+| helsenorge-sun | Solbeskyttelse – barn og sol. Helsenorge.no (Norwegian health authorities). Babies under 1 out of direct sun; ages 1–3 protected mainly by clothing, sun hat and sunglasses; SPF 30+ with UVA protection. https://www.helsenorge.no/sykdom/hud-og-har/solbeskyttelse-barn-og-sol/ |
+| dsa-sun | Solbeskyttelse i skoler og barnehager. Direktoratet for strålevern og atomsikkerhet (DSA). Protection needed from UV index 3; a wide-brimmed hat protects face, ears and neck; clothing should cover as much skin as possible. https://www.dsa.no/sol-og-solarium/solbeskyttelse-i-skoler-og-barnehager |
+| helsenorge-sids | Krybbedød (SIDS) – hvordan redusere risiko? Helsenorge.no. Sleep on the back, head uncovered, no pillows or soft toys in the bed, a light duvet or sleeping bag. https://www.helsenorge.no/barn/krybbedod/ |
+| lub-heat | Unngå for varmt sovemiljø. Landsforeningen uventet barnedød (LUB). Room about 18 °C; feel the baby's tummy to check temperature; take off outdoor clothes and hats indoors. https://lub.no/om-barnedod/krybbedod/forebygging-av-krybbedod/unnga-for-varmt-sovemiljo/ |
+| lub-pram | Unngå tepper foran vogna. Landsforeningen uventet barnedød (LUB). Covering the pram fully gives warm, stuffy air; leave good openings. https://lub.no/om-barnedod/krybbedod/forebygging-av-krybbedod/unnga-tepper-foran-vogna/ |
+| aap-safe-sleep | A Parent's Guide to Safe Sleep. HealthyChildren.org, American Academy of Pediatrics. Wearable blanket instead of loose bedding; one layer more than an adult; no hats indoors; no weighted sleep products. https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/A-Parents-Guide-to-Safe-Sleep.aspx |
+| tt-refleks-bhg | Refleks i barnehagen. Trygg Trafikk. Visible at 140 m with reflectors vs 25–30 m without (dipped headlights); a reflective vest is the best option in barnehage. https://www.tryggtrafikk.no/barnehage-og-skole/barnehage/refleks-i-barnehagen/ |
+| tt-refleks-tips | Refleksdagen 17. oktober: Finn frem refleksene. Trygg Trafikk, 2024. Reflectors on jackets and bags, moving reflectors are seen best, knee height, at least two reflectors. https://www.tryggtrafikk.no/artikler/refleksdagen-17-oktober-finn-frem-refleksene/ |
+| tt-helmet | Sykkelhjelm til barn og unge. Trygg Trafikk. Fit (level, about 2 cm above eyebrows, two fingers under chin), CE with EN 1078 or EN 1080 (green buckle), remove when playing because of strangulation risk, replace after a hard knock. https://www.tryggtrafikk.no/fakta-og-rad/sykkel/sykkelhjelm/sykkelhjelm-til-barn-og-unge/ |
+| helsenorge-teeth | Tannstell hos barn. Helsenorge.no. Start at first tooth; soft or extra-soft brush; manual and electric equally effective; toothpaste 0.1 ml under 1, pea-sized from 3; help until about age 10. https://www.helsenorge.no/tannhelse/tannstell-hos-barn/ |
+| helsedir-bhg-food | Anbefalinger for mat og måltider i barnehagen. Nasjonal faglig retningslinje, Helsedirektoratet. Cold drinking water should always be available, with and between meals. https://www.helsedirektoratet.no/retningslinjer/mat-og-maltider-i-barnehagen/anbefalinger-for-mat-og-maltider-i-barnehagen |
+| aap-backpack | Backpack Safety. HealthyChildren.org, American Academy of Pediatrics, updated 2026. No more than 15% of body weight, both straps, broad padded straps, waist or chest strap. https://www.healthychildren.org/English/safety-prevention/at-play/Pages/Backpack-Safety.aspx |
+| aap-carriers | Baby Carriers: Backpacks, Front Packs & Slings. HealthyChildren.org, American Academy of Pediatrics (from Caring for Your Baby and Young Child, 8th ed., 2024), updated 2025. Face visible, nose and mouth clear, chin not pressed to chest. https://www.healthychildren.org/English/safety-prevention/on-the-go/Pages/Baby-Carriers.aspx |
+| trawick-smith | Trawick-Smith J, Wolff J, Koschel M, Vallarelli J. Effects of Toys on the Play Quality of Preschool Children: Influence of Gender, Ethnicity, and Socioeconomic Status. Early Childhood Education Journal 2015;43(4):249–256. https://doi.org/10.1007/s10643-014-0644-7 |
+| timpani | Center for Early Childhood Education, Eastern Connecticut State University. TIMPANI Toy Study: high-quality toys (annual study of which toys promote the highest-quality play in preschool classrooms). https://www.easternct.edu/center-for-early-childhood-education/research/study-timpani.html |
+| gibson-loose | Gibson JL, Cornell M, Gill T. A Systematic Review of Research into the Impact of Loose Parts Play on Children's Cognitive, Social and Emotional Development. School Mental Health 2017;9(4):295–309. https://doi.org/10.1007/s12310-017-9220-9 |
+| serino | Serino G, Ossmy O. Toward a Causal Science of Early Play? Infancy 2025;30(4):e70033. https://doi.org/10.1111/infa.70033 |
+| rie | Resources for Infant Educarers (RIE). RIE Practice: Choosing Play Objects. Practitioner guidance in the tradition of Magda Gerber and Emmi Pikler. https://rie.org/rie-practice-choosing-play-objects/ |
+| unep-plastic | UNEP / Plastic Disclosure Project / Trucost (Raynaud J). Valuing Plastic: The Business Case for Measuring, Managing and Disclosing Plastic Use in the Consumer Goods Industry. United Nations Environment Programme, 2014. The toy sector had the highest plastic-related environmental cost relative to revenue (3.9%) of the 16 consumer sectors assessed. https://wedocs.unep.org/20.500.11822/9238 |
+| wolfgang | Wolfgang CH, Stannard LL, Jones I. Block Play Performance Among Preschoolers As a Predictor of Later School Achievement in Mathematics. Journal of Research in Childhood Education 2001;15(2):173–180. https://doi.org/10.1080/02568540109594958 |
+| wolfgang-lego | Wolfgang CH, Stannard LL, Jones I. Advanced constructional play with LEGOs among preschoolers as a predictor of later school achievement in mathematics. Early Child Development and Care 2003;173(5):467–475. https://doi.org/10.1080/0300443032000088212 |
+| mcloyd | McLoyd VC. The Effects of the Structure of Play Objects on the Pretend Play of Low-Income Preschool Children. Child Development 1983;54(3):626–635. https://doi.org/10.2307/1130049 |
+| hashmi | Hashmi S. How Do Children Play with Toy Trains and for What Benefits? A Scoping Review. European Journal of Investigation in Health, Psychology and Education 2023;13(10):2112–2134. https://doi.org/10.3390/ejihpe13100149 |
+| ganea | Ganea PA, Canfield CF, Simons-Ghafari K, Chou T. Do cavies talk? The effect of anthropomorphic picture books on children's knowledge about animals. Frontiers in Psychology 2014;5:283. https://doi.org/10.3389/fpsyg.2014.00283 |
+| muddy-faces | White J, Edwards L. Making a Mud Kitchen (3rd ed.). Muddy Faces. Free guide covering location, fitting out, sourcing secondhand equipment and hygiene. https://muddyfaces.co.uk/content/files/Making-a-mud-kitchen_3rd-edition_download.pdf |
+| schleich-age | Schleich. Farm World sheep (13882), product page: age recommendation 3–8 (figure 8.8 cm long). Retailer listings for Schleich figures carry the warning 'Not suitable for children under 36 months. Contains small parts that can be swallowed (choking hazard).' https://gb.schleich-s.com/products/sheep-13882-1 |
+| hape-quadrilla | Hape. Quadrilla 'Race to the Finish' marble run, product page: ages 4+; 'Choking hazard – small parts and small balls. Not for children under 3 yrs.'; compatible with other Quadrilla sets. https://toys.hape.com/a/p/products/race-to-the-finish |
+| lego-duplo | The LEGO Group. LEGO DUPLO – Our promise: DUPLO bricks fit the LEGO System in Play and 'will fit perfectly with bricks bought in the future'. https://www.lego.com/en-us/themes/duplo/about/our-promise |
+| uncle-goose | Uncle Goose. Norwegian ABC Blocks: 30 basswood blocks, 1.75 inch, ages 2+, four alphabets plus numbers and animals with Norwegian names. https://unclegoose.com/products/uncle-goose-norwegian-blocks |
+| slj-top100 | Bird E. Top 100 Picture Books Poll Results. A Fuse #8 Production, School Library Journal, 6 July 2012. https://afuse8production.slj.com/2012/07/06/top-100-picture-books-poll-results/ |
+| nypl-100 | School Library Journal. NYPL Unveils 100 Top Children's Books of the Last 100 Years. 2013 (New York Public Library, '100 Great Children's Books, 100 Years'). https://www.slj.com/story/nypl-unveils-list-of-100-top-childrens-books-of-the-last-100-years |
+| booktrust-100 | BookTrust. 100 best books for children from the last 100 years: the full list. https://www.booktrust.org.uk/booklists/1/100-best-books-the-full-list/ |
+| bt-green-eggs | BookTrust Bookfinder. Green Eggs and Ham, Dr. Seuss. Interest age 2 to 5. https://www.booktrust.org.uk/book-recommendations/bookfinder/green-eggs-and-ham/ |
+| bt-cat-hat | BookTrust Bookfinder. The Cat in the Hat, Dr. Seuss. Interest age 3 to 6. https://www.booktrust.org.uk/book-recommendations/bookfinder/the-cat-in-the-hat/ |
+| bt-caterpillar | BookTrust Bookfinder. The Very Hungry Caterpillar, Eric Carle. Interest age 2 to 5. https://www.booktrust.org.uk/book-recommendations/bookfinder/the-very-hungry-caterpillar/ |
+| bt-brown-bear | BookTrust Bookfinder. Brown Bear, Brown Bear, What Do You See?, Bill Martin Jr. & Eric Carle. Interest age 2 to 5. https://www.booktrust.org.uk/book-recommendations/bookfinder/brown-bear-brown-bear-what-do-you-see/ |
+| bt-goodnight-moon | BookTrust Bookfinder. Goodnight Moon, Margaret Wise Brown, ill. Clement Hurd. Interest age 0 to 3. https://www.booktrust.org.uk/book-recommendations/bookfinder/goodnight-moon/ |
+| bt-wild-things | BookTrust Bookfinder. Where the Wild Things Are, Maurice Sendak. Interest age 4 to 8. https://www.booktrust.org.uk/book-recommendations/bookfinder/where-the-wild-things-are/ |
+| bt-gruffalo | BookTrust Bookfinder. The Gruffalo, Julia Donaldson & Axel Scheffler. Interest age 1 to 5. https://www.booktrust.org.uk/book-recommendations/bookfinder/the-gruffalo/ |
+| bt-bear-hunt | BookTrust Bookfinder. We're Going on a Bear Hunt, Michael Rosen & Helen Oxenbury. Interest age 2 to 6; Nestlé Smarties Book Prize 1989. https://www.booktrust.org.uk/book-recommendations/bookfinder/were-going-on-a-bear-hunt/ |
+| bt-elmer | BookTrust Bookfinder. Elmer, David McKee. Interest age 2 to 5. https://www.booktrust.org.uk/book-recommendations/bookfinder/elmer/ |
+| prh-mr-brown | Penguin Random House. Mr. Brown Can Moo! Can You?, Dr. Seuss. Bright & Early Board Book, age range 0–3; hardcover 2–5. https://www.penguinrandomhouse.com/books/43083/mr-brown-can-moo-can-you-by-dr-seuss/ |
+| prh-caterpillar | Penguin Random House. The Very Hungry Caterpillar, Eric Carle. Board book, age range 0–3. https://www.penguinrandomhouse.com/books/825130/the-very-hungry-caterpillar-by-eric-carle/ |
+| caldecott-1964 | American Library Association. Where the Wild Things Are, Maurice Sendak. Caldecott Medal 1964. https://www.ala.org/winner/where-wild-things-are |
+| snl-carle | Store norske leksikon. Eric Carle. https://snl.no/Eric_Carle |
+| snl-sendak | Store norske leksikon. Maurice Sendak. https://snl.no/Maurice_Sendak |
+| snl-donaldson | Store norske leksikon. Julia Donaldson. https://snl.no/Julia_Donaldson |
+| snl-egner | Store norske leksikon. Thorbjørn Egner – tegner og forfatter. https://snl.no/Thorbj%C3%B8rn_Egner |
+| snl-albert-aberg | Store norske leksikon. Albert Åberg. https://snl.no/Albert_%C3%85berg |
+| snl-nordqvist | Haugen MO. Sven Nordqvist. Store norske leksikon, updated 21 April 2023. https://snl.no/Sven_Nordqvist |
+| snl-proysen | Larsen SEL, Hagen EB. Alf Prøysen. Store norske leksikon, updated 6 June 2026. https://snl.no/Alf_Pr%C3%B8ysen |
+| norla-classics | NORLA (Norwegian Literature Abroad). 52 Highlights: Classics for Children and Young Adults. https://norla.no/en/backlists/52-HIGHLIGHTS-Classics-for-Children-and-Young-Adults.pdf |
+| cd-karius | Cappelen Damm Agency. Karius og Baktus, Thorbjørn Egner. Hardback, 48 pp., age 3–8. https://www.cappelendammagency.no/_karius-og-baktus-thorbjorn-egner-9788202031671 |
+| cd-albert | Cappelen Damm. God natt, Albert Åberg, Gunilla Bergström. Hardback, from age 3. https://www.cappelendamm.no/boker/god-natt-albert-aberg-gunilla-bergstrm-9788202035723 |
+| cd-gubben | Cappelen Damm. Gubben og katten (series page). Picture books from age 3; first Norwegian title Pannekakerøre, 1984. https://www.cappelendamm.no/artikkel/gubben-og-katten |
+| cd-mamma-mo | Cappelen Damm. Mamma Mø og Kråka, Jujja & Tomas Wieslander, ill. Sven Nordqvist. Hardback, from age 3. https://www.cappelendamm.no/boker/mamma-mo-og-kraka-jujja-wieslander-9788204107893 |
+| gyldendal-proysen | Gyldendal. Sanger og fortellinger for barn, Alf Prøysen. Hardback 2025, 136 pp., age 3–6. https://www.gyldendal.no/barneboker/3-6-ar/sanger-og-fortellinger-for-barn-9788205615656 |
+| chaplin-et-al-2020 | Chaplin LN, Lowrey TM, Ruvio AA, Shrum LJ, Vohs KD. Age differences in children's happiness from material goods and experiences: The role of memory and theory of mind. International Journal of Research in Marketing 2020;37(3):572–586. https://doi.org/10.1016/j.ijresmar.2020.01.004 |
+| evans-et-al-2010 | Evans MDR, Kelley J, Sikora J, Treiman DJ. Family scholarly culture and educational success: Books and schooling in 27 nations. Research in Social Stratification and Mobility 2010;28(2):171–197. https://doi.org/10.1016/j.rssm.2010.01.002 |
+
 ## Where the items link to
 
 - **IKEA Norway**: direct product links, with prices fetched from IKEA's search API (see `scripts/refresh-ikea.py`).
-- **Other Norwegian stores** (Clas Ohlson, Europris, Nille, Jollyroom, Barnas Hus, Lekmer, Norli, Panduro): links to
+- **Other Norwegian stores** (Clas Ohlson, Europris, Nille, Jollyroom, Barnas Hus, Lekmer, Norli, Panduro, XXL, Janus, ARK): links to
   a store search, so they keep working when a specific product sells out or is replaced.
 - **FINN.no**: secondhand search, a good fit for wooden toys and the plastic you'd rather not buy new.
 - **Amazon.se**: only for items that are hard to find in Norway.
