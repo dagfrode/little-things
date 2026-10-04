@@ -47,6 +47,29 @@
     color-scheme: dark;
   }
 }
+:root[data-theme="dark"] {
+    --bg: #1d1916;
+    --surface: #27221e;
+    --surface-2: #322b26;
+    --text: #f2e9de;
+    --muted: #b3a597;
+    --line: #3d352f;
+    --accent: #f0915a;
+    --accent-ink: #1d1916;
+    --everyday: #8fd2bd;
+    --everyday-bg: #1f3530;
+    --toy: #cfb2ea;
+    --toy-bg: #33283e;
+    --book: #9fc2ec;
+    --book-bg: #1f2c3d;
+    --leaf: #a6d98f;
+    --leaf-bg: #24331d;
+    --warn: #f3c27f;
+    --warn-bg: #3a2c19;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3);
+    color-scheme: dark;
+  }
+
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -282,3 +305,90 @@ h1::after {
 .deep-card { border-top: 5px solid var(--toy); }
 .rule-card-extra.deep-card { border-top-color: var(--line); }
 .deep-filter-note { margin-top: 16px; }
+
+/* ---- Language, theme and site tools ---------------------------------------- */
+
+html[data-lang="no"] [lang="en"],
+html[data-lang="en"] [lang="nb"] { display: none !important; }
+
+.topbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; margin-bottom: 4px; }
+.topbar .eyebrow { margin: 0; }
+.site-tools { display: flex; gap: 8px; align-items: center; }
+.tool-seg { display: inline-flex; border: 1.5px solid var(--line); border-radius: 999px; overflow: hidden; }
+.tool-seg button, .tool-theme {
+  font: inherit; font-size: 0.85rem; font-weight: 700; color: var(--muted);
+  background: transparent; border: 0; padding: 4px 10px; cursor: pointer;
+}
+.tool-seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.tool-theme { border: 1.5px solid var(--line); border-radius: 999px; }
+.tool-theme:hover, .tool-seg button:hover { color: var(--text); }
+.tool-seg button[aria-pressed="true"]:hover { color: var(--accent-ink); }
+
+/* ---- Wish list: card button and bar --------------------------------------- */
+
+.wish-btn {
+  font: inherit; font-size: 0.9rem; font-weight: 700; margin-top: 8px;
+  padding: 7px 12px; border-radius: 10px; cursor: pointer;
+  background: transparent; color: var(--accent); border: 1.5px dashed var(--accent);
+}
+.wish-btn[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-style: solid; }
+.wish-bar {
+  position: sticky; bottom: 0; z-index: 5;
+  background: var(--surface); border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgb(0 0 0 / 0.08);
+}
+.wish-bar-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 16px; padding-top: 10px; padding-bottom: 10px; font-weight: 700; }
+
+/* ---- Wish list page --------------------------------------------------------- */
+
+.hero-slim { padding: 20px 0 8px; }
+.wish-head { margin: 16px 0 24px; max-width: 46em; }
+.wish-title { font-size: clamp(2.2rem, 7vw, 3.4rem); overflow-wrap: anywhere; }
+.wish-age { font-weight: 700; color: var(--muted); margin: -6px 0 12px; }
+.wish-intro { font-size: 1.05rem; }
+.wish-section { margin: 32px 0; }
+.wish-section h2 { font-family: "Fraunces", Georgia, serif; font-weight: 500; font-size: 1.7rem; margin: 0 0 6px; overflow-wrap: anywhere; }
+.wish-section h3 { font-size: 1rem; margin: 16px 0 6px; }
+.wish-concept { max-width: 46em; margin: 0 0 12px; color: var(--muted); }
+.wish-sizes { font-weight: 700; margin: 0 0 12px; }
+.wish-actions { margin: 40px 0 0; font-weight: 600; }
+.interest-tags { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.interest-tag { background: var(--surface-2); border-radius: 999px; padding: 6px 14px; font-weight: 700; overflow-wrap: anywhere; }
+.mini-list { padding-left: 1.2em; margin: 0; }
+.mini-list li { margin-bottom: 4px; }
+.mini-head { font-weight: 700; margin: 8px 0 4px; }
+.card.outgrown { opacity: 0.6; }
+.outgrown-note { margin: 2px 0 0; font-size: 0.85rem; font-weight: 700; color: var(--warn); }
+
+.form-box { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); padding: 16px; margin: 0 0 16px; min-width: 0; }
+.form-box legend, .form-title { font-family: "Fraunces", Georgia, serif; font-weight: 500; font-size: 1.3rem; padding: 0 4px; margin: 0; }
+.form-title { padding: 0; margin-bottom: 8px; }
+.form-help { color: var(--muted); margin: 0 0 10px; font-size: 0.95rem; }
+.form-sub { font-weight: 700; margin: 12px 0 4px; }
+.form-row { display: flex; flex-wrap: wrap; gap: 12px 16px; }
+.form-field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.form-label { font-size: 0.85rem; font-weight: 700; color: var(--muted); }
+.form-box input[type="text"], .form-box input[type="month"] {
+  font: inherit; padding: 8px 12px; border: 1.5px solid var(--line); border-radius: 10px;
+  background: var(--bg); color: var(--text); max-width: 100%;
+}
+.input-short { width: 8em; }
+.own-words { margin-top: 10px; }
+.own-words:empty { display: none; }
+.own-form { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+.chip:disabled { opacity: 0.45; cursor: not-allowed; }
+.btn {
+  font: inherit; font-weight: 700; font-size: 0.95rem; padding: 8px 16px; border-radius: 10px; cursor: pointer;
+  background: var(--surface-2); color: var(--text); border: 1.5px solid var(--line); text-decoration: none; display: inline-block;
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn-primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.pick-list { list-style: none; padding: 0; margin: 0 0 8px; }
+.pick { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.pick-text { min-width: 0; overflow-wrap: anywhere; }
+.pick-warn { color: var(--warn); font-weight: 700; font-size: 0.9rem; }
+.pick-btns { display: flex; gap: 4px; flex-shrink: 0; }
+.icon-btn { font: inherit; width: 2rem; height: 2rem; border-radius: 8px; border: 1.5px solid var(--line); background: var(--surface-2); color: var(--text); cursor: pointer; }
+.icon-btn:disabled { opacity: 0.35; cursor: default; }
+.share-box { border-color: var(--accent); }
+.share-input { width: 100%; font-family: ui-monospace, monospace !important; font-size: 0.9rem !important; }
+.share-row { display: flex; gap: 8px; margin: 10px 0 6px; flex-wrap: wrap; }

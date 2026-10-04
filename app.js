@@ -1,102 +1,39 @@
+// The main list: filters, cards, sources and the wish-list bar. Shared pieces live in common.js (window.LT).
 (function () {
   "use strict";
 
-  // Developmental phases in months; `to` is exclusive.
-  const PHASES = [
-    { id: "0-3m", label: "0–3 mo", name: "Newborn", from: 0, to: 3 },
-    { id: "3-6m", label: "3–6 mo", name: "Reaching", from: 3, to: 6 },
-    { id: "6-9m", label: "6–9 mo", name: "Sitting", from: 6, to: 9 },
-    { id: "9-12m", label: "9–12 mo", name: "Crawling", from: 9, to: 12 },
-    { id: "12-18m", label: "1–1½ yr", name: "First steps", from: 12, to: 18 },
-    { id: "18-24m", label: "1½–2 yr", name: "Little helper", from: 18, to: 24 },
-    { id: "2-3y", label: "2–3 yr", name: "Pretend & build", from: 24, to: 36 },
-    { id: "3-5y", label: "3–5 yr", name: "Big imagination", from: 36, to: 72 }
-  ];
+  const { t, el, PHASES, GIFT_IDS, CORE_IDS, SKILL_IDS, lastsYears, field } = LT;
 
-  const KINDS = [
-    { id: "", label: "All" },
-    { id: "everyday", label: "Everyday things" },
-    { id: "toy", label: "Toys" },
-    { id: "book", label: "Books" }
-  ];
+  LT.addStrings({
+    en: {
+      age: "Age", any_age: "Any age", gift_rule: "Gift rule", whats_this: "what's this?", core_sets: "Go deep",
+      go_deep_link: "go deep, not wide", type: "Type", plastic: "Plastic", budget: "Budget",
+      years_toggle: "Only things that last for years", years_note: "(4+ years of use)",
+      skills_search: "Skills and search", good_for: "Good for (any of)", search: "Search", search_ph: "e.g. bowl, puzzle, bath",
+      reset: "Reset filters", share: "Copy link to this selection", copied: "Link copied!", copy_fail: "Copy the address bar",
+      idea: "idea", ideas: "ideas", for: " for ", empty: "No matches. Try a wider age or budget.",
+      load_fail: "Could not load the list. Try reloading the page.", link: "Link",
+      wish_bar: "Wish list", wish_open: "Open the wish list",
+      phases: ["0–3 mo", "3–6 mo", "6–9 mo", "9–12 mo", "1–1½ yr", "1½–2 yr", "2–3 yr", "3–5 yr"],
+      phases_long: ["0–3 months", "3–6 months", "6–9 months", "9–12 months", "1–1½ years", "1½–2 years", "2–3 years", "3–5 years"]
+    },
+    no: {
+      age: "Alder", any_age: "Alle aldre", gift_rule: "Gaveregel", whats_this: "hva er det?", core_sets: "Go deep",
+      go_deep_link: "gå i dybden", type: "Type", plastic: "Plast", budget: "Budsjett",
+      years_toggle: "Bare ting som varer i årevis", years_note: "(4+ års bruk)",
+      skills_search: "Ferdigheter og søk", good_for: "Bra for (minst én av)", search: "Søk", search_ph: "f.eks. bolle, puslespill, bad",
+      reset: "Nullstill filtre", share: "Kopier lenke til utvalget", copied: "Lenke kopiert!", copy_fail: "Kopier adresselinjen",
+      idea: "idé", ideas: "ideer", for: " for ", empty: "Ingen treff. Prøv en videre alder eller et større budsjett.",
+      load_fail: "Kunne ikke laste lista. Prøv å laste siden på nytt.", link: "Lenke",
+      wish_bar: "Ønskeliste", wish_open: "Åpne ønskelista",
+      phases: ["0–3 mnd", "3–6 mnd", "6–9 mnd", "9–12 mnd", "1–1½ år", "1½–2 år", "2–3 år", "3–5 år"],
+      phases_long: ["0–3 måneder", "3–6 måneder", "6–9 måneder", "9–12 måneder", "1–1½ år", "1½–2 år", "2–3 år", "3–5 år"]
+    }
+  });
 
-  const PLASTIC = [
-    { id: "", label: "Any" },
-    { id: "little", label: "Little plastic" },
-    { id: "none", label: "Plastic-free" }
-  ];
-
-  const PRICES = [
-    { id: "", label: "Any" },
-    { id: "0", label: "Free" },
-    { id: "100", label: "≤ 100 kr" },
-    { id: "300", label: "≤ 300 kr" },
-    { id: "600", label: "≤ 600 kr" }
-  ];
-
-  // The gift rule: "something you want, need, wear, read", plus the common "do" and "share" lines.
-  // Must match the ids in gift-rule.html.
-  const GIFTS = [
-    { id: "", label: "Any" },
-    { id: "want", label: "Want" },
-    { id: "need", label: "Need" },
-    { id: "wear", label: "Wear" },
-    { id: "read", label: "Read" },
-    { id: "do", label: "Do" },
-    { id: "share", label: "Share" }
-  ];
-  const GIFT_LABEL = { want: "Something they want", need: "Something they need", wear: "Something to wear", read: "Something to read", do: "Something to do", share: "Something to share" };
-
-  // "Go deep": the five kinds of open-ended toy worth building up over years. Must match gift-rule.html#deep.
-  const CORE = [
-    { id: "", label: "Any" },
-    { id: "build", label: "Build" },
-    { id: "smallworld", label: "Small world" },
-    { id: "pretend", label: "Pretend" },
-    { id: "move", label: "Move" },
-    { id: "create", label: "Create" }
-  ];
-  const CORE_LABEL = Object.fromEntries(CORE.filter((c) => c.id).map((c) => [c.id, c.label]));
-
-  // Items whose age range spans at least this many months get a "Lasts for years" badge and filter.
-  const LONG_LASTING = 48;
-  const lastsYears = (item) => item.ages[1] - item.ages[0] >= LONG_LASTING;
-
-  const SKILLS = {
-    hands: "Hands & fingers",
-    movement: "Moving & balance",
-    senses: "Senses",
-    thinking: "Problem-solving",
-    math: "Early maths",
-    language: "Language",
-    social: "Together & feelings",
-    pretend: "Pretend play",
-    creativity: "Creativity",
-    independence: "Doing it myself",
-    music: "Music",
-    nature: "Outdoors & nature"
-  };
-
-  const STORES = {
-    ikea: { name: "IKEA", search: "https://www.ikea.com/no/no/search/?q=" },
-    clasohlson: { name: "Clas Ohlson", search: "https://www.clasohlson.com/no/search?text=" },
-    europris: { name: "Europris", search: "https://www.europris.no/catalogsearch/result/?q=" },
-    nille: { name: "Nille", search: "https://www.nille.no/sok?q=" },
-    jollyroom: { name: "Jollyroom", search: "https://www.jollyroom.no/search?text=" },
-    barnashus: { name: "Barnas Hus", search: "https://www.barnashus.no/sok?q=" },
-    lekmer: { name: "Lekmer", search: "https://www.lekmer.com/nb-no/search?q=" },
-    norli: { name: "Norli", search: "https://www.norli.no/search?q=" },
-    panduro: { name: "Panduro", search: "https://www.panduro.com/nb-no/search?q=" },
-    xxl: { name: "XXL", search: "https://www.xxl.no/search?query=" },
-    janus: { name: "Janus", search: "https://www.janus.no/search?q=" },
-    ark: { name: "ARK", search: "https://www.ark.no/sok?text=" },
-    svommeforbund: { name: "Norges Svømmeforbund", search: "" },
-    finn: { name: "FINN (used)", search: "https://www.finn.no/recommerce/forsale/search?q=" },
-    amazon: { name: "Amazon.se", search: "https://www.amazon.se/s?k=" }
-  };
-
-  const KIND_LABEL = { everyday: "Everyday thing", toy: "Toy", book: "Book" };
-  const PLASTIC_LABEL = { none: "Plastic-free", some: "Little plastic", plastic: "Plastic" };
+  const KINDS = ["", "everyday", "toy", "book"];
+  const PLASTIC = ["", "little", "none"];
+  const PRICES = ["", "0", "100", "300", "600"];
 
   const state = { age: "", gift: "", core: "", kind: "", plastic: "", price: "", years: false, skills: [], q: "" };
   let items = [];
@@ -105,54 +42,26 @@
 
   const $ = (sel) => document.querySelector(sel);
 
-  function el(tag, attrs, text) {
-    const node = document.createElement(tag);
-    if (attrs) for (const [k, v] of Object.entries(attrs)) {
-      if (v === false || v == null) continue;
-      node.setAttribute(k, v === true ? "" : v);
-    }
-    if (text != null) node.textContent = text;
-    return node;
-  }
-
-  function formatAge(m) {
-    if (m < 24) return m + " mo";
-    const y = m / 12;
-    return (Number.isInteger(y) ? y : y.toFixed(1).replace(".5", "½")) + " yr";
-  }
-
-  function formatRange([from, to]) {
-    if (from === 0) return "From birth to " + formatAge(to);
-    return formatAge(from) + " – " + formatAge(to);
-  }
-
-  function formatPrice(p) {
-    return p === 0 ? "Free / DIY" : "~" + p + " kr";
-  }
-
-  function linkUrl(link) {
-    if (link.url) return link.url;
-    const store = STORES[link.store];
-    return store.search + encodeURIComponent(link.q);
-  }
-
   // ---- URL state -----------------------------------------------------------
 
   function readUrl() {
     const p = new URLSearchParams(location.search);
-    state.age = PHASES.some((ph) => ph.id === p.get("age")) ? p.get("age") : "";
-    state.gift = GIFTS.some((g) => g.id === p.get("gift")) ? p.get("gift") : "";
-    state.core = CORE.some((c) => c.id === p.get("core")) ? p.get("core") : "";
-    state.kind = KINDS.some((k) => k.id === p.get("type")) ? p.get("type") : "";
-    state.plastic = PLASTIC.some((k) => k.id === p.get("plastic")) ? p.get("plastic") : "";
-    state.price = PRICES.some((k) => k.id === p.get("budget")) ? p.get("budget") : "";
+    const pick = (value, allowed) => (allowed.includes(value) ? value : "");
+    state.age = pick(p.get("age"), PHASES.map((ph) => ph.id));
+    state.gift = pick(p.get("gift"), GIFT_IDS);
+    state.core = pick(p.get("core"), CORE_IDS);
+    state.kind = pick(p.get("type"), KINDS);
+    state.plastic = pick(p.get("plastic"), PLASTIC);
+    state.price = pick(p.get("budget"), PRICES);
     state.years = p.get("years") === "1";
-    state.skills = (p.get("skills") || "").split(",").filter((s) => s in SKILLS);
+    state.skills = (p.get("skills") || "").split(",").filter((s) => SKILL_IDS.includes(s));
     state.q = p.get("q") || "";
   }
 
   function writeUrl() {
     const p = new URLSearchParams();
+    const lang = new URLSearchParams(location.search).get("lang");
+    if (lang) p.set("lang", lang);
     if (state.age) p.set("age", state.age);
     if (state.gift) p.set("gift", state.gift);
     if (state.core) p.set("core", state.core);
@@ -163,7 +72,7 @@
     if (state.skills.length) p.set("skills", state.skills.join(","));
     if (state.q) p.set("q", state.q);
     const qs = p.toString();
-    history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+    history.replaceState(null, "", (qs ? "?" + qs : location.pathname) + location.hash);
   }
 
   // ---- Filters -------------------------------------------------------------
@@ -182,36 +91,39 @@
     if (state.years && !lastsYears(item)) return false;
     if (state.skills.length && !state.skills.some((s) => item.skills.includes(s))) return false;
     if (state.q) {
-      const hay = [item.name, item.why, item.tip, ...(item.links || []).map((l) => l.label)].join(" ").toLowerCase();
+      const no = item.no || {};
+      const hay = [item.name, item.why, item.tip, no.name, no.why, no.tip, ...item.links.map((l) => l.label + " " + (l.q || ""))]
+        .join(" ").toLowerCase();
       if (!state.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w))) return false;
     }
     return true;
   }
 
   function renderSeg(container, options, key) {
-    container.replaceChildren(...options.map((o) => {
-      const b = el("button", { type: "button", "data-value": o.id }, o.label);
-      b.addEventListener("click", () => { state[key] = o.id; update(); });
+    container.replaceChildren(...options.map(([id, label]) => {
+      const b = el("button", { type: "button", "data-value": id }, label);
+      b.addEventListener("click", () => { state[key] = id; update(); });
       return b;
     }));
   }
 
   function renderFilters() {
-    const ageOpts = [{ id: "", label: "Any age", name: "" }, ...PHASES];
-    $("#f-age").replaceChildren(...ageOpts.map((o) => {
-      const b = el("button", { type: "button", class: "chip", "data-value": o.id });
-      b.append(el("span", { class: "chip-main" }, o.label));
-      if (o.name) b.append(el("span", { class: "chip-sub" }, o.name));
-      b.addEventListener("click", () => { state.age = o.id; update(); });
+    const labels = t("phases");
+    const ageOpts = [["", t("any_age"), ""], ...PHASES.map((ph, i) => [ph.id, labels[i], t(ph.nameKey)])];
+    $("#f-age").replaceChildren(...ageOpts.map(([id, label, name]) => {
+      const b = el("button", { type: "button", class: "chip", "data-value": id });
+      b.append(el("span", { class: "chip-main" }, label));
+      if (name) b.append(el("span", { class: "chip-sub" }, name));
+      b.addEventListener("click", () => { state.age = id; update(); });
       return b;
     }));
-    renderSeg($("#f-gift"), GIFTS, "gift");
-    renderSeg($("#f-core"), CORE, "core");
-    renderSeg($("#f-kind"), KINDS, "kind");
-    renderSeg($("#f-plastic"), PLASTIC, "plastic");
-    renderSeg($("#f-price"), PRICES, "price");
-    $("#f-skill").replaceChildren(...Object.entries(SKILLS).map(([id, label]) => {
-      const b = el("button", { type: "button", class: "chip chip-small", "data-skill": id }, label);
+    renderSeg($("#f-gift"), [["", t("any")], ...GIFT_IDS.map((g) => [g, t("gift_" + g)])], "gift");
+    renderSeg($("#f-core"), [["", t("any")], ...CORE_IDS.map((c) => [c, t("core_" + c)])], "core");
+    renderSeg($("#f-kind"), KINDS.map((k) => [k, k ? t("kind_" + k) : t("all")]), "kind");
+    renderSeg($("#f-plastic"), PLASTIC.map((k) => [k, k ? t("plastic_" + k) : t("any")]), "plastic");
+    renderSeg($("#f-price"), PRICES.map((k) => [k, k === "" ? t("any") : k === "0" ? t("price_free") : "≤ " + k + " kr"]), "price");
+    $("#f-skill").replaceChildren(...SKILL_IDS.map((id) => {
+      const b = el("button", { type: "button", class: "chip chip-small", "data-skill": id }, t("skill_" + id));
       b.addEventListener("click", () => {
         state.skills = state.skills.includes(id) ? state.skills.filter((s) => s !== id) : [...state.skills, id];
         update();
@@ -219,6 +131,7 @@
       return b;
     }));
     if (state.skills.length || state.q) $("#more-filters").open = true;
+    syncFilters();
   }
 
   // Reflect state on the filter buttons without re-rendering them (keeps keyboard focus).
@@ -231,62 +144,16 @@
     for (const b of document.querySelectorAll("#f-skill button")) b.setAttribute("aria-pressed", String(state.skills.includes(b.dataset.skill)));
   }
 
-  // ---- Cards ---------------------------------------------------------------
-
-  function renderCard(item) {
-    const node = $("#card-tpl").content.firstElementChild.cloneNode(true);
-    node.id = item.id;
-    node.dataset.kind = item.kind;
-    node.querySelector(".card-title").textContent = item.name;
-    node.querySelector(".card-meta").textContent = formatRange(item.ages);
-
-    const badges = node.querySelector(".badges");
-    badges.append(
-      el("li", { class: "badge badge-kind-" + item.kind }, KIND_LABEL[item.kind]),
-      el("li", { class: "badge badge-plastic-" + item.plastic }, PLASTIC_LABEL[item.plastic]),
-      el("li", { class: "badge badge-price" }, formatPrice(item.price))
-    );
-    if (item.core) badges.append(el("li", { class: "badge badge-core" }, "Core set: " + CORE_LABEL[item.core]));
-    if (lastsYears(item)) badges.append(el("li", { class: "badge badge-years" }, "Lasts for years"));
-    for (const g of item.gift) badges.append(el("li", { class: "badge badge-gift" }, GIFT_LABEL[g]));
-    for (const s of item.skills) badges.append(el("li", { class: "badge badge-skill", "data-skill": s }, SKILLS[s]));
-
-    node.querySelector(".why").textContent = item.why;
-    const tip = node.querySelector(".tip");
-    if (item.tip) { tip.prepend(el("strong", null, "Tip: ")); tip.append(item.tip); } else tip.remove();
-    const safety = node.querySelector(".safety");
-    if (item.safety) { safety.prepend(el("strong", null, "Safety: ")); safety.append(item.safety); } else safety.remove();
-
-    const buy = node.querySelector(".buy");
-    if (item.links.length) {
-      for (const link of item.links) {
-        const a = el("a", { class: "buy-link", href: linkUrl(link), target: "_blank", rel: "noopener" });
-        a.append(el("span", { class: "buy-store" }, STORES[link.store].name));
-        a.append(el("span", { class: "buy-label" }, link.label));
-        if (link.price) a.append(el("span", { class: "buy-price" }, link.price + " kr"));
-        buy.append(a);
-      }
-    } else {
-      buy.append(el("p", { class: "diy" }, "Nothing to buy: make it from things at home."));
-    }
-
-    const cites = node.querySelector(".cites");
-    cites.append("Sources: ");
-    item.sources.forEach((id, i) => {
-      if (i) cites.append(", ");
-      cites.append(el("a", { href: "#src-" + id }, sources[id] ? sources[id].short : id));
-    });
-    return node;
-  }
+  // ---- Cards and sources ---------------------------------------------------
 
   function renderItems() {
     const shown = items.filter(matches);
-    $("#items").replaceChildren(...shown.map(renderCard));
+    $("#items").replaceChildren(...shown.map((item) => LT.renderCard(item, sources, { wish: LT.draft })));
     $("#empty").hidden = shown.length > 0;
-    const ph = PHASES.find((x) => x.id === state.age);
-    $("#count").textContent = shown.length + (shown.length === 1 ? " idea" : " ideas") +
-      (ph ? " for " + ph.label.replace("mo", "months").replace("yr", "years") : "") +
-      (state.gift ? ": " + GIFT_LABEL[state.gift].toLowerCase() : "");
+    const i = PHASES.findIndex((x) => x.id === state.age);
+    $("#count").textContent = shown.length + " " + (shown.length === 1 ? t("idea") : t("ideas")) +
+      (i >= 0 ? t("for") + t("phases_long")[i] : "") +
+      (state.gift ? ": " + t("giftl_" + state.gift).toLowerCase() : "");
   }
 
   function renderSources() {
@@ -294,9 +161,18 @@
       const s = sources[id];
       const li = el("li", { id: "src-" + id });
       li.append(s.cite + " ");
-      li.append(el("a", { href: s.url, target: "_blank", rel: "noopener" }, "Link"));
+      li.append(el("a", { href: s.url, target: "_blank", rel: "noopener" }, t("link")));
       return li;
     }));
+  }
+
+  // The bar at the bottom that appears once something is on the wish list.
+  function renderWishBar() {
+    const n = LT.draft.count();
+    const bar = $("#wish-bar");
+    bar.hidden = n === 0;
+    $("#wish-count").textContent = t("wish_bar") + ": " + n + " " + (n === 1 ? t("idea") : t("ideas"));
+    $("#wish-open").textContent = t("wish_open") + " →";
   }
 
   function update() {
@@ -311,10 +187,10 @@
     readUrl();
     $("#f-q").value = state.q;
     $("#f-years").addEventListener("change", (e) => { state.years = e.target.checked; update(); });
-    let t;
+    let timer;
     $("#f-q").addEventListener("input", (e) => {
-      clearTimeout(t);
-      t = setTimeout(() => { state.q = e.target.value.trim(); writeUrl(); renderItems(); }, 150);
+      clearTimeout(timer);
+      timer = setTimeout(() => { state.q = e.target.value.trim(); writeUrl(); renderItems(); }, 150);
     });
     $("#reset").addEventListener("click", () => {
       Object.assign(state, { age: "", gift: "", core: "", kind: "", plastic: "", price: "", years: false, skills: [], q: "" });
@@ -325,26 +201,29 @@
       const btn = $("#share");
       try {
         await navigator.clipboard.writeText(location.href);
-        btn.textContent = "Link copied!";
+        btn.textContent = t("copied");
       } catch (e) {
-        btn.textContent = "Copy the address bar";
+        btn.textContent = t("copy_fail");
       }
-      setTimeout(() => { btn.textContent = "Copy link to this selection"; }, 2000);
+      setTimeout(() => { btn.textContent = t("share"); }, 2000);
     });
+    document.addEventListener("lt-wish", renderWishBar);
+    document.addEventListener("lt-lang", () => { renderFilters(); renderItems(); renderSources(); renderWishBar(); });
 
-    Promise.all([
-      fetch("data/items.json").then((r) => r.json()),
-      fetch("data/sources.json").then((r) => r.json())
-    ]).then(([its, srcs]) => {
-      sources = srcs;
-      items = its.sort((a, b) => a.ages[0] - b.ages[0] || a.price - b.price);
+    LT.loadData().then((data) => {
+      sources = data.sources;
+      items = data.items.slice().sort((a, b) => a.ages[0] - b.ages[0] || a.price - b.price);
       for (const it of items) for (const s of it.sources) if (!sourceOrder.includes(s)) sourceOrder.push(s);
       for (const s of Object.keys(sources)) if (!sourceOrder.includes(s)) sourceOrder.push(s);
       renderSources();
       renderFilters();
       update();
+      renderWishBar();
+      // Links like ./#wooden-blocks point at a card that only exists after rendering.
+      const target = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      if (target) target.scrollIntoView();
     }).catch(() => {
-      $("#count").textContent = "Could not load the list. Try reloading the page.";
+      $("#count").textContent = t("load_fail");
     });
   }
 

@@ -1,0 +1,73 @@
+{
+  "gifts": {
+    "want": {
+      "en": "The one thing they're really excited about right now. One good, open-ended toy beats several small ones.",
+      "no": "Den ene tingen barnet virkelig gleder seg over akkurat nå. Én god, åpen leke er bedre enn flere små."
+    },
+    "need": {
+      "en": "Something useful the family would buy anyway, made a bit special. It's fine if it's a little boring.",
+      "no": "Noe nyttig familien uansett ville kjøpt, gjort litt ekstra fint. Det er helt greit om det er litt kjedelig."
+    },
+    "wear": {
+      "en": "Something that gets used every day in Norwegian weather. Buy a size up; good wool and outdoor gear can be secondhand.",
+      "no": "Noe som brukes hver dag i norsk vær. Kjøp en størrelse opp; god ull og yttertøy kan gjerne være brukt."
+    },
+    "read": {
+      "en": "A book of their own to read together. Choose one you'll happily read aloud thirty times.",
+      "no": "En egen bok å lese sammen. Velg en du gjerne leser høyt tretti ganger."
+    },
+    "do": {
+      "en": "An outing or activity together. Give something they can hold on the day, and agree a date so it actually happens.",
+      "no": "En tur eller aktivitet sammen. Gi noe barnet kan holde i på dagen, og avtal en dato så det faktisk blir noe av."
+    },
+    "share": {
+      "en": "One gift for the whole family to use together, like a game, a sledge or a kite.",
+      "no": "Én gave hele familien kan bruke sammen, som et spill, et akebrett eller en drage."
+    }
+  },
+  "core": {
+    "build": {
+      "en": { "text": "Blocks, Duplo and magnetic tiles get used from age 1 to 8, and a starter set soon runs out.", "add": "Add more of the same system so everything fits together." },
+      "no": { "text": "Klosser, Duplo og magnetfliser brukes fra 1 til 8 år, og et startsett blir fort for lite.", "add": "Gi mer av samme system, så alt passer sammen." }
+    },
+    "smallworld": {
+      "en": { "text": "Animals, little people, cars and train track turn buildings into farms, zoos and towns.", "add": "Ask which collection they're building, and add one piece at a time." },
+      "no": { "text": "Dyr, små figurer, biler og togbane gjør byggverk om til gårder, dyreparker og byer.", "add": "Spør hvilken samling barnet bygger på, og gi én ting om gangen." }
+    },
+    "pretend": {
+      "en": { "text": "Play kitchen, mud kitchen, dolls and dress-up: where children act out everyday life.", "add": "Real things beat toy copies: an old saucepan, a whisk or a ladle." },
+      "no": { "text": "Lekekjøkken, gjørmekjøkken, dukker og utkledning: her leker barn hverdagen.", "add": "Ekte ting slår lekekopier: en gammel kasserolle, en visp eller en øse." }
+    },
+    "move": {
+      "en": { "text": "A balance board, something to climb and a balance bike carry them from first steps to school age.", "add": "A helmet, a bigger bike, a rope or slide for the climber." },
+      "no": { "text": "Balansebrett, noe å klatre på og en balansesykkel følger barnet fra første skritt til skolealder.", "add": "En hjelm, en større sykkel, et tau eller en sklie til klatrestativet." }
+    },
+    "create": {
+      "en": { "text": "Paper, crayons, paint, play dough and instruments: the one category that gets used up.", "add": "Refills are always welcome: new colours, bigger paper, better brushes." },
+      "no": { "text": "Papir, fargestifter, maling, trolldeig og instrumenter: den ene kategorien som blir brukt opp.", "add": "Påfyll er alltid velkomment: nye farger, større papir, bedre pensler." }
+    }
+  },
+  "interests": [
+    { "code": "a", "icon": "🚗", "en": "Cars and vehicles", "no": "Biler og kjøretøy", "items": ["toy-vehicles", "crane-blocks", "wooden-train", "balance-bike", "bike-helmet", "duplo"] },
+    { "code": "b", "icon": "🚂", "en": "Trains", "no": "Tog", "items": ["wooden-train", "toy-vehicles", "wooden-blocks", "magnetic-tiles"] },
+    { "code": "c", "icon": "🐾", "en": "Animals", "no": "Dyr", "items": ["animal-figures", "animal-day", "bird-feeder", "brown-bear", "elmer", "gruffalo", "soft-toy", "hand-puppets"] },
+    { "code": "d", "icon": "🚜", "en": "Farms and tractors", "no": "Gård og traktorer", "items": ["animal-figures", "animal-day", "mamma-mo", "pettson-findus", "garden-tools", "toy-vehicles", "mr-brown-can-moo"] },
+    { "code": "e", "icon": "🦕", "en": "Dinosaurs", "no": "Dinosaurer", "items": ["animal-figures", "museum-pass", "sand-toys", "magnifier", "sensory-bin"] },
+    { "code": "f", "icon": "🐞", "en": "Nature and small creatures", "no": "Natur og småkryp", "items": ["magnifier", "bird-feeder", "berry-trip", "garden-tools", "watering-can", "very-hungry-caterpillar", "sit-pad"] },
+    { "code": "g", "icon": "🏕️", "en": "Outdoor life", "no": "Friluftsliv", "items": ["sit-pad", "kuksa", "whittling-knife", "headlamp", "campfire-kit", "family-tent", "picnic-kit", "fishing-trip", "berry-trip", "sledge"] },
+    { "code": "h", "icon": "🚀", "en": "Space and stars", "no": "Verdensrommet", "items": ["headlamp", "torch", "museum-pass", "play-tent", "magnetic-tiles", "kitchen-science"] },
+    { "code": "i", "icon": "🎵", "en": "Music", "no": "Musikk", "items": ["instruments", "music-class", "proysen-songs-stories", "mr-brown-can-moo", "wooden-spoons", "saucepan-lid"] },
+    { "code": "j", "icon": "🏗️", "en": "Building and diggers", "no": "Bygging og anleggsmaskiner", "items": ["wooden-blocks", "crane-blocks", "duplo", "magnetic-tiles", "abc-blocks", "marble-run", "sand-toys", "magnetic-gears"] },
+    { "code": "k", "icon": "🍳", "en": "Cooking and food", "no": "Kjøkken og mat", "items": ["cook-together", "mud-kitchen", "mud-kitchen-kit", "play-cookware", "play-food", "step-stool", "pouring-set", "green-eggs-and-ham"] },
+    { "code": "l", "icon": "🧸", "en": "Caring and nurturing", "no": "Omsorg og stell", "items": ["doll-bed", "soft-toy", "teddy-plasters", "doctor-kit", "watering-can", "hand-puppets"] },
+    { "code": "m", "icon": "🩺", "en": "Doctors and the body", "no": "Lege og kroppen", "items": ["doctor-kit", "real-stethoscope", "body-book", "teddy-plasters", "karius-og-baktus", "first-toothbrush"] },
+    { "code": "n", "icon": "🤖", "en": "Technology and coding", "no": "Teknologi og koding", "items": ["floor-robot", "hello-ruby", "take-apart", "magnetic-gears", "marble-run", "torch"] },
+    { "code": "o", "icon": "🚒", "en": "Fire engines and rescue", "no": "Brannbil og redning", "items": ["toy-vehicles", "small-world-people", "dress-up", "reflective-vest", "play-tent"] },
+    { "code": "p", "icon": "🐉", "en": "Stories and fantasy", "no": "Eventyr og fantasi", "items": ["where-the-wild-things-are", "gruffalo", "cat-in-the-hat", "dress-up", "hand-puppets", "theatre-trip", "picture-books", "play-tent"] },
+    { "code": "q", "icon": "🎨", "en": "Drawing and making", "no": "Tegning og forming", "items": ["easel", "paper-roll-crayons", "play-dough", "water-painting", "clothes-pegs", "colander-straws"] },
+    { "code": "r", "icon": "⚽", "en": "Balls and sport", "no": "Ball og sport", "items": ["fabric-ball", "balance-bike", "balance-board", "climbing-triangle", "swimming-lessons", "kite", "sledge", "cushion-course"] },
+    { "code": "s", "icon": "🌊", "en": "Water and the sea", "no": "Vann og sjø", "items": ["swimming-lessons", "fishing-trip", "pouring-set", "water-painting", "sand-toys", "rain-gear"] },
+    { "code": "t", "icon": "🔤", "en": "Letters and numbers", "no": "Bokstaver og tall", "items": ["magnetic-letters", "abc-blocks", "domino", "memory-game", "first-board-game", "library-outing"] },
+    { "code": "u", "icon": "🧪", "en": "Experiments", "no": "Forsøk og eksperimenter", "items": ["kitchen-science", "magnifier", "take-apart", "pouring-set", "sensory-bin", "magnetic-gears"] }
+  ]
+}

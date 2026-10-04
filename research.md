@@ -123,6 +123,17 @@ of the core sets on purpose: books are an always-on extra, and puzzles and games
 
 The "Lasts for years" badge is derived from `ages`: items spanning 48 months or more.
 
+## Interests on wish lists
+
+Interests are *what* a child is into right now (cars, dinosaurs, doctors, coding, outdoor life); go-deep sets are *how*
+they play. Interests are gender-neutral on purpose ("caring and nurturing" rather than "dolls", "stories and fantasy"
+rather than "pirates"). Each suggested interest points to fitting items in `data/concepts.json`. Items added for the
+newer interests (doctor's kit, body book, floor robot, Hello Ruby, take-apart station, sit pad, whittling knife,
+headlamp, kuksa, kitchen science, magnetic letters) are backed by: medical play [rashid-medplay], [silva-therapeutic];
+early coding [bers-2014], [bakala-2021]; risky outdoor play [sandseter-2007], [brussoni-2015]; letter learning
+[treiman]; the Norwegian kindergarten framework plan on nature, environment and technology [udir-nmt]; and button
+battery safety [nhi-battery]. The evidence for some (gears, kitchen science) is indirect and is described as such.
+
 ## Sources added October 2026
 
 | id | Source |
@@ -210,6 +221,16 @@ The "Lasts for years" badge is derived from `ages`: items spanning 48 months or 
 | gyldendal-proysen | Gyldendal. Sanger og fortellinger for barn, Alf Prøysen. Hardback 2025, 136 pp., age 3–6. https://www.gyldendal.no/barneboker/3-6-ar/sanger-og-fortellinger-for-barn-9788205615656 |
 | chaplin-et-al-2020 | Chaplin LN, Lowrey TM, Ruvio AA, Shrum LJ, Vohs KD. Age differences in children's happiness from material goods and experiences: The role of memory and theory of mind. International Journal of Research in Marketing 2020;37(3):572–586. https://doi.org/10.1016/j.ijresmar.2020.01.004 |
 | evans-et-al-2010 | Evans MDR, Kelley J, Sikora J, Treiman DJ. Family scholarly culture and educational success: Books and schooling in 27 nations. Research in Social Stratification and Mobility 2010;28(2):171–197. https://doi.org/10.1016/j.rssm.2010.01.002 |
+| rashid-medplay | Rashid AA, Cheong AT, Hisham R, Shamsuddin NH, Roslan D. Effectiveness of pretend medical play in improving children's health outcomes and well-being: a systematic review. BMJ Open 2021;11(1):e041506. https://doi.org/10.1136/bmjopen-2020-041506 |
+| silva-therapeutic | Silva RDM, Austregésilo SC, Ithamar L, Lima LS. Therapeutic play to prepare children for invasive procedures: a systematic review. Jornal de Pediatria 2017;93(1):6–16. https://doi.org/10.1016/j.jped.2016.06.005 |
+| bers-2014 | Bers MU, Flannery L, Kazakoff ER, Sullivan A. Computational thinking and tinkering: Exploration of an early childhood robotics curriculum. Computers & Education 2014;72:145–157. https://doi.org/10.1016/j.compedu.2013.10.020 |
+| bakala-2021 | Bakala E, Gerosa A, Hourcade JP, Tejera G. Preschool children, robots, and computational thinking: A systematic review. International Journal of Child-Computer Interaction 2021;29:100337. https://doi.org/10.1016/j.ijcci.2021.100337 |
+| liukas-ruby | Liukas L. Hello Ruby: Adventures in Coding. Feiwel & Friends, 2015. Book series site, incl. list of translations (Norwegian edition by Infovest). https://www.helloruby.com/books |
+| udir-nmt | Utdanningsdirektoratet. Rammeplan for barnehagen, fagområde Natur, miljø og teknologi (children explore tools and technology and have good outdoor experiences all year). https://www.udir.no/laring-og-trivsel/rammeplan-for-barnehagen/fagomrader/natur-miljo-teknologi/ |
+| nhi-battery | Norsk Helseinformatikk. Flere alvorlige skader forårsaket av batteri (swallowed button/lithium batteries can cause severe burns within hours). NHI.no, 2012. https://nhi.no/familie/barn/flere-alvorlige-skader-forarsaket-av-batteri |
+| sandseter-2007 | Sandseter EBH. Categorising risky play—how can we identify risk-taking in children's play? European Early Childhood Education Research Journal 2007;15(2):237–252. https://doi.org/10.1080/13502930701321733 |
+| brussoni-2015 | Brussoni M, Gibbons R, Gray C et al. What is the Relationship between Risky Outdoor Play and Health in Children? A Systematic Review. International Journal of Environmental Research and Public Health 2015;12(6):6423–6454. https://doi.org/10.3390/ijerph120606423 |
+| treiman | Treiman R, Broderick V. What's in a Name: Children's Knowledge about the Letters in Their Own Names. Journal of Experimental Child Psychology 1998;70(2):97–116. https://doi.org/10.1006/jecp.1998.2448 |
 
 ## Where the items link to
 

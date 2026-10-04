@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Language and theme before first paint: stored choice, else browser language / system theme. Same in every page. -->
+  <script>(function(){var d=document.documentElement,l=null;try{var t=localStorage.getItem("lt-theme");if(t==="light"||t==="dark")d.dataset.theme=t;l=localStorage.getItem("lt-lang")}catch(e){}var q=new URLSearchParams(location.search).get("lang");if(q==="no"||q==="en")l=q;if(l!=="no"&&l!=="en"){var n=(navigator.languages||[navigator.language||""]).join(",").toLowerCase();l=/(^|,)(nb|nn|no)\b/.test(n)?"no":"en"}d.dataset.lang=l;d.lang=l==="no"?"nb":"en"})()</script>
   <title>The Gift Rule · Little Things</title>
+  <meta name="lt-title-en" content="The Gift Rule · Little Things">
+  <meta name="lt-title-no" content="Gaveregelen · Små ting">
   <meta name="description" content="Something they want, something they need, something to wear, something to read, plus something to do and something to share. A simple rule for fewer, better gifts for young children.">
   <meta property="og:title" content="Want, need, wear, read: the gift rule">
   <meta property="og:description" content="A simple rule for fewer, better gifts for 0–6 year olds, with ideas for each category.">
@@ -16,125 +20,189 @@
 <body>
   <header class="hero">
     <div class="wrap">
-      <p class="eyebrow"><a href="./">Little things</a> · Fewer, better gifts</p>
-      <h1>Want, need, wear, read</h1>
-      <p class="lede">Many families limit presents with a short rhyme: <em>something they want, something they need, something to wear, something to read.</em> Some add two more lines: <em>something to do</em> and <em>something to share.</em> This gives a few gifts with some thought behind each one, rather than a pile. Further down: why it pays to <a href="#deep">go deep</a> with a few kinds of toy.</p>
+      <div class="topbar">
+        <p class="eyebrow"><span lang="en"><a href="./">Little things</a> · Fewer, better gifts</span><span lang="nb"><a href="./">Små ting</a> · Færre, bedre gaver</span></p>
+        <div id="site-tools" class="site-tools"></div>
+      </div>
+      <h1 lang="en">Want, need, wear, read</h1>
+      <h1 lang="nb">Ønske, trenge, ha på, lese</h1>
+      <p lang="en" class="lede">Many families limit presents with a short rhyme: <em>something they want, something they need, something to wear, something to read.</em> Some add two more lines: <em>something to do</em> and <em>something to share.</em> This gives a few gifts with some thought behind each one, rather than a pile. Further down: why it pays to <a href="#deep">go deep</a> with a few kinds of toy.</p>
+      <p lang="nb" class="lede">Mange familier begrenser gavene med et lite rim: <em>noe de ønsker seg, noe de trenger, noe å ha på seg, noe å lese.</em> Noen legger til to linjer til: <em>noe å gjøre</em> og <em>noe å dele.</em> Det gir noen få gaver med litt omtanke bak hver, i stedet for en haug. Lenger ned: hvorfor det lønner seg å <a href="#deep">gå i dybden</a> med noen få typer leker.</p>
     </div>
   </header>
 
   <main class="wrap">
     <section class="rule-intro">
-      <p>Nobody knows exactly where the rule came from. It spread through parenting blogs and social media in the 2010s and has been written about widely since <a href="#ref-origin">[1]</a>. It suits young children well: toddlers play longer and more inventively with a few toys than with many <a href="#ref-dauch">[2]</a>. With grandparents, godparents and friends all buying, it also helps to split the categories between you.</p>
-      <p>The four classic lines are the core. The last two are optional extras, and the rule works just as well with only one or two of them.</p>
+      <p lang="en">Nobody knows exactly where the rule came from. It spread through parenting blogs and social media in the 2010s and has been written about widely since <a href="#ref-origin">[1]</a>. It suits young children well: toddlers play longer and more inventively with a few toys than with many <a href="#ref-dauch">[2]</a>. With grandparents, godparents and friends all buying, it also helps to split the categories between you.</p>
+      <p lang="nb">Ingen vet sikkert hvor regelen kommer fra. Den spredte seg gjennom foreldreblogger og sosiale medier på 2010-tallet og har blitt omtalt mye siden <a href="#ref-origin">[1]</a>. Den passer godt for små barn: småbarn leker lenger og mer oppfinnsomt med få leker enn med mange <a href="#ref-dauch">[2]</a>. Når besteforeldre, gudforeldre og venner alle kjøper gaver, er det også lurt å fordele kategoriene mellom dere.</p>
+      <p lang="en">The four classic lines are the core. The last two are optional extras, and the rule works just as well with only one or two of them.</p>
+      <p lang="nb">De fire klassiske linjene er kjernen. De to siste er valgfrie tillegg, og regelen fungerer like godt med bare én eller to av dem.</p>
     </section>
 
-    <section class="rule-grid" aria-label="The six gift categories">
+    <section class="rule-grid">
       <article class="rule-card" id="want">
         <p class="rule-num">1</p>
-        <h2>Something they want</h2>
-        <p>The one thing they're truly excited about. For under-threes, it's whatever they keep reaching for: a ball, a vehicle, a soft toy. Young children really do enjoy getting things <a href="#ref-chaplin2020">[3]</a>, so this gift matters.</p>
-        <p class="rule-tip"><strong>Tip:</strong> only the child and their parents know this one, so ask. Pick one good, open-ended toy over several small ones, and add to a set they already have where you can (see <a href="#deep">go deep</a>).</p>
-        <a class="rule-link" href="./?gift=want">See toys and playthings</a>
+        <h2 lang="en">Something they want</h2>
+        <h2 lang="nb">Noe de ønsker seg</h2>
+        <p lang="en">The one thing they're truly excited about. For under-threes, it's whatever they keep reaching for: a ball, a vehicle, a soft toy. Young children really do enjoy getting things <a href="#ref-chaplin2020">[3]</a>, so this gift matters.</p>
+        <p lang="nb">Den ene tingen barnet virkelig gleder seg over. For barn under tre er det det de strekker seg etter igjen og igjen: en ball, en bil, en kosebamse. Små barn blir faktisk glade av å få ting <a href="#ref-chaplin2020">[3]</a>, så denne gaven betyr noe.</p>
+        <p lang="en" class="rule-tip"><strong>Tip:</strong> only the child and their parents know this one, so ask. Pick one good, open-ended toy over several small ones, and add to a set they already have where you can (see <a href="#deep">go deep</a>).</p>
+        <p lang="nb" class="rule-tip"><strong>Tips:</strong> bare barnet og foreldrene vet dette, så spør. Velg én god, åpen leke framfor flere små, og bygg gjerne videre på et sett barnet allerede har (se <a href="#deep">gå i dybden</a>).</p>
+        <a lang="en" class="rule-link" href="./?gift=want">See toys and playthings</a>
+        <a lang="nb" class="rule-link" href="./?gift=want">Se leker og lekesaker</a>
       </article>
 
       <article class="rule-card" id="need">
         <p class="rule-num">2</p>
-        <h2>Something they need</h2>
-        <p>A useful thing the family would buy anyway, made a bit special: their own cup and cutlery, a step stool, a barnehage backpack, a reflective vest, a bike helmet.</p>
-        <p class="rule-tip"><strong>Tip:</strong> ask the parents (or the barnehage list) what's missing or worn out. It's fine if this gift is a little boring.</p>
-        <a class="rule-link" href="./?gift=need">See useful things</a>
+        <h2 lang="en">Something they need</h2>
+        <h2 lang="nb">Noe de trenger</h2>
+        <p lang="en">A useful thing the family would buy anyway, made a bit special: their own cup and cutlery, a step stool, a barnehage backpack, a reflective vest, a bike helmet.</p>
+        <p lang="nb">Noe nyttig familien uansett ville kjøpt, gjort litt ekstra fint: egen kopp og bestikk, en trappekrakk, en barnehagesekk, en refleksvest, en sykkelhjelm.</p>
+        <p lang="en" class="rule-tip"><strong>Tip:</strong> ask the parents (or the barnehage list) what's missing or worn out. It's fine if this gift is a little boring.</p>
+        <p lang="nb" class="rule-tip"><strong>Tips:</strong> spør foreldrene (eller sjekk barnehagelista) hva som mangler eller er slitt. Det er helt greit om denne gaven er litt kjedelig.</p>
+        <a lang="en" class="rule-link" href="./?gift=need">See useful things</a>
+        <a lang="nb" class="rule-link" href="./?gift=need">Se nyttige ting</a>
       </article>
 
       <article class="rule-card" id="wear">
         <p class="rule-num">3</p>
-        <h2>Something to wear</h2>
-        <p>Children grow fast, so give something that gets used every day in Norwegian weather: wool next to the skin, wool socks, a hat, mittens, rain gear or indoor shoes for barnehage.</p>
-        <p class="rule-tip"><strong>Tip:</strong> buy a size up and check the barnehage clothing list. Good wool and outdoor gear lasts through several children, so secondhand works well.</p>
-        <a class="rule-link" href="./?gift=wear">See clothes</a>
+        <h2 lang="en">Something to wear</h2>
+        <h2 lang="nb">Noe å ha på seg</h2>
+        <p lang="en">Children grow fast, so give something that gets used every day in Norwegian weather: wool next to the skin, wool socks, a hat, mittens, rain gear or indoor shoes for barnehage.</p>
+        <p lang="nb">Barn vokser fort, så gi noe som brukes hver dag i norsk vær: ull innerst, ullsokker, lue, votter, regntøy eller tøfler til barnehagen.</p>
+        <p lang="en" class="rule-tip"><strong>Tip:</strong> buy a size up and check the barnehage clothing list. Good wool and outdoor gear lasts through several children, so secondhand works well.</p>
+        <p lang="nb" class="rule-tip"><strong>Tips:</strong> kjøp en størrelse opp og sjekk barnehagens klesliste. God ull og godt yttertøy holder til flere barn, så brukt fungerer fint.</p>
+        <a lang="en" class="rule-link" href="./?gift=wear">See clothes</a>
+        <a lang="nb" class="rule-link" href="./?gift=wear">Se klær</a>
       </article>
 
       <article class="rule-card" id="read">
         <p class="rule-num">4</p>
-        <h2>Something to read</h2>
-        <p>A book of their own invites reading together, which builds vocabulary from the first months <a href="#ref-literacy">[4]</a>. Homes with more books go with more years of schooling later, across 27 countries <a href="#ref-evans">[5]</a>. Board books suit babies; picture books suit 2–6.</p>
-        <p class="rule-tip"><strong>Tip:</strong> choose a book you'll happily read aloud thirty times. Classics like Dr. Seuss, Eric Carle or Thorbjørn Egner never go out of date.</p>
-        <a class="rule-link" href="./?gift=read">See books</a>
+        <h2 lang="en">Something to read</h2>
+        <h2 lang="nb">Noe å lese</h2>
+        <p lang="en">A book of their own invites reading together, which builds vocabulary from the first months <a href="#ref-literacy">[4]</a>. Homes with more books go with more years of schooling later, across 27 countries <a href="#ref-evans">[5]</a>. Board books suit babies; picture books suit 2–6.</p>
+        <p lang="nb">En egen bok inviterer til å lese sammen, noe som bygger ordforrådet fra de første månedene <a href="#ref-literacy">[4]</a>. Hjem med flere bøker henger sammen med flere års skolegang senere, i 27 land <a href="#ref-evans">[5]</a>. Pekebøker passer for babyer; bildebøker for 2–6 år.</p>
+        <p lang="en" class="rule-tip"><strong>Tip:</strong> choose a book you'll happily read aloud thirty times. Classics like Dr. Seuss, Eric Carle or Thorbjørn Egner never go out of date.</p>
+        <p lang="nb" class="rule-tip"><strong>Tips:</strong> velg en bok du gjerne leser høyt tretti ganger. Klassikere som Dr. Seuss, Eric Carle eller Thorbjørn Egner går aldri ut på dato.</p>
+        <a lang="en" class="rule-link" href="./?gift=read">See books</a>
+        <a lang="nb" class="rule-link" href="./?gift=read">Se bøker</a>
       </article>
 
       <article class="rule-card rule-card-extra" id="do">
         <p class="rule-num">5</p>
-        <h2>Something to do</h2>
-        <p>An outing or activity: baby swimming, a museum or science centre, a trip to a farm, a day of sledging with a grandparent. Among adults, experience gifts strengthen relationships more than things do <a href="#ref-chan">[6]</a>. Children under about 12 still tend to prefer things <a href="#ref-chaplin2020">[3]</a>, so treat this as a gift of time together.</p>
-        <p class="rule-tip"><strong>Tip:</strong> give something the child can hold on the day: a drawing, a photo or a homemade ticket. Agree a date so it actually happens.</p>
-        <a class="rule-link" href="./?gift=do">See things to do</a>
+        <h2 lang="en">Something to do</h2>
+        <h2 lang="nb">Noe å gjøre</h2>
+        <p lang="en">An outing or activity: baby swimming, a museum or science centre, a trip to a farm, a day of sledging with a grandparent. Among adults, experience gifts strengthen relationships more than things do <a href="#ref-chan">[6]</a>. Children under about 12 still tend to prefer things <a href="#ref-chaplin2020">[3]</a>, so treat this as a gift of time together.</p>
+        <p lang="nb">En tur eller aktivitet: babysvømming, et museum eller vitensenter, en tur til en gård, en akedag med besteforeldre. Blant voksne styrker opplevelsesgaver relasjoner mer enn ting <a href="#ref-chan">[6]</a>. Barn under omtrent 12 år foretrekker likevel ofte ting <a href="#ref-chaplin2020">[3]</a>, så tenk på dette som en gave av tid sammen.</p>
+        <p lang="en" class="rule-tip"><strong>Tip:</strong> give something the child can hold on the day: a drawing, a photo or a homemade ticket. Agree a date so it actually happens.</p>
+        <p lang="nb" class="rule-tip"><strong>Tips:</strong> gi noe barnet kan holde i på dagen: en tegning, et bilde eller en hjemmelaget billett. Avtal en dato, så det faktisk blir noe av.</p>
+        <a lang="en" class="rule-link" href="./?gift=do">See things to do</a>
+        <a lang="nb" class="rule-link" href="./?gift=do">Se ting å gjøre</a>
       </article>
 
       <article class="rule-card rule-card-extra" id="share">
         <p class="rule-num">6</p>
-        <h2>Something to share</h2>
-        <p>One gift for the whole family to use together: a simple board game, a sledge, a kite, a picnic blanket. Play with parents supports language, self-regulation and closeness <a href="#ref-aap-play">[7]</a>, and simple number board games help preschoolers with numbers <a href="#ref-siegler">[8]</a>.</p>
-        <p class="rule-tip"><strong>Tip:</strong> for 3–6 year olds, a cooperative game where everyone wins or loses together avoids tears. Set a regular time to play it, not just on the day.</p>
-        <a class="rule-link" href="./?gift=share">See family gifts</a>
+        <h2 lang="en">Something to share</h2>
+        <h2 lang="nb">Noe å dele</h2>
+        <p lang="en">One gift for the whole family to use together: a simple board game, a sledge, a kite, a picnic blanket. Play with parents supports language, self-regulation and closeness <a href="#ref-aap-play">[7]</a>, and simple number board games help preschoolers with numbers <a href="#ref-siegler">[8]</a>.</p>
+        <p lang="nb">Én gave hele familien kan bruke sammen: et enkelt brettspill, et akebrett, en drage, et piknikteppe. Lek med foreldre støtter språk, selvregulering og nærhet <a href="#ref-aap-play">[7]</a>, og enkle tallbrettspill hjelper barnehagebarn med tall <a href="#ref-siegler">[8]</a>.</p>
+        <p lang="en" class="rule-tip"><strong>Tip:</strong> for 3–6 year olds, a cooperative game where everyone wins or loses together avoids tears. Set a regular time to play it, not just on the day.</p>
+        <p lang="nb" class="rule-tip"><strong>Tips:</strong> for 3–6-åringer unngår et samarbeidsspill, der alle vinner eller taper sammen, mange tårer. Sett av en fast tid til å spille, ikke bare på selve dagen.</p>
+        <a lang="en" class="rule-link" href="./?gift=share">See family gifts</a>
+        <a lang="nb" class="rule-link" href="./?gift=share">Se gaver til hele familien</a>
       </article>
     </section>
 
     <section class="deep" id="deep">
-      <h2 class="section-title">Go deep, not wide</h2>
+      <h2 lang="en" class="section-title">Go deep, not wide</h2>
+      <h2 lang="nb" class="section-title">Gå i dybden, ikke i bredden</h2>
       <div class="rule-intro">
-        <p>Children don't need more toys; they need fewer toys they can go deep with. Toddlers with only a few toys play longer and more inventively with each one <a href="#ref-dauch">[2]</a>. When researchers in preschools watched which toys led to the best play, the winners were basic ones: wooden vehicles and trains, magnetic tiles, Duplo, small animals and people, an easel <a href="#ref-timpani">[9]</a>.</p>
-        <p>So instead of something new every birthday, pick about five kinds of open-ended toy and help the child build up the same sets over the years: more blocks, more animals, more track. <strong>Before you buy, ask the parents which sets the child already has, and add to one of them.</strong> Secondhand is fine: wood and Duplo last for decades.</p>
+        <p lang="en">Children don't need more toys; they need fewer toys they can go deep with. Toddlers with only a few toys play longer and more inventively with each one <a href="#ref-dauch">[2]</a>. When researchers in preschools watched which toys led to the best play, the winners were basic ones: wooden vehicles and trains, magnetic tiles, Duplo, small animals and people, an easel <a href="#ref-timpani">[9]</a>.</p>
+        <p lang="nb">Barn trenger ikke flere leker; de trenger færre leker de kan gå i dybden med. Småbarn med bare noen få leker leker lenger og mer oppfinnsomt med hver av dem <a href="#ref-dauch">[2]</a>. Da forskere i barnehager så på hvilke leker som ga best lek, vant de enkle: trebiler og tog, magnetfliser, Duplo, små dyr og figurer, og en staffeli <a href="#ref-timpani">[9]</a>.</p>
+        <p lang="en">So instead of something new every birthday, pick about five kinds of open-ended toy and help the child build up the same sets over the years: more blocks, more animals, more track. <strong>Before you buy, ask the parents which sets the child already has, and add to one of them.</strong> Secondhand is fine: wood and Duplo last for decades.</p>
+        <p lang="nb">Så i stedet for noe nytt hver bursdag: velg rundt fem typer åpne leker, og hjelp barnet å bygge opp de samme settene over år: flere klosser, flere dyr, mer togbane. <strong>Før du kjøper, spør foreldrene hvilke sett barnet har, og bygg videre på ett av dem.</strong> Brukt er helt fint: tre og Duplo holder i flere tiår.</p>
       </div>
 
       <div class="rule-grid">
         <article class="rule-card deep-card">
-          <h3>Build</h3>
-          <p>Blocks, Duplo and magnetic tiles are toys children come back to from age 1 to 8, and building skill goes with better maths later <a href="#ref-blocks">[10]</a>. A starter set soon runs out, so more blocks are always a good follow-up gift.</p>
-          <p class="rule-tip"><strong>Add to it:</strong> stick to one system so everything fits. Duplo fits regular LEGO <a href="#ref-lego">[11]</a>, and most magnetic tile brands click together.</p>
-          <a class="rule-link" href="./?core=build">See building sets</a>
+          <h3 lang="en">Build</h3>
+          <h3 lang="nb">Bygge</h3>
+          <p lang="en">Blocks, Duplo and magnetic tiles are toys children come back to from age 1 to 8, and building skill goes with better maths later <a href="#ref-blocks">[10]</a>. A starter set soon runs out, so more blocks are always a good follow-up gift.</p>
+          <p lang="nb">Klosser, Duplo og magnetfliser er leker barn kommer tilbake til fra 1 til 8 år, og byggeferdigheter henger sammen med bedre matte senere <a href="#ref-blocks">[10]</a>. Et startsett blir fort for lite, så flere klosser er alltid en god oppfølgingsgave.</p>
+          <p lang="en" class="rule-tip"><strong>Add to it:</strong> stick to one system so everything fits. Duplo fits regular LEGO <a href="#ref-lego">[11]</a>, and most magnetic tile brands click together.</p>
+          <p lang="nb" class="rule-tip"><strong>Bygg videre:</strong> hold deg til ett system så alt passer sammen. Duplo passer med vanlig LEGO <a href="#ref-lego">[11]</a>, og de fleste merker av magnetfliser kan kobles sammen.</p>
+          <a lang="en" class="rule-link" href="./?core=build">See building sets</a>
+          <a lang="nb" class="rule-link" href="./?core=build">Se byggesett</a>
         </article>
         <article class="rule-card deep-card">
-          <h3>Small world</h3>
-          <p>Animals, little people, cars and a train set turn buildings into farms, zoos and towns. These collections grow well, one animal or one piece of track at a time.</p>
-          <p class="rule-tip"><strong>Add to it:</strong> ask which collection the child is building (farm, forest, wild animals, railway). Realistic figures like Schleich are for 3+; chunky wooden animals suit younger ones.</p>
-          <a class="rule-link" href="./?core=smallworld">See small-world toys</a>
+          <h3 lang="en">Small world</h3>
+          <h3 lang="nb">Småverden</h3>
+          <p lang="en">Animals, little people, cars and a train set turn buildings into farms, zoos and towns. These collections grow well, one animal or one piece of track at a time.</p>
+          <p lang="nb">Dyr, små figurer, biler og en togbane gjør byggverk om til gårder, dyreparker og byer. Slike samlinger vokser fint, ett dyr eller én skinne om gangen.</p>
+          <p lang="en" class="rule-tip"><strong>Add to it:</strong> ask which collection the child is building (farm, forest, wild animals, railway). Realistic figures like Schleich are for 3+; chunky wooden animals suit younger ones.</p>
+          <p lang="nb" class="rule-tip"><strong>Bygg videre:</strong> spør hvilken samling barnet bygger på (gård, skog, ville dyr, jernbane). Realistiske figurer som Schleich er for 3 år og oppover; solide tredyr passer for de minste.</p>
+          <a lang="en" class="rule-link" href="./?core=smallworld">See small-world toys</a>
+          <a lang="nb" class="rule-link" href="./?core=smallworld">Se småverden-leker</a>
         </article>
         <article class="rule-card deep-card">
-          <h3>Pretend and home</h3>
-          <p>A play kitchen indoors, a mud kitchen outdoors, dolls and dress-up: this is where children act out everyday life, which is linked to language and social skills <a href="#ref-pretend">[12]</a>.</p>
-          <p class="rule-tip"><strong>Add to it:</strong> children love real things, so an old saucepan, a whisk or a ladle is often a better addition than plastic toy food <a href="#ref-pretend">[12]</a>.</p>
-          <a class="rule-link" href="./?core=pretend">See pretend play</a>
+          <h3 lang="en">Pretend and home</h3>
+          <h3 lang="nb">Rollelek og hjem</h3>
+          <p lang="en">A play kitchen indoors, a mud kitchen outdoors, dolls and dress-up: this is where children act out everyday life, which is linked to language and social skills <a href="#ref-pretend">[12]</a>.</p>
+          <p lang="nb">Et lekekjøkken inne, et gjørmekjøkken ute, dukker og utkledning: her leker barn hverdagen, og det henger sammen med språk og sosiale ferdigheter <a href="#ref-pretend">[12]</a>.</p>
+          <p lang="en" class="rule-tip"><strong>Add to it:</strong> children love real things, so an old saucepan, a whisk or a ladle is often a better addition than plastic toy food <a href="#ref-pretend">[12]</a>.</p>
+          <p lang="nb" class="rule-tip"><strong>Bygg videre:</strong> barn elsker ekte ting, så en gammel kasserolle, en visp eller en øse er ofte et bedre tillegg enn lekemat i plast <a href="#ref-pretend">[12]</a>.</p>
+          <a lang="en" class="rule-link" href="./?core=pretend">See pretend play</a>
+          <a lang="nb" class="rule-link" href="./?core=pretend">Se rollelek</a>
         </article>
         <article class="rule-card deep-card">
-          <h3>Move</h3>
-          <p>A balance board, something to climb and a balance bike carry children from first steps to school age. Children aged 1–4 need about three hours of activity a day, so these get used daily <a href="#ref-move">[13]</a>.</p>
-          <p class="rule-tip"><strong>Add to it:</strong> a helmet, a bigger bike, a rope or slide for the climber.</p>
-          <a class="rule-link" href="./?core=move">See things for moving</a>
+          <h3 lang="en">Move</h3>
+          <h3 lang="nb">Bevegelse</h3>
+          <p lang="en">A balance board, something to climb and a balance bike carry children from first steps to school age. Children aged 1–4 need about three hours of activity a day, so these get used daily <a href="#ref-move">[13]</a>.</p>
+          <p lang="nb">Et balansebrett, noe å klatre på og en balansesykkel følger barnet fra første skritt til skolealder. Barn mellom 1 og 4 år trenger rundt tre timer aktivitet om dagen, så disse brukes daglig <a href="#ref-move">[13]</a>.</p>
+          <p lang="en" class="rule-tip"><strong>Add to it:</strong> a helmet, a bigger bike, a rope or slide for the climber.</p>
+          <p lang="nb" class="rule-tip"><strong>Bygg videre:</strong> en hjelm, en større sykkel, et tau eller en sklie til klatrestativet.</p>
+          <a lang="en" class="rule-link" href="./?core=move">See things for moving</a>
+          <a lang="nb" class="rule-link" href="./?core=move">Se ting for bevegelse</a>
         </article>
         <article class="rule-card deep-card">
-          <h3>Create</h3>
-          <p>Paper, crayons, paint, play dough and simple instruments. This is the one category that gets used up, so refills are always welcome, and an easel gets used for years.</p>
-          <p class="rule-tip"><strong>Add to it:</strong> new colours, better brushes, bigger paper, another instrument.</p>
-          <a class="rule-link" href="./?core=create">See creative things</a>
+          <h3 lang="en">Create</h3>
+          <h3 lang="nb">Skape</h3>
+          <p lang="en">Paper, crayons, paint, play dough and simple instruments. This is the one category that gets used up, so refills are always welcome, and an easel gets used for years.</p>
+          <p lang="nb">Papir, fargestifter, maling, trolldeig og enkle instrumenter. Dette er den ene kategorien som blir brukt opp, så påfyll er alltid velkomment, og en staffeli brukes i årevis.</p>
+          <p lang="en" class="rule-tip"><strong>Add to it:</strong> new colours, better brushes, bigger paper, another instrument.</p>
+          <p lang="nb" class="rule-tip"><strong>Bygg videre:</strong> nye farger, bedre pensler, større papir, et nytt instrument.</p>
+          <a lang="en" class="rule-link" href="./?core=create">See creative things</a>
+          <a lang="nb" class="rule-link" href="./?core=create">Se kreative ting</a>
         </article>
         <article class="rule-card rule-card-extra deep-card">
-          <h3>Not on the list, on purpose</h3>
-          <p>Books are always welcome, but they're an everyday extra rather than a set. Puzzles and board games are great, but they're outgrown once they're solved, so they don't build up over the years.</p>
-          <p class="rule-tip"><strong>Rotation:</strong> putting some toys away and swapping them every few weeks is common advice that follows from the "fewer toys" findings, but it hasn't been tested directly <a href="#ref-serino">[14]</a>.</p>
+          <h3 lang="en">Not on the list, on purpose</h3>
+          <h3 lang="nb">Ikke på lista, med vilje</h3>
+          <p lang="en">Books are always welcome, but they're an everyday extra rather than a set. Puzzles and board games are great, but they're outgrown once they're solved, so they don't build up over the years.</p>
+          <p lang="nb">Bøker er alltid velkomne, men de er et hverdagstillegg mer enn et sett. Puslespill og brettspill er flotte, men barnet vokser fra dem når de er løst, så de bygges ikke opp over år.</p>
+          <p lang="en" class="rule-tip"><strong>Rotation:</strong> putting some toys away and swapping them every few weeks is common advice that follows from the "fewer toys" findings, but it hasn't been tested directly <a href="#ref-serino">[14]</a>.</p>
+          <p lang="nb" class="rule-tip"><strong>Rotering:</strong> å sette bort noen leker og bytte dem ut med noen ukers mellomrom er et vanlig råd som følger av funnene om «færre leker», men det er ikke testet direkte <a href="#ref-serino">[14]</a>.</p>
         </article>
       </div>
-      <p class="muted deep-filter-note">On the main list, items in these five groups are marked <em>Core set</em> and can be filtered, and items that work across four or more years are marked <em>Lasts for years</em>.</p>
+      <p lang="en" class="muted deep-filter-note">On the main list, items in these five groups are marked <em>Go deep</em> and can be filtered, and items that work across four or more years are marked <em>Lasts for years</em>. You can also pick sets when you <a href="wish.html?edit=1">make a wish list</a>.</p>
+      <p lang="nb" class="muted deep-filter-note">På hovedlista er ting i disse fem gruppene merket <em>Go deep</em> og kan filtreres, og ting som brukes i fire år eller mer er merket <em>Varer i årevis</em>. Du kan også velge sett når du <a href="wish.html?edit=1">lager en ønskeliste</a>.</p>
     </section>
 
     <section class="about rule-notes">
-      <h2>A few honest caveats</h2>
+      <h2 lang="en">A few honest caveats</h2>
+      <h2 lang="nb">Noen ærlige forbehold</h2>
       <ul>
-        <li>There's no research on the rule itself. It's a sensible habit, and the studies above support the thinking behind each line.</li>
-        <li>Most research on experience gifts and materialism was done with adults or older children <a href="#ref-chan">[6]</a>, <a href="#ref-chaplin2020">[3]</a>. For small children, the value of "something to do" is mostly for the adults and the relationship.</li>
-        <li>The evidence for "go deep" is mostly observational. The toy study looked at which toys produced good play, and the link between blocks and maths is a correlation <a href="#ref-blocks">[10]</a>. Research on loose parts (open-ended materials) is still thin <a href="#ref-loose">[15]</a>.</li>
-        <li>The book studies are correlational: homes full of books are often homes full of reading. The book alone isn't the magic, but reading it together is <a href="#ref-literacy">[4]</a>.</li>
+        <li lang="en">There's no research on the rule itself. It's a sensible habit, and the studies above support the thinking behind each line.</li>
+        <li lang="nb">Det finnes ingen forskning på selve regelen. Den er en fornuftig vane, og studiene over støtter tanken bak hver linje.</li>
+        <li lang="en">Most research on experience gifts and materialism was done with adults or older children <a href="#ref-chan">[6]</a>, <a href="#ref-chaplin2020">[3]</a>. For small children, the value of "something to do" is mostly for the adults and the relationship.</li>
+        <li lang="nb">Det meste av forskningen på opplevelsesgaver og materialisme er gjort med voksne eller eldre barn <a href="#ref-chan">[6]</a>, <a href="#ref-chaplin2020">[3]</a>. For små barn ligger verdien av «noe å gjøre» mest hos de voksne og i relasjonen.</li>
+        <li lang="en">The evidence for "go deep" is mostly observational. The toy study looked at which toys produced good play, and the link between blocks and maths is a correlation <a href="#ref-blocks">[10]</a>. Research on loose parts (open-ended materials) is still thin <a href="#ref-loose">[15]</a>.</li>
+        <li lang="nb">Grunnlaget for «gå i dybden» er stort sett observasjoner. Lekestudien så på hvilke leker som ga god lek, og sammenhengen mellom klosser og matte er en korrelasjon <a href="#ref-blocks">[10]</a>. Forskningen på løse deler (åpne materialer) er fortsatt tynn <a href="#ref-loose">[15]</a>.</li>
+        <li lang="en">The book studies are correlational: homes full of books are often homes full of reading. The book alone isn't the magic, but reading it together is <a href="#ref-literacy">[4]</a>.</li>
+        <li lang="nb">Bokstudiene viser sammenhenger: hjem fulle av bøker er ofte hjem med mye lesing. Boka i seg selv er ikke magien, men å lese den sammen er det <a href="#ref-literacy">[4]</a>.</li>
       </ul>
 
-      <h2>Sources</h2>
+      <h2 lang="en">Sources</h2>
+      <h2 lang="nb">Kilder</h2>
       <ol class="source-list">
         <li id="ref-origin">Origin and variants: Fox News, <em>Parents' viral four-gift Christmas rule</em>, 2019, <a href="https://www.foxnews.com/lifestyle/parents-viral-four-gift-christmas-rule" target="_blank" rel="noopener">Link</a>; GoodtoKnow, <em>The four present rule</em>, 2019, <a href="https://www.goodto.com/family/christmas-birthday-four-present-rule-521696" target="_blank" rel="noopener">Link</a>; Hip2Save, <em>4-gift rule</em> (want/need/wear/read/do + share), 2025, <a href="https://hip2save.com/tips/4-gift-rule-christmas-tradition/" target="_blank" rel="noopener">Link</a>.</li>
         <li id="ref-dauch">Dauch C, Imwalle M, Ocasio B, Metz AE. The influence of the number of toys in the environment on toddlers' play. Infant Behavior and Development 2018;50:78–87. <a href="https://doi.org/10.1016/j.infbeh.2017.11.005" target="_blank" rel="noopener">Link</a></li>
@@ -156,7 +224,10 @@
   </main>
 
   <footer class="wrap footer">
-    <p><a href="./">Back to all ideas</a> · Made by <a href="https://dagfrode.com">Dag Frode</a> for friends with new babies.</p>
+    <p lang="en"><a href="./">Back to all ideas</a> · <a href="wish.html?edit=1">Make a wish list</a> · Made by <a href="https://dagfrode.com">Dag Frode</a> for friends with new babies.</p>
+    <p lang="nb"><a href="./">Tilbake til alle ideer</a> · <a href="wish.html?edit=1">Lag en ønskeliste</a> · Laget av <a href="https://dagfrode.com">Dag Frode</a> for venner med nye babyer.</p>
   </footer>
+
+  <script src="common.js"></script>
 </body>
 </html>

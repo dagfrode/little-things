@@ -1,6 +1,7 @@
 [
   {
     "id": "steel-bowls",
+    "code": "00",
     "name": "Stainless steel bowls",
     "kind": "everyday",
     "plastic": "none",
@@ -30,10 +31,16 @@
         "url": "https://www.ikea.com/no/no/p/blanda-blank-serveringsbolle-rustfritt-stal-50057254/",
         "price": 89
       }
-    ]
+    ],
+    "no": {
+      "name": "Boller i rustfritt stål",
+      "why": "Boller lager lyd, passer inni hverandre, rommer ting og reflekterer lys. En baby som sitter kan dunke på dem, putte ting oppi og tømme dem, og det er tidlig årsak og virkning.",
+      "tip": "Gi 2–3 boller i ulike størrelser. Senere blir de trommer, hatter og sandkassebøtter."
+    }
   },
   {
     "id": "wooden-spoons",
+    "code": "01",
     "name": "Wooden spoons",
     "kind": "everyday",
     "plastic": "none",
@@ -64,10 +71,17 @@
         "url": "https://www.ikea.com/no/no/p/roert-kjokkenredskaper-2-stk-bok-70631401/",
         "price": 59
       }
-    ]
+    ],
+    "no": {
+      "name": "Tresleiver",
+      "why": "Lette å gripe, trygge å putte i munnen og perfekte å dunke med. Babyer lærer at det de gjør, lager lyd. Småbarn rører, trommer og serverer lekemat med dem.",
+      "tip": "Gi dem sammen med en stålbolle eller en kasserolle, så har du det første trommesettet.",
+      "safety": "Sjekk av og til for fliser. Ubehandlet eller oljet tre er best."
+    }
   },
   {
     "id": "whisk",
+    "code": "02",
     "name": "Balloon whisk",
     "kind": "everyday",
     "plastic": "none",
@@ -96,10 +110,17 @@
         "url": "https://www.ikea.com/no/no/p/idealisk-visper-sett-med-2-rustfritt-stal-50093172/",
         "price": 39
       }
-    ]
+    ],
+    "no": {
+      "name": "Ballongvisp",
+      "why": "Lett, blank, fjærende og lett å holde. En klassiker i skattkurven for babyer som utforsker med hender og munn.",
+      "tip": "Dytt en myk stoffball inn i den og la babyen finne ut hvordan den kommer ut.",
+      "safety": "Velg en solid visp der trådene sitter godt fast i håndtaket."
+    }
   },
   {
     "id": "treasure-basket",
+    "code": "03",
     "name": "Treasure basket",
     "kind": "everyday",
     "plastic": "none",
@@ -136,10 +157,17 @@
         "url": "https://www.ikea.com/no/no/p/branaes-kurv-rotting-00138432/",
         "price": 229
       }
-    ]
+    ],
+    "no": {
+      "name": "Skattkurv",
+      "why": "Elinor Goldschmieds skattkurv er en lav kurv med hverdagslige, naturlige ting som en baby som sitter kan utforske på egen hånd: metall, tre, stoff, børste, lær. Babyer konsentrerer seg om den overraskende lenge.",
+      "tip": "En fin gave: en kurv med en tresleiv, en visp, en liten stålbolle, en myk børste, en nøkkelring med nøkler fra jernvarehandelen og et skjerf. Legg ved et kort som forklarer ideen.",
+      "safety": "Alle ting bør være større enn åpningen på en dorullhylse. Sitt i nærheten, og la babyen styre."
+    }
   },
   {
     "id": "scarves",
+    "code": "04",
     "name": "Thin scarves for peekaboo",
     "kind": "everyday",
     "plastic": "none",
@@ -181,10 +209,17 @@
         "label": "Secondhand silk scarves",
         "q": "silkeskjerf"
       }
-    ]
+    ],
+    "no": {
+      "name": "Tynne skjerf til titt-tei",
+      "why": "Titt-tei er den første leken om ting som forsvinner og kommer tilbake (objektpermanens). De samme skjerfene blir senere til kapper, pikniktepper og dansebånd.",
+      "tip": "Se etter lette «lekesilker» i bomull eller silke. Gamle skjerf fra en skuff fungerer like bra.",
+      "safety": "Bare lek under tilsyn. La aldri stoff ligge igjen i sengen."
+    }
   },
   {
     "id": "tissue-box-pull",
+    "code": "05",
     "name": "Tissue box of scarves to pull",
     "kind": "everyday",
     "plastic": "none",
@@ -207,10 +242,17 @@
       "aap-play",
       "cdc"
     ],
-    "links": []
+    "links": [],
+    "no": {
+      "name": "Tørkepapirboks med skjerf å dra ut",
+      "why": "Å dra ting ut av et hull er uimotståelig i denne alderen. Det trener pinsettgrepet og gir et tilfredsstillende «hvor ble den av?»-øyeblikk.",
+      "tip": "Gratis å lage: en tom tørkepapirboks med skjerf eller tøyservietter knyttet sammen inni.",
+      "safety": "Fjern plastfilmen fra åpningen på boksen."
+    }
   },
   {
     "id": "saucepan-lid",
+    "code": "06",
     "name": "Saucepan with a lid",
     "kind": "everyday",
     "plastic": "none",
@@ -239,10 +281,16 @@
         "label": "Secondhand small saucepans",
         "q": "liten kasserolle"
       }
-    ]
+    ],
+    "no": {
+      "name": "Kasserolle med lokk",
+      "why": "Lokk er et puslespill: på, av, klang. Babyer finner ut hvilket lokk som passer, og småbarn bruker kjelen til å late som de lager mat.",
+      "tip": "Gi bort en gammel kjele fra skapet. Spør foreldrene først om de har en til overs."
+    }
   },
   {
     "id": "muffin-tin-balls",
+    "code": "07",
     "name": "Muffin tin + balls",
     "kind": "everyday",
     "plastic": "none",
@@ -279,10 +327,17 @@
         "url": "https://www.ikea.com/no/no/p/sandbi-toyleke-ball-flerfarget-70564473/",
         "price": 39
       }
-    ]
+    ],
+    "no": {
+      "name": "Muffinsform + baller",
+      "why": "Én ball i hvert hull er tidlig én-til-én-korrespondanse, starten på telling. Å putte i og ta ut er hovedhobbyen til en ettåring.",
+      "tip": "Gi formen sammen med tennisballer eller myke stoffballer. Senere kan sokker i ulike farger sorteres i den.",
+      "safety": "Ballene må være større enn 4,5 cm."
+    }
   },
   {
     "id": "measuring-cups",
+    "code": "08",
     "name": "Nesting measuring cups",
     "kind": "everyday",
     "plastic": "none",
@@ -318,10 +373,16 @@
         "url": "https://www.ikea.com/no/no/p/uppfylld-malebeger-6-stk-offwhite-20640530/",
         "price": 29
       }
-    ]
+    ],
+    "no": {
+      "name": "Målebeger som passer inni hverandre",
+      "why": "De er en stableleke som også er et ekte kjøkkenredskap: passe inni hverandre, stable, helle og sammenligne størrelser. Romforståelse som dette henger sammen med matteferdigheter senere.",
+      "tip": "Også fint i badekaret og sandkassa."
+    }
   },
   {
     "id": "cardboard-box",
+    "code": "09",
     "name": "A big cardboard box",
     "kind": "everyday",
     "plastic": "none",
@@ -351,10 +412,17 @@
         "label": "Moving boxes",
         "q": "flytteeske"
       }
-    ]
+    ],
+    "no": {
+      "name": "En stor pappeske",
+      "why": "Spøken om at barn heller vil leke med esken, har støtte i forskning. Åpne «løse deler» får fram mer oppfinnsomhet enn leker med bare ett formål. En eske blir en hule, bil, båt eller rakett.",
+      "tip": "Gaveidé til litt større barn: en stor eske med en pakke fargestifter, teip og en lapp der det står «bygg hva du vil».",
+      "safety": "Fjern stifter og plastteip."
+    }
   },
   {
     "id": "metal-tins",
+    "code": "0a",
     "name": "Tins with lids",
     "kind": "everyday",
     "plastic": "none",
@@ -388,10 +456,17 @@
         "label": "Secondhand tins",
         "q": "blikkboks"
       }
-    ]
+    ],
+    "no": {
+      "name": "Bokser med lokk",
+      "why": "Å åpne og lukke lokk, og gjemme noe inni for å finne det igjen, bygger finmotorikk og hukommelse. Småbarn holder gjerne på med det lenge.",
+      "tip": "Gamle te- eller kakebokser er perfekte. Legg en overraskelse oppi når du gir dem.",
+      "safety": "Sjekk at kantene ikke er skarpe."
+    }
   },
   {
     "id": "colander-straws",
+    "code": "0b",
     "name": "Colander + pipe cleaners",
     "kind": "everyday",
     "plastic": "some",
@@ -426,10 +501,17 @@
         "label": "Pipe cleaners",
         "q": "piperensere"
       }
-    ]
+    ],
+    "no": {
+      "name": "Dørslag + piperensere",
+      "why": "Å stikke piperensere eller sugerør gjennom hullene er en konsentrert finmotorisk «putte-i»-oppgave som småbarn gjentar om og om igjen. De øver på pinsettgrepet de senere bruker til blyanten.",
+      "tip": "Snu dørslaget opp ned så hullene vender opp.",
+      "safety": "Brett inn de skarpe endene på piperenserne. Lek under tilsyn."
+    }
   },
   {
     "id": "pouring-set",
+    "code": "0c",
     "name": "Pouring set: jug, funnel, cups",
     "kind": "everyday",
     "plastic": "some",
@@ -472,10 +554,17 @@
         "url": "https://www.ikea.com/no/no/p/pepprig-vaskebalje-sammenleggbar-gronn-70572963/",
         "price": 99
       }
-    ]
+    ],
+    "no": {
+      "name": "Hellesett: mugge, trakt, kopper",
+      "why": "Vannlek i badekaret eller en oppvaskbalje lærer barna om volum, årsak og virkning, og håndkontroll. Det er også beroligende.",
+      "tip": "Legg ved en liten svamp å klemme på.",
+      "safety": "Vær alltid hos barnet når det er i nærheten av vann."
+    }
   },
   {
     "id": "own-cup-cutlery",
+    "code": "0d",
     "name": "Their own cup and cutlery",
     "kind": "everyday",
     "plastic": "none",
@@ -517,10 +606,16 @@
         "url": "https://www.ikea.com/no/no/p/kalas-krus-flere-farger-00461379/",
         "price": 19
       }
-    ]
+    ],
+    "no": {
+      "name": "Egen kopp og eget bestikk",
+      "why": "Å drikke fra åpen kopp og spise selv er CDC-milepæler som småbarn er stolte av å nå. Ekte ting i barnestørrelse inviterer dem til å prøve.",
+      "tip": "Lite bestikk i rustfritt stål og et lite glass eller en liten stålkopp."
+    }
   },
   {
     "id": "step-stool",
+    "code": "0e",
     "name": "Step stool for the kitchen counter",
     "kind": "everyday",
     "plastic": "none",
@@ -562,10 +657,17 @@
         "label": "Search: learning tower",
         "q": "læringstårn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Krakk til kjøkkenbenken",
+      "why": "Førskolebarn foretrekker klart ekte aktiviteter framfor late-som-lek, og holder på med dem omtrent dobbelt så lenge. Med en krakk kan de faktisk hjelpe til: vaske grønnsaker, røre, knekke egg.",
+      "tip": "En gave foreldrene bruker hver dag. Et «læringstårn» er en tryggere og dyrere variant for barn under 3.",
+      "safety": "Ha alltid tilsyn ved kjøkkenbenken. Under 3 år er et læringstårn med rekkverk tryggere."
+    }
   },
   {
     "id": "broom-dustpan",
+    "code": "0f",
     "name": "Small broom and dustpan",
     "kind": "everyday",
     "plastic": "some",
@@ -599,10 +701,16 @@
         "label": "Search: children's cleaning set",
         "q": "vaskesett barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Liten feiekost og feiebrett",
+      "why": "Småbarn vil gjøre det de voksne gjør. Ekte redskaper i barnestørrelse gjør det mulig å «hjelpe», og bygger selvstendighet og koordinasjon.",
+      "tip": "Kjøp en ekte, ikke en leke: den virker faktisk, og det er hele poenget."
+    }
   },
   {
     "id": "watering-can",
+    "code": "0g",
     "name": "Small watering can",
     "kind": "everyday",
     "plastic": "plastic",
@@ -637,10 +745,16 @@
         "label": "Search: children's watering can",
         "q": "vannkanne barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Liten vannkanne",
+      "why": "Å vanne planter er en ekte jobb med et synlig resultat. Det kombinerer grovmotorikk (å bære) med omsorg og tålmodighet.",
+      "tip": "Legg ved en potte med urtefrø, så er gaven komplett."
+    }
   },
   {
     "id": "garden-tools",
+    "code": "0h",
     "name": "Child-size garden tools",
     "kind": "everyday",
     "plastic": "some",
@@ -674,10 +788,16 @@
         "label": "Search: garden tools for children",
         "q": "hageredskap barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Hageredskaper i barnestørrelse",
+      "why": "En ekte rake og spade som virker, lar barna grave, rake løv og hjelpe til i hagen. Det er ekte aktivitet, ute og i bevegelse.",
+      "tip": "Hoder i metall med treskaft holder i årevis."
+    }
   },
   {
     "id": "water-painting",
+    "code": "0i",
     "name": "Big brushes for water painting",
     "kind": "everyday",
     "plastic": "some",
@@ -713,10 +833,16 @@
         "url": "https://www.ikea.com/no/no/p/sandig-spade-bla-60577678/",
         "price": 19
       }
-    ]
+    ],
+    "no": {
+      "name": "Store pensler til vannmaling",
+      "why": "En bøtte vann og en bred pensel gjør et gjerde eller en vegg til et lerret som tørker og forsvinner. Det er søl-fri «maling» som bygger arm- og håndkontroll.",
+      "tip": "Legg ved en liten bøtte."
+    }
   },
   {
     "id": "sock-matching",
+    "code": "0j",
     "name": "Sock-matching game",
     "kind": "everyday",
     "plastic": "some",
@@ -739,10 +865,16 @@
       "taggart",
       "cdc"
     ],
-    "links": []
+    "links": [],
+    "no": {
+      "name": "Sokkeparlek",
+      "why": "Å finne sokkepar er ekte sortering og matching, den samme ferdigheten som huskespill trener, mens de «hjelper» til med klesvasken.",
+      "tip": "En gavevri: en pakke fargerike barnesokker pakket inn som et «finn parene»-spill."
+    }
   },
   {
     "id": "cushion-course",
+    "code": "0k",
     "name": "Couch-cushion obstacle course",
     "kind": "everyday",
     "plastic": "some",
@@ -772,10 +904,17 @@
         "url": "https://www.ikea.com/no/no/p/grejsimojs-gulvpute-3-stk-kan-stables-flerfarget-90602011/",
         "price": 799
       }
-    ]
+    ],
+    "no": {
+      "name": "Hinderløype av sofaputer",
+      "why": "Å krabbe over, klatre på og hoppe mellom puter bygger styrke, balanse og kroppsbevissthet. WHO anbefaler mye aktiv lek hver dag i denne alderen.",
+      "tip": "Vil du gi en lekeversjon: stablebare gulvputer.",
+      "safety": "Legg løypa på et mykt gulv, unna skarpe møbelhjørner."
+    }
   },
   {
     "id": "paper-roll-crayons",
+    "code": "0l",
     "name": "Paper roll + chunky crayons",
     "kind": "everyday",
     "plastic": "none",
@@ -817,10 +956,17 @@
         "label": "Search: chunky crayons",
         "q": "tykke fargestifter"
       }
-    ]
+    ],
+    "no": {
+      "name": "Papirrull + tykke fargestifter",
+      "why": "Rabling dukker opp rundt 15–18 måneder og er starten på skriving. En lang rull på gulvet gir plass til store armbevegelser.",
+      "tip": "Teip papiret fast til gulvet eller bordet.",
+      "safety": "Velg tykke fargestifter til de minste; de er vanskeligere å bite av og sette i halsen."
+    }
   },
   {
     "id": "play-dough",
+    "code": "0m",
     "name": "Play dough",
     "kind": "everyday",
     "plastic": "none",
@@ -858,10 +1004,17 @@
         "label": "Search: play dough",
         "q": "trolldeig"
       }
-    ]
+    ],
+    "no": {
+      "name": "Trolldeig",
+      "why": "Å klemme, rulle og skjære i deig styrker håndmusklene som trengs til skriving senere, og leken har ingen fasit.",
+      "tip": "Hjemmelaget deig (mel, salt, vann, olje) i et glass med kjevle og pepperkakeformer er en billig og fin gave.",
+      "safety": "Hjemmelaget deig er veldig salt; ikke la barnet spise mye av den."
+    }
   },
   {
     "id": "ice-tray-tongs",
+    "code": "0n",
     "name": "Ice-cube tray + tongs sorting",
     "kind": "everyday",
     "plastic": "plastic",
@@ -898,10 +1051,17 @@
         "label": "Search: pom-poms",
         "q": "pompom"
       }
-    ]
+    ],
+    "no": {
+      "name": "Sortering med isbitbrett + klype",
+      "why": "Å flytte pomponger eller bønner over i rommene med en klype trener håndgrepet som brukes til blyanten, og i tillegg sortering og telling.",
+      "tip": "Gi det sammen med en kjøkkenklype eller salatklype fra skuffen.",
+      "safety": "Pomponger og bønner kan sette seg fast i halsen. Bare for barn som ikke lenger putter ting i munnen, og under tilsyn."
+    }
   },
   {
     "id": "sensory-bin",
+    "code": "0o",
     "name": "Sensory bin (rice, oats, lentils)",
     "kind": "everyday",
     "plastic": "plastic",
@@ -934,10 +1094,17 @@
         "url": "https://www.ikea.com/no/no/p/samla-kasse-med-lokk-transparent-s69440761/",
         "price": 139
       }
-    ]
+    ],
+    "no": {
+      "name": "Sansekasse (ris, havre, linser)",
+      "why": "Å øse, helle og gjemme ting i tørr ris eller havre er beroligende sanselek som også bygger måling og rollelek (en «byggeplass», et «bakeri»).",
+      "tip": "Gi en boks med lokk, en øse, en trakt og noen små leker å grave ned.",
+      "safety": "Tørre korn og linser kan sette seg fast i halsen hos barn under 3. Ha alltid tilsyn."
+    }
   },
   {
     "id": "torch",
+    "code": "0p",
     "name": "A real torch",
     "kind": "everyday",
     "plastic": "plastic",
@@ -967,10 +1134,17 @@
         "label": "Search: children's torch",
         "q": "lommelykt barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "En ekte lommelykt",
+      "why": "Skyggefigurer, hulelek og kveldsturer. Barn elsker et ekte redskap som virker, framfor en lekekopi.",
+      "tip": "Velg en med batterilokk som skrus igjen og vanlige AA/AAA-batterier.",
+      "safety": "Aldri knappecellebatterier. Batterilokket må kreve skrutrekker eller være svært vanskelig å åpne."
+    }
   },
   {
     "id": "magnifier",
+    "code": "0q",
     "name": "Magnifying glass",
     "kind": "everyday",
     "plastic": "some",
@@ -998,10 +1172,16 @@
         "label": "Search: magnifying glass",
         "q": "forstørrelsesglass"
       }
-    ]
+    ],
+    "no": {
+      "name": "Forstørrelsesglass",
+      "why": "I «real thing»-studien holdt et ekte mikroskop på barnas oppmerksomhet mye lenger enn et lekemikroskop. Et forstørrelsesglass gjør en tur til en ekspedisjon: insekter, løv, snøkrystaller.",
+      "tip": "Gi det sammen med et glass til å samle (og slippe fri) insekter."
+    }
   },
   {
     "id": "clothes-pegs",
+    "code": "0r",
     "name": "Wooden clothes pegs",
     "kind": "everyday",
     "plastic": "none",
@@ -1030,10 +1210,17 @@
         "label": "Search: wooden pegs",
         "q": "klesklyper tre"
       }
-    ]
+    ],
+    "no": {
+      "name": "Klesklyper i tre",
+      "why": "Å klype opp en klesklype er utmerket håndtrening før skriving. Fest dem rundt en boks, sorter dem etter farge og bruk dem til å bygge hytte med laken.",
+      "tip": "Legg ved en papplate-ring med tall, der barnet fester like mange klyper som tallet viser.",
+      "safety": "Klyper kan klype fingre, og det er en del av læringen; fjærene kan løsne på billige klyper."
+    }
   },
   {
     "id": "contrast-book",
+    "code": "0s",
     "name": "High-contrast baby book",
     "kind": "book",
     "plastic": "none",
@@ -1069,10 +1256,16 @@
         "url": "https://www.ikea.com/no/no/p/groenfink-barnebok-flerfarget-10572466/",
         "price": 129
       }
-    ]
+    ],
+    "no": {
+      "name": "Babybok med sterke kontraster",
+      "why": "Nyfødte ser sterke kontraster og ansikter best. En pappbok med kraftige svart-hvitt-bilder er noe å se på sammen når babyen ligger på magen og mens dere prater, og AAP anbefaler lesing fra fødselen av.",
+      "tip": "Brett den opp på gulvet foran en baby som ligger på magen."
+    }
   },
   {
     "id": "board-books",
+    "code": "0t",
     "name": "Board books",
     "kind": "book",
     "plastic": "none",
@@ -1105,10 +1298,16 @@
         "label": "Secondhand board books",
         "q": "pekebøker"
       }
-    ]
+    ],
+    "no": {
+      "name": "Pappbøker",
+      "why": "Felles lesing fra tidlig spedbarnsalder henger sammen med ordforråd og leseferdigheter flere år senere. Bøker ga også mer samtale fram og tilbake enn elektroniske leker i Sosas studie.",
+      "tip": "Velg solide bøker med ekte bilder av dyr eller hverdagsting til de minste. Til litt eldre småbarn: bøker med rim og gjentakelser."
+    }
   },
   {
     "id": "flap-books",
+    "code": "0u",
     "name": "Lift-the-flap books",
     "kind": "book",
     "plastic": "none",
@@ -1137,10 +1336,16 @@
         "label": "Search: lift-the-flap books",
         "q": "løft og se bok"
       }
-    ]
+    ],
+    "no": {
+      "name": "Bøker med klaffer",
+      "why": "Ting som gjemmer seg bak klaffer, kombinerer lesing med objektpermanens og finmotorisk trening. Småbarn vil ha dem lest igjen og igjen.",
+      "tip": "Klassikere som «Hvor er Tassen?» blir aldri gamle."
+    }
   },
   {
     "id": "picture-books",
+    "code": "0v",
     "name": "Picture books with a story",
     "kind": "book",
     "plastic": "none",
@@ -1173,10 +1378,16 @@
         "label": "Secondhand picture books",
         "q": "bildebøker barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Bildebøker med en historie",
+      "why": "Historier bygger ordforråd, fortelleevne og empati. Å snakke om bildene sammen er den «dialogiske lesingen» som styrker språket mest.",
+      "tip": "Skriv en kort hilsen på første side."
+    }
   },
   {
     "id": "baby-mirror",
+    "code": "0w",
     "name": "Baby-safe floor mirror",
     "kind": "toy",
     "plastic": "plastic",
@@ -1211,10 +1422,17 @@
         "label": "Search: baby mirror",
         "q": "babyspeil"
       }
-    ]
+    ],
+    "no": {
+      "name": "Babysikkert gulvspeil",
+      "why": "Et speil gjør mageleie mer spennende: babyer løfter hodet for å se på «den andre babyen». Å kjenne igjen seg selv kommer mye senere (rundt 18–24 måneder), og det er fascinerende å se.",
+      "tip": "Velg et knusesikkert akrylspeil laget for babyer.",
+      "safety": "Aldri speil av glass på gulvet."
+    }
   },
   {
     "id": "play-gym",
+    "code": "0x",
     "name": "Wooden play gym",
     "kind": "toy",
     "plastic": "some",
@@ -1251,10 +1469,17 @@
         "url": "https://www.ikea.com/no/no/p/gulligast-babygym-flerfarget-90484258/",
         "price": 399
       }
-    ]
+    ],
+    "no": {
+      "name": "Babygym i tre",
+      "why": "Ting som henger, først til å se på, så slå etter og til slutt gripe, følger utviklingen fra nyfødt til gripealder tett. En enkel treramme gir mindre overstimulering enn elektroniske babygymer med blinkende lys.",
+      "tip": "Bytt ut det som henger innimellom, så det er noe nytt å oppdage (en skje, en myk ring).",
+      "safety": "Fjern den når babyen kan dra seg opp i den."
+    }
   },
   {
     "id": "play-mat",
+    "code": "0y",
     "name": "Play mat for tummy time",
     "kind": "toy",
     "plastic": "plastic",
@@ -1284,10 +1509,16 @@
         "url": "https://www.ikea.com/no/no/p/sandbi-leketeppe-skandinavisk-natur-flerfarget-40564484/",
         "price": 399
       }
-    ]
+    ],
+    "no": {
+      "name": "Lekematte til mageleie",
+      "why": "Minst 30 minutter mageleie om dagen, fordelt utover, henger sammen med at barnet tidligere ruller, sitter og kryper. En myk matte med noe å se på gjør det hyggeligere.",
+      "tip": "Et tykt bomullsteppe fungerer fint. Matten gjør det mest til en fin gave."
+    }
   },
   {
     "id": "mobile",
+    "code": "0z",
     "name": "Simple mobile",
     "kind": "toy",
     "plastic": "some",
@@ -1316,10 +1547,17 @@
         "url": "https://www.ikea.com/no/no/p/sandbi-uro-skandinavisk-natur-flerfarget-20564456/",
         "price": 129
       }
-    ]
+    ],
+    "no": {
+      "name": "Enkel uro",
+      "why": "Former som beveger seg sakte er bra for øynene til små babyer, som følger bevegelse og kontraster. Det er et rolig alternativ til skjerm.",
+      "tip": "Heng den over stellebordet, der babyen er mye våken.",
+      "safety": "Fjern den fra sengen når babyen kan komme seg opp på hender og knær."
+    }
   },
   {
     "id": "rattle",
+    "code": "0A",
     "name": "Soft rattle",
     "kind": "toy",
     "plastic": "some",
@@ -1353,10 +1591,15 @@
         "url": "https://www.ikea.com/no/no/p/gulligast-rangle-gra-bla-90484263/",
         "price": 59
       }
-    ]
+    ],
+    "no": {
+      "name": "Myk rangle",
+      "why": "Rundt 3–4 måneder begynner babyer å holde ting, og en rangle belønner hver risting med en lyd. Det er den første leksjonen i «jeg kan få ting til å skje»."
+    }
   },
   {
     "id": "teether",
+    "code": "0B",
     "name": "Natural rubber teether",
     "kind": "toy",
     "plastic": "none",
@@ -1389,10 +1632,16 @@
         "label": "Search: teether",
         "q": "bitering"
       }
-    ]
+    ],
+    "no": {
+      "name": "Bitering i naturgummi",
+      "why": "Alt havner i munnen i denne alderen. Det er slik babyer utforsker. En bitering i naturgummi er lett å gripe og plastfri.",
+      "safety": "Ikke bruk ravkjede (fare for kvelning og strangulering). Sjekk jevnlig for sprekker."
+    }
   },
   {
     "id": "fabric-ball",
+    "code": "0C",
     "name": "Soft fabric ball",
     "kind": "toy",
     "plastic": "some",
@@ -1421,10 +1670,15 @@
         "url": "https://www.ikea.com/no/no/p/sandbi-toyleke-ball-flerfarget-70564473/",
         "price": 39
       }
-    ]
+    ],
+    "no": {
+      "name": "Myk stoffball",
+      "why": "Gripe, smake, trille, jage, kaste: en ball følger barnet fra det strekker seg etter ting til det løper. Å trille den fram og tilbake er også en tidlig lek i å vente på tur."
+    }
   },
   {
     "id": "object-permanence-box",
+    "code": "0D",
     "name": "Object permanence box",
     "kind": "toy",
     "plastic": "none",
@@ -1457,10 +1711,16 @@
         "label": "Search: object permanence box",
         "q": "montessori object permanence box"
       }
-    ]
+    ],
+    "no": {
+      "name": "Gjemmeboks (objektpermanens)",
+      "why": "Mellom 8 og 12 måneder begynner babyer å lete etter ting som er gjemt. En boks der ballen forsvinner og triller ut igjen er den oppdagelsen gjort om til lek.",
+      "tip": "Lag selv: en skoeske med et hull i lokket og en tennisball."
+    }
   },
   {
     "id": "stacking-cups",
+    "code": "0E",
     "name": "Stacking cups",
     "kind": "toy",
     "plastic": "plastic",
@@ -1495,10 +1755,16 @@
         "label": "Search: stacking cups",
         "q": "stablekopper"
       }
-    ]
+    ],
+    "no": {
+      "name": "Stablebeger",
+      "why": "Først slås de mot hverandre og puttes i munnen, så puttes de i hverandre, så stables de til tårn, og senere blir de badeleker. Få leker varer så lenge eller lærer bort størrelsesrekkefølge så godt.",
+      "tip": "Plastfritt alternativ: stålboller eller målebeger."
+    }
   },
   {
     "id": "pull-toy",
+    "code": "0F",
     "name": "Pull-along toy",
     "kind": "toy",
     "plastic": "some",
@@ -1526,10 +1792,16 @@
         "url": "https://www.ikea.com/no/no/p/uppsta-trekkleke-pinnsvin-flerfarget-90504666/",
         "price": 79
       }
-    ]
+    ],
+    "no": {
+      "name": "Trekkeleke",
+      "why": "Barn som nettopp har lært å gå, elsker å ha noe som følger etter dem. Det motiverer til å gå og gir en følelse av kontroll.",
+      "safety": "Snorer under 30 cm for barn under 3 år."
+    }
   },
   {
     "id": "push-walker",
+    "code": "0G",
     "name": "Push walker",
     "kind": "toy",
     "plastic": "some",
@@ -1562,10 +1834,16 @@
         "label": "Secondhand push walkers",
         "q": "gåvogn tre"
       }
-    ]
+    ],
+    "no": {
+      "name": "Gåvogn",
+      "why": "Å skyve en stødig gåvogn lar en baby som drar seg opp øve på å gå på egne premisser. Senere blir den en vogn for å frakte skatter.",
+      "safety": "Velg en gåvogn å skyve, aldri en gåstol barnet sitter i (de henger sammen med skader)."
+    }
   },
   {
     "id": "shape-sorter",
+    "code": "0H",
     "name": "Wooden shape sorter",
     "kind": "toy",
     "plastic": "none",
@@ -1598,10 +1876,16 @@
         "label": "Search: shape sorter",
         "q": "puttekasse"
       }
-    ]
+    ],
+    "no": {
+      "name": "Puttekasse i tre",
+      "why": "Å få former inn i hull er romlig problemløsning: snu, prøve, prøve igjen. Små barn elsker uansett å putte ting i hull.",
+      "tip": "Begynn med bare én eller to former, og legg til flere etter hvert."
+    }
   },
   {
     "id": "bead-maze",
+    "code": "0I",
     "name": "Bead maze",
     "kind": "toy",
     "plastic": "none",
@@ -1628,10 +1912,15 @@
         "url": "https://www.ikea.com/no/no/p/uppsta-kulelabyrint-flerfarget-10562491/",
         "price": 199
       }
-    ]
+    ],
+    "no": {
+      "name": "Kulerulle",
+      "why": "Å skyve kuler langs vaieren trener øye-hånd-koordinasjon og evnen til å følge med blikket, og kulene kan ikke falle av."
+    }
   },
   {
     "id": "wooden-blocks",
+    "code": "0J",
     "name": "Wooden blocks",
     "kind": "toy",
     "plastic": "none",
@@ -1673,10 +1962,16 @@
         "label": "Secondhand wooden blocks",
         "q": "treklosser"
       }
-    ]
+    ],
+    "no": {
+      "name": "Klosser i tre",
+      "why": "Barn som var flinkere til å kopiere klossbygg som 3-åringer, var flinkere i tidlig matte, og klossferdigheter som 4-åring er knyttet til matteresultater flere år senere. Klosser brukes fra det første tårnet som 1-åring til hele byer som 7-åring.",
+      "tip": "Begynn med et enkelt sett grunnklosser, og fyll på med samme merke eller størrelse hvert år. De fleste familier går tom for klosser lenge før barnet mister interessen. Bokstavklosser, dyr og små figurer passer rett inn."
+    }
   },
   {
     "id": "crane-blocks",
+    "code": "0K",
     "name": "Crane with blocks",
     "kind": "toy",
     "plastic": "some",
@@ -1705,10 +2000,15 @@
         "url": "https://www.ikea.com/no/no/p/uppsta-heisekran-med-klosser-flerfarget-bok-40580851/",
         "price": 249
       }
-    ]
+    ],
+    "no": {
+      "name": "Kran med klosser",
+      "why": "Å heise klosser kombinerer bygging med mekanikk: hvordan en sveiv og et tau virker. Den er fin til å bygge sammen."
+    }
   },
   {
     "id": "duplo",
+    "code": "0L",
     "name": "Duplo",
     "kind": "toy",
     "plastic": "plastic",
@@ -1744,10 +2044,16 @@
         "label": "Search: Duplo",
         "q": "duplo"
       }
-    ]
+    ],
+    "no": {
+      "name": "Duplo",
+      "why": "Klosser som låses sammen er bygge- og romlig lek som små barn faktisk får til. Holdbare, kan kombineres i det uendelige og lette å selge videre, år etter år.",
+      "tip": "Duplo passer med vanlig LEGO, så klossene blir brukt videre når barnet vokser. Det finnes masse brukt Duplo på FINN, så det er plast uten å kjøpe ny plast."
+    }
   },
   {
     "id": "knob-puzzle",
+    "code": "0M",
     "name": "Knob puzzle",
     "kind": "toy",
     "plastic": "none",
@@ -1779,10 +2085,16 @@
         "label": "Search: wooden puzzle",
         "q": "knottpuslespill"
       }
-    ]
+    ],
+    "no": {
+      "name": "Knottpuslespill",
+      "why": "Pusling mellom 2 og 4 år ga bedre romlig evne ved 4½ år, også etter at det var tatt hensyn til familiens inntekt og hvor mye foreldrene snakket. Knottpuslespill er inngangen.",
+      "tip": "Begynn med 3–5 brikker med kjente former eller dyr."
+    }
   },
   {
     "id": "jigsaw-puzzle",
+    "code": "0N",
     "name": "First jigsaw puzzles",
     "kind": "toy",
     "plastic": "none",
@@ -1815,10 +2127,16 @@
         "label": "Search: children's puzzles",
         "q": "puslespill barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Første puslespill",
+      "why": "Å snu brikker så de passer er mental rotasjon, en romlig ferdighet knyttet til realfag senere. Å pusle sammen er også fin tid til å prate.",
+      "tip": "4–12 brikker som 3-åring, 20–50 brikker som 5-åring."
+    }
   },
   {
     "id": "play-cookware",
+    "code": "0O",
     "name": "Small steel pots and pans",
     "kind": "toy",
     "plastic": "none",
@@ -1856,10 +2174,16 @@
         "url": "https://www.ikea.com/no/no/p/duktig-sma-kjokkenredskaper-5-deler-flerfarget-80130168/",
         "price": 99
       }
-    ]
+    ],
+    "no": {
+      "name": "Små gryter og panner i stål",
+      "why": "Å late som man lager mat er den tidligste rolleleken (å mate en dukke dukker opp rundt 18 måneder). Stålutgaver ser og høres ekte ut, og det liker barn best.",
+      "tip": "Kombiner med noen ekte kjøkkenting i stedet for å kjøpe et helt lekekjøkken."
+    }
   },
   {
     "id": "play-food",
+    "code": "0P",
     "name": "Fabric play food",
     "kind": "toy",
     "plastic": "some",
@@ -1888,10 +2212,16 @@
         "url": "https://www.ikea.com/no/no/p/duktig-lekegronnsaker-14-deler-10185748/",
         "price": 149
       }
-    ]
+    ],
+    "no": {
+      "name": "Lekemat i stoff",
+      "why": "Å sette navn på, sortere og «servere» mat er språktrening i forkledning, og det støtter rolleleken som henger sammen med sosial og språklig utvikling.",
+      "tip": "Ekte frukt i en kurv fungerer også, bare ikke så lenge."
+    }
   },
   {
     "id": "doll-bed",
+    "code": "0Q",
     "name": "Doll or teddy with a bed",
     "kind": "toy",
     "plastic": "some",
@@ -1926,10 +2256,15 @@
         "label": "Secondhand doll beds",
         "q": "dukkeseng"
       }
-    ]
+    ],
+    "no": {
+      "name": "Dukke eller bamse med seng",
+      "why": "Å stelle en dukke (mate, legge den) er slik små barn øver på hverdagsrutiner og empati. Det er en av CDCs milepæler for rollelek ved 18 måneder."
+    }
   },
   {
     "id": "soft-toy",
+    "code": "0R",
     "name": "A cuddly soft toy",
     "kind": "toy",
     "plastic": "plastic",
@@ -1965,10 +2300,17 @@
         "label": "Search: organic cotton soft toy",
         "q": "kosedyr økologisk bomull"
       }
-    ]
+    ],
+    "no": {
+      "name": "Et kosedyr",
+      "why": "En kosebamse hjelper mange små barn gjennom overganger og legging, og blir en hovedperson i rolleleken.",
+      "tip": "Merk: de fleste kosedyr er av polyester (plast). Se etter økologisk bomull/ull hvis du vil ha plastfritt.",
+      "safety": "Hold kosedyr ute av sengen til babyer under 1 år."
+    }
   },
   {
     "id": "hand-puppets",
+    "code": "0S",
     "name": "Hand and finger puppets",
     "kind": "toy",
     "plastic": "some",
@@ -2005,10 +2347,15 @@
         "url": "https://www.ikea.com/no/no/p/natthaeger-handdukke-3-stk-krokodille-sebra-tiger-flerfarget-20597254/",
         "price": 149
       }
-    ]
+    ],
+    "no": {
+      "name": "Hånddukker og fingerdukker",
+      "why": "En hånddukke er en leke som bare virker når en voksen snakker, og det er akkurat den typen samspill AAP sier betyr mest. Større barn bruker dem til å fortelle egne historier."
+    }
   },
   {
     "id": "wooden-train",
+    "code": "0T",
     "name": "Wooden train set",
     "kind": "toy",
     "plastic": "some",
@@ -2045,10 +2392,17 @@
         "label": "Secondhand BRIO / wooden track",
         "q": "brio togbane"
       }
-    ]
+    ],
+    "no": {
+      "name": "Togbane i tre",
+      "why": "Å bygge en bane er romlig planlegging, og å kjøre toget er fortellerlek. Alle de store merkene passer sammen, så banen kan vokse over år og mellom venner.",
+      "tip": "Begynn med et grunnsett. Flere skinner er alltid den beste oppfølgingsgaven.",
+      "safety": "Noen sett har små koblingsdeler. Sjekk aldersmerkingen for barn under 3 år."
+    }
   },
   {
     "id": "toy-vehicles",
+    "code": "0U",
     "name": "Chunky toy vehicles",
     "kind": "toy",
     "plastic": "some",
@@ -2078,10 +2432,15 @@
         "url": "https://www.ikea.com/no/no/p/lillabo-kjoretoy-4-deler-sportsbil-skolebuss-soppelbil-politibil-flerfarget-50589361/",
         "price": 129
       }
-    ]
+    ],
+    "no": {
+      "name": "Store, solide lekebiler",
+      "why": "Å kjøre biler er tidlig rollelek og en flott kilde til ord (brrrm, buss, stopp!). Større, solide kjøretøy er trygge for små hender."
+    }
   },
   {
     "id": "play-tunnel",
+    "code": "0V",
     "name": "Play tunnel",
     "kind": "toy",
     "plastic": "plastic",
@@ -2112,10 +2471,16 @@
         "url": "https://www.ikea.com/no/no/p/dvaergmas-leketunnel-gul-beige-40641473/",
         "price": 199
       }
-    ]
+    ],
+    "no": {
+      "name": "Lektunnel",
+      "why": "Å krype gjennom tunneler bygger styrke og koordinasjon, og titt-tei i den andre enden er objektpermanens igjen.",
+      "tip": "Plastfritt alternativ: en rad med åpne pappesker."
+    }
   },
   {
     "id": "play-tent",
+    "code": "0W",
     "name": "Play tent",
     "kind": "toy",
     "plastic": "some",
@@ -2151,10 +2516,16 @@
         "url": "https://www.ikea.com/no/no/p/cirkustaelt-leketelt-rod-bla-hvit-70581364/",
         "price": 299
       }
-    ]
+    ],
+    "no": {
+      "name": "Lekestelt",
+      "why": "Et eget gjemmested: lesekrok, hus, butikk eller leir. Et lite rom gir barnet en følelse av kontroll og inviterer til rollelek.",
+      "tip": "Eller gi et laken og klesklyper til hyttebygging."
+    }
   },
   {
     "id": "balance-board",
+    "code": "0X",
     "name": "Wooden balance board",
     "kind": "toy",
     "plastic": "none",
@@ -2189,10 +2560,16 @@
         "label": "Secondhand balance boards",
         "q": "balansebrett"
       }
-    ]
+    ],
+    "no": {
+      "name": "Balansebrett i tre",
+      "why": "Vippe, bro, sklie, bil, seng: ett buet brett har dusinvis av bruksområder og bygger balanse og kjernemuskulatur. Det er en perfekt åpen leke.",
+      "safety": "Bruk det på et teppe eller mykt gulv."
+    }
   },
   {
     "id": "climbing-triangle",
+    "code": "0Y",
     "name": "Pikler climbing triangle",
     "kind": "toy",
     "plastic": "none",
@@ -2227,10 +2604,17 @@
         "label": "Secondhand Pikler triangles",
         "q": "pikler"
       }
-    ]
+    ],
+    "no": {
+      "name": "Pikler-klatretrekant",
+      "why": "Lar babyer og små barn øve på å dra seg opp, klatre og komme trygt ned i sitt eget tempo, og det bygger styrke, risikovurdering og selvtillit.",
+      "tip": "En større fellesgave. Vurder å spleise.",
+      "safety": "Legg en myk matte under, og vær i nærheten de første gangene."
+    }
   },
   {
     "id": "balance-bike",
+    "code": "0Z",
     "name": "Balance bike",
     "kind": "toy",
     "plastic": "some",
@@ -2263,10 +2647,16 @@
         "label": "Secondhand balance bikes",
         "q": "balansesykkel"
       }
-    ]
+    ],
+    "no": {
+      "name": "Balansesykkel",
+      "why": "Barn lærer balansen først og hopper som regel over støttehjul senere. Det er daglig mosjon forkledd som moro, i tråd med WHOs anbefaling om 3 timer aktivitet om dagen.",
+      "tip": "En hjelm er en fin tilleggsgave."
+    }
   },
   {
     "id": "sand-toys",
+    "code": "10",
     "name": "Sand toys",
     "kind": "toy",
     "plastic": "plastic",
@@ -2299,10 +2689,16 @@
         "url": "https://www.ikea.com/no/no/p/sandig-sandleker-7-deler-flerfarget-00577676/",
         "price": 99
       }
-    ]
+    ],
+    "no": {
+      "name": "Sandleker",
+      "why": "Å fylle, helle, bygge og bake kaker av sand er sanse-, motorikk- og rollelek i ett, utendørs.",
+      "tip": "Plastfritt alternativ: gamle metallskjeer, en stålbolle og et muffinsbrett."
+    }
   },
   {
     "id": "instruments",
+    "code": "11",
     "name": "Simple instruments",
     "kind": "toy",
     "plastic": "some",
@@ -2337,10 +2733,17 @@
         "label": "Search: instruments",
         "q": "musikkinstrumenter"
       }
-    ]
+    ],
+    "no": {
+      "name": "Enkle instrumenter",
+      "why": "Rasleegg, en tromme eller en xylofon gjør musikk til noe man gjør sammen. Rytme og sang sammen støtter språk og det å vente på tur.",
+      "tip": "Rasleegg for babyer, xylofon eller tromme fra rundt 1 år.",
+      "safety": "Hjemmelagde rasleinstrumenter må være forseglet så ingenting smått kan falle ut."
+    }
   },
   {
     "id": "easel",
+    "code": "12",
     "name": "Easel with chalkboard",
     "kind": "toy",
     "plastic": "none",
@@ -2371,10 +2774,16 @@
         "url": "https://www.ikea.com/no/no/p/mala-tavle-pa-stativ-bartre-30488966/",
         "price": 279
       }
-    ]
+    ],
+    "no": {
+      "name": "Staffeli med tavle",
+      "why": "Når barnet tegner stående, bruker det hele armen og skulderen. Det er god forberedelse til å skrive, og en fast tegneplass frister til å tegne hver dag.",
+      "tip": "Sett MÅLA-papirrullen på toppen."
+    }
   },
   {
     "id": "first-board-game",
+    "code": "13",
     "name": "A first cooperative board game",
     "kind": "toy",
     "plastic": "some",
@@ -2409,10 +2818,16 @@
         "label": "Search: children's games",
         "q": "spill barn 3 år"
       }
-    ]
+    ],
+    "no": {
+      "name": "Et første samarbeidsspill",
+      "why": "Å vente på tur, følge regler og telle ruter er noe 3–4-åringer lærer. I samarbeidsspill vinner eller taper alle sammen, og det er lettere for de små å takle.",
+      "tip": "HABA «Min første frukthage» er en klassiker fra 2 år."
+    }
   },
   {
     "id": "domino",
+    "code": "14",
     "name": "Picture domino",
     "kind": "toy",
     "plastic": "none",
@@ -2440,10 +2855,15 @@
         "url": "https://www.ikea.com/no/no/p/fjaellvrak-domino-40582355/",
         "price": 59
       }
-    ]
+    ],
+    "no": {
+      "name": "Bildedomino",
+      "why": "Å matche bilder eller prikker og vente på tur gir tallforståelse og tålmodighet. Det går fort nok for korte konsentrasjonsspenn."
+    }
   },
   {
     "id": "memory-game",
+    "code": "15",
     "name": "Memory card game",
     "kind": "toy",
     "plastic": "none",
@@ -2470,10 +2890,16 @@
         "label": "Search: memory game",
         "q": "memo spill barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Memoryspill",
+      "why": "Å huske hvor paret ligger trener arbeidsminnet, og barna slår ofte de voksne.",
+      "tip": "Start med 6–8 par med bildesiden opp, og snu dem etter hvert."
+    }
   },
   {
     "id": "magnetic-tiles",
+    "code": "16",
     "name": "Magnetic building tiles",
     "kind": "toy",
     "plastic": "plastic",
@@ -2510,10 +2936,17 @@
         "label": "Secondhand magnetic tiles",
         "q": "magna tiles"
       }
-    ]
+    ],
+    "no": {
+      "name": "Magnetfliser",
+      "why": "De gjør det lett å bygge i 3D: flate former blir kuber, hus og tårn. Det er den samme romforståelsen som henger sammen med tidlig matematikk, og i en studie i barnehage var de blant lekene som ga best lek.",
+      "tip": "De fleste store merker av kvadrater og trekanter passer sammen, så et startsett kan vokse i mange år. Flere fliser, eller noen store kvadrater til tak og gulv, er en enkel gave senere.",
+      "safety": "Kjøp bare fra seriøse butikker, og kast fliser som har sprukket. Løse magneter er svært farlige hvis de svelges."
+    }
   },
   {
     "id": "dress-up",
+    "code": "17",
     "name": "Dress-up box",
     "kind": "everyday",
     "plastic": "some",
@@ -2545,10 +2978,17 @@
         "label": "Secondhand hats and scarves",
         "q": "hatter skjerf"
       }
-    ]
+    ],
+    "no": {
+      "name": "Utkledningskasse",
+      "why": "Gamle hatter, vesker, skjerf og jakker blir til figurer. Det er rollelek, fortelling og øvelse i å kle på seg, alt på en gang.",
+      "tip": "Samle i en kasse fra ditt eget skap eller bruktbutikker. Dropp de ferdige merkekostymene.",
+      "safety": "Ingen snorer eller dragsnorer rundt halsen."
+    }
   },
   {
     "id": "swimming-lessons",
+    "code": "18",
     "name": "Baby swimming or a swimming course",
     "kind": "everyday",
     "plastic": "none",
@@ -2580,10 +3020,17 @@
         "label": "About babysvømming (Norwegian)",
         "url": "https://svomming.no/svomming/svomming-forside/norges-svommeskole/babysvomming/"
       }
-    ]
+    ],
+    "no": {
+      "name": "Babysvømming eller svømmekurs",
+      "why": "Babysvømming (0–2 år) er lek i vann og nærhet med en forelder, ikke beskyttelse mot drukning. Fra rundt 1 år kan svømmekurs senke risikoen for drukning, sammen med andre sikkerhetstiltak.",
+      "tip": "Gi et gavekort på ett kurssemester. Babysvømming starter vanligvis fra 6–8 uker eller 4 kg; kurs for større barn starter ofte ved 3–5 år. Kommunale bad er ofte billigere enn private svømmeskoler.",
+      "safety": "Ingen kurs gjør et lite barn trygt i vann. En voksen innen rekkevidde er fortsatt regelen."
+    }
   },
   {
     "id": "museum-pass",
+    "code": "19",
     "name": "Family pass to a museum or science centre",
     "kind": "everyday",
     "plastic": "none",
@@ -2607,10 +3054,16 @@
       "haden",
       "chan-mogilner"
     ],
-    "links": []
+    "links": [],
+    "no": {
+      "name": "Familiekort til et museum eller vitensenter",
+      "why": "Museer der man kan ta på ting, gir familien noe nytt å snakke om. I en studie lærte barna mer når foreldrene snakket med dem om det de gjorde ved utstillingene. Felles opplevelser knytter også giver og mottaker tettere sammen enn ting gjør.",
+      "tip": "Et årskort for familien lønner seg som regel etter 2–3 besøk, og da er korte besøk helt greit. Eksempler: Norsk Teknisk Museum, Norsk Folkemuseum eller vitensenteret i din region."
+    }
   },
   {
     "id": "animal-day",
+    "code": "1a",
     "name": "A day with animals: farm, animal park or aquarium",
     "kind": "everyday",
     "plastic": "none",
@@ -2636,10 +3089,17 @@
       "chan-mogilner",
       "fhi-farm"
     ],
-    "links": []
+    "links": [],
+    "no": {
+      "name": "En dag med dyr: gård, dyrepark eller akvarium",
+      "why": "Små barn bruker mer tid på og snakker mer om levende dyr enn leker. Et gårdsbesøk, en dyrepark eller et akvarium er en tur med mye å peke på og sette navn på.",
+      "tip": "Mange gårder har åpen gård og klappeområder. Dra tidlig på dagen, før de minste blir slitne.",
+      "safety": "Vask hendene med såpe og vann etter at dere har tatt på dyr og før dere spiser. Ikke la barn smake på upasteurisert melk."
+    }
   },
   {
     "id": "theatre-trip",
+    "code": "1b",
     "name": "Children's theatre or a first cinema trip",
     "kind": "everyday",
     "plastic": "none",
@@ -2661,10 +3121,16 @@
     "sources": [
       "chan-mogilner"
     ],
-    "links": []
+    "links": [],
+    "no": {
+      "name": "Barneteater eller første kinotur",
+      "why": "En første forestilling er en felles opplevelse å snakke om i ukevis. Opplevelsesgaver gjør gjerne at giver og mottaker føler seg nærmere hverandre enn tinggaver.",
+      "tip": "Velg en kort forestilling (under en time) laget for alderen, eller en familievisning på kino om formiddagen. Sitt ved midtgangen så dere kan gå ut."
+    }
   },
   {
     "id": "library-outing",
+    "code": "1c",
     "name": "Library card and a regular library trip",
     "kind": "everyday",
     "plastic": "none",
@@ -2687,10 +3153,16 @@
       "literacy",
       "library-act"
     ],
-    "links": []
+    "links": [],
+    "no": {
+      "name": "Lånekort og faste turer på biblioteket",
+      "why": "Å lese sammen fra fødselen gir ordforråd og senere leseferdigheter. Norske folkebibliotek låner ut gratis etter loven, så faste turer gir jevn tilgang på nye bøker uten at det koster noe.",
+      "tip": "Lag et gavekort: «Bibliotekmorgen med meg, en gang i måneden». Legg ved en tøypose til bøkene. Mange bibliotek har også gratis eventyrstund for babyer og småbarn."
+    }
   },
   {
     "id": "day-with-me",
+    "code": "1d",
     "name": "A 'day with me' voucher",
     "kind": "everyday",
     "plastic": "none",
@@ -2713,10 +3185,16 @@
       "chan-mogilner",
       "aap-play"
     ],
-    "links": []
+    "links": [],
+    "no": {
+      "name": "Et gavekort på «en dag med meg»",
+      "why": "Tid med besteforeldre, gudforeldre eller en tante er selve gaven. Opplevelser sammen med giveren styrker relasjonen mer enn ting, og lek med en omsorgsfull voksen er det viktigste for små barn.",
+      "tip": "Skriv en dato på kortet så det faktisk blir noe av. La barnet velge deler av dagen. Gjenta hvert år, så blir det en tradisjon."
+    }
   },
   {
     "id": "music-class",
+    "code": "1e",
     "name": "Baby and toddler music class",
     "kind": "everyday",
     "plastic": "none",
@@ -2739,10 +3217,16 @@
     "sources": [
       "gerry"
     ],
-    "links": []
+    "links": [],
+    "no": {
+      "name": "Musikkgruppe for baby og småbarn",
+      "why": "I en randomisert studie viste babyer som gikk på aktiv musikkgruppe med en forelder (synge, bevege seg, spille) tidligere musikkforståelse, flere kommunikative gester og lettere sosial atferd enn babyer som bare lyttet til musikk.",
+      "tip": "Velg en gruppe der forelderen synger og beveger seg med barnet, ikke en der barna bare lytter. Babysang i kirker og bibliotek er ofte gratis eller billig."
+    }
   },
   {
     "id": "fishing-trip",
+    "code": "1f",
     "name": "First fishing trip with a simple rod",
     "kind": "everyday",
     "plastic": "some",
@@ -2778,10 +3262,17 @@
         "label": "Secondhand children's fishing rod",
         "q": "fiskestang barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Første fisketur med en enkel stang",
+      "why": "Fisking er tid ute ved vannet, med venting, titting og ekte utstyr. Stangfiske i sjøen er gratis for alle i Norge, og barn under 16 kan som regel fiske gratis i ferskvann store deler av sesongen.",
+      "tip": "Gi en kort, enkel stang med løfte om en tur sammen. Sjekk lokale regler for vann og elver (laksevassdrag er et unntak fra gratis fiske).",
+      "safety": "Barn har redningsvest med krage ved vann og på brygger, og en voksen holder seg nær. Klem mothaken flat."
+    }
   },
   {
     "id": "berry-trip",
+    "code": "1g",
     "name": "Berry-picking trip with a small bucket",
     "kind": "everyday",
     "plastic": "some",
@@ -2819,10 +3310,17 @@
         "label": "Small bucket",
         "q": "bøtte"
       }
-    ]
+    ],
+    "no": {
+      "name": "Bærtur med eget lite spann",
+      "why": "Bærplukking er fri lek i naturen med et tydelig mål, og å gå i ulendt terreng teller med i den daglige aktiviteten små barn trenger. Allemannsretten lar alle plukke bær i utmark.",
+      "tip": "Gi et lite spann de kan ha selv, og en dato i blåbær- eller tyttebærsesongen. Reglene for multer er strengere i Nordland, Troms og Finnmark.",
+      "safety": "Lær bort regelen «bare spis det en voksen har sjekket». Se etter flått etterpå, særlig i hodebunnen, bak ørene og i knehasene."
+    }
   },
   {
     "id": "sledge",
+    "code": "1h",
     "name": "Sledge (akebrett or kjelke)",
     "kind": "toy",
     "plastic": "plastic",
@@ -2862,10 +3360,17 @@
         "label": "Secondhand sledge",
         "q": "kjelke"
       }
-    ]
+    ],
+    "no": {
+      "name": "Akebrett eller kjelke",
+      "why": "Et akebrett får hele familien ut på vinterdager, med mye klatring opp bakken igjen. Barn på 1–4 år trenger minst tre timer aktivitet om dagen.",
+      "tip": "Med plass til en voksen kan du ake sammen med barn under 5. Brukte akebrett og kjelker er lette å finne.",
+      "safety": "Hjelm på (sykkelhjelm holder). Barn under 5 aker med en voksen. Velg en slak bakke med langt, flatt utløp unna vei, vann og trær. Ikke skjerf."
+    }
   },
   {
     "id": "kite",
+    "code": "1i",
     "name": "Kite",
     "kind": "toy",
     "plastic": "plastic",
@@ -2900,10 +3405,17 @@
         "label": "Kites",
         "q": "drage"
       }
-    ]
+    ],
+    "no": {
+      "name": "Drage",
+      "why": "En drage trenger en voksen og et barn sammen, og gjør en vindfull dag til en grunn til å være ute. Å løpe, dra og se den reagere er årsak og virkning i stor skala.",
+      "tip": "Velg en enkel drage med én line (rombe eller delta). Den voksne sender den opp, barnet holder håndtaket.",
+      "safety": "Fly på åpne jorder unna strømledninger og veier. Ikke surr linen rundt fingre eller håndledd."
+    }
   },
   {
     "id": "picnic-kit",
+    "code": "1j",
     "name": "Picnic blanket and thermos",
     "kind": "everyday",
     "plastic": "some",
@@ -2939,10 +3451,17 @@
         "label": "Thermos",
         "q": "termos"
       }
-    ]
+    ],
+    "no": {
+      "name": "Pledd og termos til tur",
+      "why": "Et pledd og noe varmt å drikke gjør en kort gåtur til en tur, hele året. Fri lek i naturen henger sammen med mer fysisk aktivitet, bedre motorikk og trivsel hos små barn.",
+      "tip": "Velg et pledd med vanntett bakside. Korte turer nær hjemmet slår ambisiøse; DNTs Barnas Turlag har gratis tips og familieturer.",
+      "safety": "Varm drikke kan skålde små barn. Hold termosen utenfor rekkevidde, og avkjøl barnas drikke før de får den."
+    }
   },
   {
     "id": "bird-feeder",
+    "code": "1k",
     "name": "Bird feeder and a bird book",
     "kind": "everyday",
     "plastic": "some",
@@ -2982,10 +3501,17 @@
         "label": "Bird book for children",
         "q": "fuglebok barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Fuglebrett og fuglebok",
+      "why": "Et fuglebrett utenfor kjøkkenvinduet gir familien natur hver dag, og en bildebok hjelper med å sette navn på fuglene. Jevn, hverdagslig kontakt med naturen i barndommen henger sammen med et varig forhold til den.",
+      "tip": "Heng det der barnet kan se det fra bordet. Start med vanlige fugler (kjøttmeis, blåmeis, dompap). Legg til en liten kikkert fra rundt 4 år.",
+      "safety": "Vask fuglebrettet av og til, og vask hendene etter at du har fylt det."
+    }
   },
   {
     "id": "photo-book",
+    "code": "1l",
     "name": "Family photo book",
     "kind": "everyday",
     "plastic": "none",
@@ -3014,10 +3540,16 @@
         "label": "Photo album to fill yourself",
         "q": "fotoalbum"
       }
-    ]
+    ],
+    "no": {
+      "name": "Fotobok med familien",
+      "why": "Å se på bilder og snakke om ting dere har opplevd sammen henger sammen med barns språk, hukommelse og forståelse av følelser, særlig når voksne stiller åpne spørsmål.",
+      "tip": "Fyll den med hverdagsøyeblikk og de viktige menneskene, med navn skrevet inn. Spør «Hva skjedde så?» heller enn å overhøre."
+    }
   },
   {
     "id": "family-tent",
+    "code": "1m",
     "name": "Family tent or tarp for nights outdoors",
     "kind": "everyday",
     "plastic": "plastic",
@@ -3059,10 +3591,17 @@
         "label": "Secondhand tent",
         "q": "telt 4 personer"
       }
-    ]
+    ],
+    "no": {
+      "name": "Familietelt eller tarp til netter ute",
+      "why": "En natt i telt er et stort eventyr for små barn og en billig familieferie. Allemannsretten lar deg telte i utmark, så utstyret blir brukt i mange år.",
+      "tip": "Start i hagen eller nær bilen. En tarp (gapahuk-stil) er billigere og lettere. Telt er lette å finne brukt.",
+      "safety": "Telt minst 150 m fra hus. Bruk aldri primus eller grill inne i teltet."
+    }
   },
   {
     "id": "campfire-kit",
+    "code": "1n",
     "name": "Campfire kit for bålkos",
     "kind": "everyday",
     "plastic": "none",
@@ -3099,10 +3638,17 @@
         "label": "Roasting sticks",
         "q": "grillspyd bål"
       }
-    ]
+    ],
+    "no": {
+      "name": "Bålsett til bålkos",
+      "why": "Et tennstål, grillpinner og en panne til pinnebrød eller pølser gjør en vanlig gåtur til en tur. Barna får hjelpe til med ekte oppgaver: sanke pinner og lage mat.",
+      "tip": "Legg ved et oppskriftskort på pinnebrød.",
+      "safety": "Det er forbudt å gjøre opp ild i eller nær skog fra 15. april til 15. september, med mindre det åpenbart er trygt (f.eks. på snø eller på godkjente bålplasser). Hold et ryddig område rundt bålet og en voksen ved siden av."
+    }
   },
   {
     "id": "cook-together",
+    "code": "1o",
     "name": "Children's cookbook for cooking together",
     "kind": "everyday",
     "plastic": "none",
@@ -3139,10 +3685,17 @@
         "label": "Cookbook for children",
         "q": "kokebok for barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Kokebok for barn til å lage mat sammen",
+      "why": "Førskolebarn foretrekker ekte oppgaver framfor late-som, og en kokebok med bilder gir familien en grunn til å lage mat sammen. I en studie spiste barn som hjalp til med å lage et måltid mer av det, også mer grønnsaker.",
+      "tip": "Velg en bok med bilder av hvert steg. Legg ved en barnesikker kniv eller en trappekrakk.",
+      "safety": "Den voksne tar seg av stekeovn, komfyr og skarpe kniver."
+    }
   },
   {
     "id": "wool-base-layer",
+    "code": "1p",
     "name": "Wool base layer (ullundertøy)",
     "kind": "everyday",
     "plastic": "none",
@@ -3178,10 +3731,17 @@
         "label": "Used wool clothes",
         "q": "ullundertøy barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Ullundertøy",
+      "why": "Tynn ull innerst holder barnet varmt selv når det blir fuktig, noe bomull ikke gjør. I Norge er det standard innerste lag på uteleken i barnehagen fra høst til vår.",
+      "tip": "Til babyer gjør en ullbody samme jobben. Størrelsene er i cm; kjøp én størrelse opp så det holder hele vinteren. Fin merinoull klør minst.",
+      "safety": "Flere tynne lag er bedre enn ett tykt. Unngå bomull innerst når det er kaldt."
+    }
   },
   {
     "id": "wool-socks",
+    "code": "1q",
     "name": "Wool socks",
     "kind": "everyday",
     "plastic": "some",
@@ -3211,10 +3771,17 @@
         "label": "Children's wool socks",
         "q": "ullsokker barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Ullsokker",
+      "why": "Føttene blir kalde først, og ull holder varmen når støvlene blir våte. De fleste familier har aldri nok par som passer.",
+      "tip": "Ullfrotté er varmt i vinterstøvler. Gi to eller tre par i samme farge, så gjør det ikke noe om en sokk forsvinner.",
+      "safety": "Vinterstøvler må ha plass til en tykk sokk; trange støvler gir kaldere føtter."
+    }
   },
   {
     "id": "wool-balaclava",
+    "code": "1r",
     "name": "Wool hat or balaclava (finlandshette)",
     "kind": "everyday",
     "plastic": "none",
@@ -3245,10 +3812,17 @@
         "label": "Balaclava for children",
         "q": "finlandshette"
       }
-    ]
+    ],
+    "no": {
+      "name": "Ullue eller finlandshette",
+      "why": "En finlandshette dekker hode, ører og hals i ett, så barnet trenger ikke skjerf. Den sitter bedre enn en lue når barnet leker.",
+      "tip": "En tynn en passer under sykkel- eller skihjelm. Velg en med vindtett fôr til de kaldeste dagene.",
+      "safety": "Unngå lange knytebånd under haken. Luer med bånd, skjerf og snorer kan hekte seg fast i lekeapparater."
+    }
   },
   {
     "id": "neck-warmer",
+    "code": "1s",
     "name": "Neck warmer instead of a scarf",
     "kind": "everyday",
     "plastic": "some",
@@ -3279,10 +3853,17 @@
         "label": "Neck warmer for children",
         "q": "hals barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Hals i stedet for skjerf",
+      "why": "En hals (eller buff) holder halsen varm og har ingen løse ender som kan hekte seg fast. Mange barnehager ber om hals i stedet for skjerf.",
+      "tip": "Ull eller ullblanding er varmest. To tynne er bedre enn én tykk, så den ene kan tørke mens den andre er i bruk.",
+      "safety": "Ikke gi skjerf til små barn. Skjerf og dragsnorer er en kjent kvelningsfare i sklier og klatrestativ."
+    }
   },
   {
     "id": "wool-mittens",
+    "code": "1t",
     "name": "Wool mittens",
     "kind": "everyday",
     "plastic": "none",
@@ -3313,10 +3894,17 @@
         "label": "Wool mittens",
         "q": "ullvotter"
       }
-    ]
+    ],
+    "no": {
+      "name": "Ullvotter",
+      "why": "Hendene blir fort kalde og er blant de første stedene barn får frostskader. Ullvotter holder varmen når de er fuktige. En vindtett votte utenpå fungerer til snølek.",
+      "tip": "Votter holder hendene varmere enn hansker. Gi et ekstra par til hylla i barnehagen.",
+      "safety": "Ikke tre en snor gjennom jakkeermene for å feste vottene; det er kvelningsfare på lekeplassen. Bruk heller korte klips på hvert erme."
+    }
   },
   {
     "id": "rain-gear",
+    "code": "1u",
     "name": "Rain set and rubber boots (regntøy og støvler)",
     "kind": "everyday",
     "plastic": "plastic",
@@ -3355,10 +3943,17 @@
         "label": "Used rain gear",
         "q": "regntøy barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Regntøy og støvler",
+      "why": "Barnehager er ute i all slags vær, og regnbukse, regnjakke og støvler står på alle norske barnehagelister. Med dem blir sølepytter og gjørme noe å leke i, ikke en grunn til å være inne.",
+      "tip": "Kjøp romslig, én størrelse opp, så ull får plass under. Strikk under støvlene holder buksa på plass. PU holder seg mykere i kulda enn PVC. Regntøy varer lenge og er lett å finne brukt.",
+      "safety": "Velg en hette som kan tas av eller løsner lett, uten snorer. Sett på refleks til mørke morgener."
+    }
   },
   {
     "id": "sun-hat",
+    "code": "1v",
     "name": "Sun hat with neck cover",
     "kind": "everyday",
     "plastic": "none",
@@ -3389,10 +3984,17 @@
         "label": "UV sun hat for children",
         "q": "solhatt UV barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Solhatt med nakkebeskyttelse",
+      "why": "Barns hud er tynnere og blir lettere solbrent. Norske helseråd for 1–3 år er å bruke mest klær, solhatt og solbriller, og en bred brem eller nakkeflapp beskytter ansikt, ører og nakke.",
+      "tip": "En enkel hatt i bomull eller UV-stoff med nakkeflapp holder. Babyer under 1 år bør ikke være i direkte sol i det hele tatt.",
+      "safety": "Bruk solbeskyttelse fra UV-indeks 3. Hvis hatten har hakestropp, hold den kort."
+    }
   },
   {
     "id": "slippers",
+    "code": "1w",
     "name": "Indoor slippers (tøfler)",
     "kind": "everyday",
     "plastic": "some",
@@ -3424,10 +4026,17 @@
         "label": "Indoor slippers",
         "q": "tøfler"
       }
-    ]
+    ],
+    "no": {
+      "name": "Tøfler til innebruk",
+      "why": "De fleste barnehager ber om innesko eller tøfler. Tøfler med strikk eller borrelås er noe av det første barn klarer å ta på seg selv.",
+      "tip": "Myke skinntøfler med semsket eller sklisikker såle varer lenge. Merk dem, for alle barna har de samme.",
+      "safety": "Velg sklisikre såler til glatte gulv."
+    }
   },
   {
     "id": "sleeping-bag",
+    "code": "1x",
     "name": "Baby sleeping bag (sovepose)",
     "kind": "everyday",
     "plastic": "none",
@@ -3465,10 +4074,17 @@
         "label": "Used baby sleeping bag",
         "q": "sovepose ull"
       }
-    ]
+    ],
+    "no": {
+      "name": "Sovepose til baby",
+      "why": "En sovepose med armhull holder babyen tildekket hele natten uten en løs dyne som kan gli over ansiktet. Både norske og amerikanske råd om trygg søvn nevner den som et alternativ til sengetøy.",
+      "tip": "Soveposer i ull eller ull og bomull fungerer det meste av året. Velg størrelse etter babyens lengde, og pass på at halsåpningen ikke er så stor at hodet kan gli inn.",
+      "safety": "Legg babyen på ryggen, med hodet utildekket og sengen fri for puter og kosedyr. Unngå overoppheting: rundt 18 °C i rommet, og kjenn på magen eller nakken. Ingen vektede soveposer."
+    }
   },
   {
     "id": "reflective-vest",
+    "code": "1y",
     "name": "Reflective vest and reflectors",
     "kind": "everyday",
     "plastic": "plastic",
@@ -3499,10 +4115,17 @@
         "label": "Reflective vest, child size",
         "q": "refleksvest barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Refleksvest og reflekser",
+      "why": "Store deler av barnehageåret er det mørkt i Norge. Med refleks blir en fotgjenger sett på rundt 140 m med nærlys, mot 25–30 m uten. Trygg Trafikk mener refleksvest er det beste for barnehagebarn, fordi den er lett å ta på og kan vaskes.",
+      "tip": "Heng i tillegg en refleks i knehøyde på jakken eller sekken; reflekser som beveger seg, synes best. En vest som passer utenpå vinterdressen, varer i flere år.",
+      "safety": "Bruk minst to reflekser, så barnet blir sett fra alle kanter. Velg CE-merkede reflekser."
+    }
   },
   {
     "id": "bike-helmet",
+    "code": "1z",
     "name": "Children's bike helmet",
     "kind": "everyday",
     "plastic": "plastic",
@@ -3534,10 +4157,17 @@
         "label": "Bike helmet for toddlers",
         "q": "sykkelhjelm barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Sykkelhjelm til barn",
+      "why": "Trengs i sykkelsetet, på balansesykkelen og senere på den første sykkelen. Trygg Trafikk sier at tidlig start gir en vane som varer.",
+      "tip": "Tilpasning: rett på hodet, ca. 2 cm over øyenbrynene, og to fingre plass mellom reim og hake. Barn vokser fra hjelmen, så kjøp etter hodestørrelsen nå. Trygg Trafikk publiserer uavhengige tester av barnehjelmer.",
+      "safety": "Se etter CE-merking og EN 1078 eller EN 1080. EN 1080-hjelmer har grønn spenne som åpner seg ved belastning. Ta alltid av hjelmen før lek på lekeplassen eller klatring. Bytt den etter et hardt slag."
+    }
   },
   {
     "id": "barnehage-backpack",
+    "code": "1A",
     "name": "Small backpack with chest strap",
     "kind": "everyday",
     "plastic": "some",
@@ -3569,10 +4199,17 @@
         "label": "Small backpack for children",
         "q": "barnesekk"
       }
-    ]
+    ],
+    "no": {
+      "name": "Liten sekk med brystreim",
+      "why": "En liten sekk har plass til matboksen, flasken og skiftetøy på tur. Barn liker å bære sine egne ting.",
+      "tip": "Velg en liten en (ca. 5–10 liter); en stor sekk sitter dårlig. Polstrede skulderreimer og brystreim holder den på plass. Vokset canvas eller resirkulert stoff gir mindre plast.",
+      "safety": "Bruk begge reimene og hold vekten lav. AAP oppgir rundt 15 % av kroppsvekten som øvre grense."
+    }
   },
   {
     "id": "bottle-lunchbox",
+    "code": "1B",
     "name": "Steel drinking bottle and lunchbox",
     "kind": "everyday",
     "plastic": "some",
@@ -3610,10 +4247,17 @@
         "label": "Steel food containers",
         "q": "matboks rustfritt stål"
       }
-    ]
+    ],
+    "no": {
+      "name": "Drikkeflaske og matboks i stål",
+      "why": "Norske retningslinjer for barnehager sier at vann alltid skal være tilgjengelig som drikke mellom måltidene, og mange barn har med matpakke på tur. Rustfritt stål varer i årevis.",
+      "tip": "La barnet øve på å åpne lokket hjemme først. Velg en flaske som er lett å rengjøre og rommer ca. 0,35–0,5 l.",
+      "safety": "Sjekk at boksen og flasken er godkjent for mat, og at lokkene ikke har små løse deler."
+    }
   },
   {
     "id": "first-toothbrush",
+    "code": "1C",
     "name": "Soft first toothbrush",
     "kind": "everyday",
     "plastic": "plastic",
@@ -3645,10 +4289,17 @@
         "label": "First toothbrush",
         "q": "første tannbørste"
       }
-    ]
+    ],
+    "no": {
+      "name": "Myk første tannbørste",
+      "why": "Tannpussen starter med den første tannen, ofte ved 6–8 måneder. En liten, myk børste er alt som trengs. Vanlige og elektriske børster fungerer like godt.",
+      "tip": "Gi to: én barnet kan holde og tygge på, og én den voksne pusser med. Det finnes varianter med treskaft, men børstehårene er fortsatt nylon.",
+      "safety": "Bruk en knapt synlig flekk tannkrem med fluor før 1 år og en ertestor mengde fra 3 år. Foreldre bør hjelpe til med tannpussen til barnet er rundt 10 år."
+    }
   },
   {
     "id": "name-labels",
+    "code": "1D",
     "name": "Name labels for clothes",
     "kind": "everyday",
     "plastic": "some",
@@ -3677,10 +4328,16 @@
         "label": "Iron-on name labels",
         "q": "navnelapper"
       }
-    ]
+    ],
+    "no": {
+      "name": "Navnelapper til klær",
+      "why": "Barnehagene ber om at alle klær og sko merkes med barnets navn. Alle familier trenger navnelapper, og få husker å bestille dem.",
+      "tip": "Klistrelapper som tåler vask går raskest. Sett dem også på tøfler, støvler, flaske og matboks. Avklar skrivemåten av navnet med foreldrene før du bestiller."
+    }
   },
   {
     "id": "baby-carrier",
+    "code": "1E",
     "name": "Baby carrier or sling",
     "kind": "everyday",
     "plastic": "some",
@@ -3717,10 +4374,17 @@
         "label": "Used baby carrier",
         "q": "bæresele"
       }
-    ]
+    ],
+    "no": {
+      "name": "Bæresele eller bæresjal",
+      "why": "Å bære babyen tett gir frie hender og lar babyen se ansikter og verden rundt seg. Nyttig på norske stier der vogna ikke kommer fram.",
+      "tip": "Vevde bæresjal i bomull og ringslynger har ikke plast; myke bæreseler har spenner. Gode bæreseler varer og selges lett brukt. La foreldrene prøve før dere kjøper, hvis de kan.",
+      "safety": "Babyens ansikt skal være synlig og nær nok til å kysse, nese og munn frie, haka unna brystet og ryggen støttet. Ta babyen ut av bæreselen for å amme eller mate."
+    }
   },
   {
     "id": "pram-bag",
+    "code": "1F",
     "name": "Wool pram bag (vognpose)",
     "kind": "everyday",
     "plastic": "some",
@@ -3756,10 +4420,17 @@
         "label": "Used pram bag",
         "q": "vognpose ull"
       }
-    ]
+    ],
+    "no": {
+      "name": "Vognpose i ull",
+      "why": "Norske babyer sover ofte ute i vogna hele året. En vognpose med ull holder babyen varm uten en haug med tepper.",
+      "tip": "Sjekk at den passer i foreldrenes vogn og har en glidelås som kan åpnes helt, så du kan kjøle ned babyen. Fin som fellesgave fra flere. Lett å finne brukt.",
+      "safety": "Unngå overoppheting: kle babyen etter den faktiske temperaturen og kjenn i nakken eller på magen. Ikke dekk vogna helt med tepper; la det være gode luftåpninger."
+    }
   },
   {
     "id": "abc-blocks",
+    "code": "1G",
     "name": "Wooden alphabet blocks",
     "kind": "toy",
     "plastic": "none",
@@ -3806,10 +4477,17 @@
         "label": "Search: Uncle Goose Norwegian blocks",
         "q": "Uncle Goose Norwegian blocks"
       }
-    ]
+    ],
+    "no": {
+      "name": "Bokstavklosser i tre",
+      "why": "Klassiske bokstavklosser, utskåret eller trykt, er først og fremst klosser: småbarn stabler og velter dem, og større barn begynner å peke ut bokstavene i sitt eget navn. De passer rett inn i et sett med vanlige treklosser.",
+      "tip": "Sjekk bildene for Æ, Ø og Å. Danske sett har de samme bokstavene; svenske sett har Ä og Ö i stedet. Uncle Goose lager et norsk sett (import fra USA). Velg klosser i omtrent samme størrelse som barnets andre klosser, så de kan bygges sammen.",
+      "safety": "Se etter EN 71 / CE-merking og vannbasert maling, siden småbarn putter dem i munnen."
+    }
   },
   {
     "id": "animal-figures",
+    "code": "1H",
     "name": "Realistic animal figures",
     "kind": "toy",
     "plastic": "plastic",
@@ -3853,10 +4531,17 @@
         "label": "Secondhand Schleich animals",
         "q": "schleich dyr"
       }
-    ]
+    ],
+    "no": {
+      "name": "Realistiske dyrefigurer",
+      "why": "I en langvarig amerikansk studie av leker i førskolen var små plastdyr blant lekene som ga den rikeste leken. De gjør et klosstårn om til en dyrepark eller en gård, og realistiske dyr gir barna ord og fakta om det ekte dyret.",
+      "tip": "Ett eller to dyr er en perfekt liten gave, og samlingen kan vokse hver bursdag. Spør foreldrene om barnet samler på gårdsdyr, skogsdyr eller ville dyr. Mye å finne på FINN.",
+      "safety": "Schleich merker figurene sine 3+ (smådeler, kvelningsfare). For barn under 3 år, velg Duplo-dyr eller kraftige tredyr laget for småbarn."
+    }
   },
   {
     "id": "small-world-people",
+    "code": "1I",
     "name": "Small wooden people and animals for blocks",
     "kind": "toy",
     "plastic": "none",
@@ -3899,10 +4584,17 @@
         "label": "Secondhand Holztiger",
         "q": "holztiger"
       }
-    ]
+    ],
+    "no": {
+      "name": "Små folk og dyr i tre til klossene",
+      "why": "Noen små figurer og dyr gir klossbyggene noen som bor der, så byggingen blir til fortelling. Små menneskefigurer fikk høy score for lekekvalitet i den samme studien av leker i førskolen.",
+      "tip": "Enkle trefigurer (peg dolls, Holztiger, Grapat og lignende) passer til alle klossett. Legg til en figur eller to hvert år.",
+      "safety": "De fleste små figurer er merket 3+ fordi de kan få plass i munnen til et lite barn."
+    }
   },
   {
     "id": "mud-kitchen",
+    "code": "1J",
     "name": "Mud kitchen",
     "kind": "toy",
     "plastic": "none",
@@ -3947,10 +4639,17 @@
         "label": "Search: outdoor play kitchen",
         "q": "utekjøkken barn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Gjørmekjøkken",
+      "why": "Et lekekjøkken ute der ingrediensene er jord, sand, vann, grus og løv. Barna fyller, heller, blander, rører og serverer, og blandingen blir fort til suppe, kake og trylledrikk. Oversiktsstudier knytter fri lek i naturen til mer fysisk aktivitet og rikere rollelek, selv om studiene er små.",
+      "tip": "Det trenger ikke koste mye: et gammelt skap eller nattbord, eller en benk av paller, i barnets midjehøyde, i et hjørne av hagen nær sand eller jord. En vaskebalje felt ned i benken fungerer som vask. Bygg det sammen med barnet som en opplevelsesgave.",
+      "safety": "Bruk kjøpt jord eller jord fra et sted katter og hunder ikke kommer til, og vask hendene etterpå. Bruker du paller, velg paller stemplet HT (varmebehandlet), ikke MB (kjemisk gasset), og puss bort fliser."
+    }
   },
   {
     "id": "mud-kitchen-kit",
+    "code": "1K",
     "name": "Mud kitchen kit",
     "kind": "everyday",
     "plastic": "some",
@@ -3998,10 +4697,17 @@
         "label": "Search: bucket",
         "q": "bøtte"
       }
-    ]
+    ],
+    "no": {
+      "name": "Utstyr til gjørmekjøkkenet",
+      "why": "Ekte kjøkkenting får gjørmekjøkkenet til å fungere: gamle gryter og panner, øse, sil, muffinsform, mugger, tresleiver, bøtte og målebeger. Barn foretrekker ekte ting framfor lekekopier, og å måle og helle er tidlig matematikk.",
+      "tip": "Spør rundt i familien eller se på FINN og bruktbutikker etter gamle kasseroller og bakeformer. Heng redskapene på kroker eller sett dem på en hylle, så alt er lett å finne. Litt matolje tørket over metallet hindrer rust.",
+      "safety": "Dropp glass og alt med skarpe kanter eller ødelagt håndtak."
+    }
   },
   {
     "id": "marble-run",
+    "code": "1L",
     "name": "Wooden marble run",
     "kind": "toy",
     "plastic": "some",
@@ -4043,10 +4749,17 @@
         "label": "Secondhand marble run",
         "q": "kulebane"
       }
-    ]
+    ],
+    "no": {
+      "name": "Kulebane i tre",
+      "why": "Å bygge en bane som virker, handler om planlegging, prøving og feiling og en første følelse for helning og fart. Deler innen samme system passer sammen, så et startsett kan vokse med tilleggspakker i årevis.",
+      "tip": "Velg ett system (for eksempel Hape Quadrilla) og hold deg til det, siden merkene ikke passer med hverandre. Bygg sammen i starten.",
+      "safety": "Kuler gir kvelningsfare. Ikke for hjem der barn under 3 år kan få tak i dem; settene er vanligvis merket 4+."
+    }
   },
   {
     "id": "mr-brown-can-moo",
+    "code": "1M",
     "name": "Mr. Brown Can Moo! Can You? (Dr. Seuss)",
     "kind": "book",
     "plastic": "none",
@@ -4079,10 +4792,16 @@
         "label": "Used copies",
         "q": "Dr. Seuss bok"
       }
-    ]
+    ],
+    "no": {
+      "name": "Mr. Brown Can Moo! Can You? (Dr. Seuss)",
+      "why": "Dr. Seuss' bok om lyder: mø, summ, pop, uhu. Småbarn er med på lydene lenge før de kan si ordene, og pappbokutgaven tåler tygging.",
+      "tip": "Velg pappboka i Bright & Early-serien (forlaget sier 0–3 år). «The Foot Book» og «Hop on Pop» finnes i det samme solide formatet. Bare på engelsk; Dr. Seuss er vanskelig å finne på norsk."
+    }
   },
   {
     "id": "green-eggs-and-ham",
+    "code": "1N",
     "name": "Green Eggs and Ham (Dr. Seuss)",
     "kind": "book",
     "plastic": "none",
@@ -4118,10 +4837,16 @@
         "label": "Used copies",
         "q": "Green Eggs and Ham"
       }
-    ]
+    ],
+    "no": {
+      "name": "Green Eggs and Ham (Dr. Seuss)",
+      "why": "Skrevet med bare 50 forskjellige ord, så rim og gjentakelser bærer historien. Barna messer snart linjene sammen med deg, og senere leser de dem selv.",
+      "tip": "Engelsk utgave. Morsom for familier som leser på to språk, og en forsiktig måte å snakke om å smake på ny mat."
+    }
   },
   {
     "id": "cat-in-the-hat",
+    "code": "1O",
     "name": "The Cat in the Hat (Dr. Seuss)",
     "kind": "book",
     "plastic": "none",
@@ -4155,10 +4880,16 @@
         "label": "Used Norwegian copies",
         "q": "Katten med hatten"
       }
-    ]
+    ],
+    "no": {
+      "name": "Katten med hatten (Dr. Seuss)",
+      "why": "En katt lager rot en regnværsdag mens foreldrene er ute. Den ble skrevet som en første lesebok i 1957, og de sprettende rimene fungerer fortsatt godt til høytlesning for barnehagebarn.",
+      "tip": "Den norske oversettelsen «Katten med hatten» (i Cappelen Damms «Katten med hatten – og tre til», 2012) er utsolgt fra forlaget, så se på FINN eller kjøp den engelske utgaven."
+    }
   },
   {
     "id": "very-hungry-caterpillar",
+    "code": "1P",
     "name": "The Very Hungry Caterpillar (Eric Carle)",
     "kind": "book",
     "plastic": "none",
@@ -4197,10 +4928,16 @@
         "label": "Used copies",
         "q": "Den lille larven Aldrimett"
       }
-    ]
+    ],
+    "no": {
+      "name": "Den lille larven Aldrimett (Eric Carle)",
+      "why": "En larve spiser seg gjennom ukedagene og blir til en sommerfugl. Telling, ukedager, mat og litt biologi, med hull i sidene til små fingre.",
+      "tip": "Norsk tittel: «Den lille larven Aldrimett». Pappboka passer fra rundt 1 år; den større innbundne utgaven passer for 2–5 år."
+    }
   },
   {
     "id": "brown-bear",
+    "code": "1Q",
     "name": "Brown Bear, Brown Bear, What Do You See? (Bill Martin Jr. & Eric Carle)",
     "kind": "book",
     "plastic": "none",
@@ -4236,10 +4973,16 @@
         "label": "Used copies",
         "q": "Brune bjørn brune bjørn"
       }
-    ]
+    ],
+    "no": {
+      "name": "Brune bjørn, brune bjørn, hva ser du på din vei? (Bill Martin Jr. & Eric Carle)",
+      "why": "Ett dyr, én farge og ett spørsmål på hver side. Mønsteret er så forutsigbart at småbarn begynner å fullføre setningene, og det er god tidlig språktrening.",
+      "tip": "Kom ut på norsk i 2014 som «Brune bjørn, brune bjørn, hva ser du på din vei?», men den engelske pappboka er lettere å finne."
+    }
   },
   {
     "id": "goodnight-moon",
+    "code": "1R",
     "name": "Goodnight Moon (Margaret Wise Brown)",
     "kind": "book",
     "plastic": "none",
@@ -4274,10 +5017,16 @@
         "label": "Used copies",
         "q": "Goodnight Moon"
       }
-    ]
+    ],
+    "no": {
+      "name": "Goodnight Moon (Margaret Wise Brown)",
+      "why": "En liten kanin sier god natt til alt i rommet. Den rolige rytmen gjør den til et leggeritual fra babytiden, og småbarn liker å finne musa på hvert oppslag.",
+      "tip": "Engelsk pappbok. Vi har ikke funnet noen norsk utgave i salg nå."
+    }
   },
   {
     "id": "where-the-wild-things-are",
+    "code": "1S",
     "name": "Where the Wild Things Are (Maurice Sendak)",
     "kind": "book",
     "plastic": "none",
@@ -4315,10 +5064,16 @@
         "label": "Used Norwegian copies",
         "q": "Til Huttetuenes land"
       }
-    ]
+    ],
+    "no": {
+      "name": "Til Huttetuenes land (Maurice Sendak)",
+      "why": "Max blir sendt til sengs uten kveldsmat, seiler av gårde til villdyrene og kommer hjem til varm middag. En kort fortelling om sinne og om å føle seg trygg igjen, som barn ber om i årevis.",
+      "tip": "Norsk tittel «Til Huttetuenes land» (1970); nye eksemplarer er stort sett på engelsk, norske dukker opp på FINN."
+    }
   },
   {
     "id": "gruffalo",
+    "code": "1T",
     "name": "The Gruffalo (Julia Donaldson & Axel Scheffler)",
     "kind": "book",
     "plastic": "none",
@@ -4353,10 +5108,16 @@
         "label": "Used copies",
         "q": "Gruffalo"
       }
-    ]
+    ],
+    "no": {
+      "name": "Gruffalo (Julia Donaldson & Axel Scheffler)",
+      "why": "En liten mus lurer en rev, en ugle, en slange og til slutt Gruffalo. Rimene og det gjentatte mønsteret gjør den lett å huske, og barna elsker vrien på slutten.",
+      "tip": "Norsk tittel «Gruffalo» (oversatt av Arne Ruste). Engelske utgaver selges også mye i Norge."
+    }
   },
   {
     "id": "bear-hunt",
+    "code": "1U",
     "name": "We're Going on a Bear Hunt (Michael Rosen & Helen Oxenbury)",
     "kind": "book",
     "plastic": "none",
@@ -4389,10 +5150,16 @@
         "label": "Used copies",
         "q": "Vi skal på bjørnejakt"
       }
-    ]
+    ],
+    "no": {
+      "name": "Vi skal på bjørnejakt (Michael Rosen & Helen Oxenbury)",
+      "why": "En familie vasser gjennom gress, en elv, gjørme og snø for å finne en bjørn. Regla ('swishy swashy, splash splosh') ber om å bli spilt ut, så den fungerer like mye som lek som bok.",
+      "tip": "Norsk tittel «Vi skal på bjørnejakt». Prøv å spille den ut på tur i skogen."
+    }
   },
   {
     "id": "elmer",
+    "code": "1V",
     "name": "Elmer (David McKee)",
     "kind": "book",
     "plastic": "none",
@@ -4426,10 +5193,16 @@
         "label": "Used copies",
         "q": "Elmer bok"
       }
-    ]
+    ],
+    "no": {
+      "name": "Elmer (David McKee)",
+      "why": "En lappeteppe-elefant prøver å se ut som de andre, og finner så ut at vennene liker ham som han er. En enkel, fargerik fortelling om å være annerledes, først utgitt i 1968.",
+      "tip": "Selges mest på engelsk i Norge. Det finnes mange Elmer-bøker hvis den blir en favoritt."
+    }
   },
   {
     "id": "karius-og-baktus",
+    "code": "1W",
     "name": "Karius and Baktus (Thorbjørn Egner)",
     "kind": "book",
     "plastic": "none",
@@ -4464,10 +5237,16 @@
         "label": "Used copies",
         "q": "Karius og Baktus"
       }
-    ]
+    ],
+    "no": {
+      "name": "Karius og Baktus (Thorbjørn Egner)",
+      "why": "To bitte små troll bor i tennene til Jens til han endelig pusser dem. Alle voksne i Norge kjenner den, og den gjør det fortsatt lettere å snakke om tannpuss.",
+      "tip": "Norsk tittel «Karius og Baktus» (Cappelen Damm). Egners «Folk og røvere i Kardemomme by» og «Klatremus og de andre dyrene i Hakkebakkeskogen» er lengre høytlesningsbøker fra 4 år."
+    }
   },
   {
     "id": "albert-aberg",
+    "code": "1X",
     "name": "Good Night, Alfie Atkins (Gunilla Bergström)",
     "kind": "book",
     "plastic": "none",
@@ -4501,10 +5280,16 @@
         "label": "Used copies",
         "q": "Albert Åberg"
       }
-    ]
+    ],
+    "no": {
+      "name": "God natt, Albert Åberg (Gunilla Bergström)",
+      "why": "Albert på fire finner den ene grunnen etter den andre til ikke å sove, mens pappa holder seg tålmodig. Hverdagsliv tegnet enkelt og ærlig, i en serie som har vært lest i Norden siden 1972.",
+      "tip": "Norsk tittel «God natt, Albert Åberg» (Cappelen Damm, fra 3 år). Det finnes 25 Albert-bøker, så det er lett å gi flere senere."
+    }
   },
   {
     "id": "pettson-findus",
+    "code": "1Y",
     "name": "Pancake Pie: Pettson and Findus (Sven Nordqvist)",
     "kind": "book",
     "plastic": "none",
@@ -4538,10 +5323,16 @@
         "label": "Used copies",
         "q": "Gubben og katten"
       }
-    ]
+    ],
+    "no": {
+      "name": "Pannekakerøre (Sven Nordqvist)",
+      "why": "Gamle Pettson prøver å bake bursdagspannekakekake til katten Findus, og alt går galt. De detaljerte bildene er fulle av små skapninger å lete etter, så barna oppdager nye ting hver gang.",
+      "tip": "Norsk tittel «Pannekakerøre» (Gubben og katten-serien, Cappelen Damm). Det finnes en pappbokutgave med klaffer fra 2025, men forlaget merker den 3+."
+    }
   },
   {
     "id": "mamma-mo",
+    "code": "1Z",
     "name": "Mamma Moo and Crow (Jujja & Tomas Wieslander, Sven Nordqvist)",
     "kind": "book",
     "plastic": "none",
@@ -4575,10 +5366,16 @@
         "label": "Used copies",
         "q": "Mamma Mø"
       }
-    ]
+    ],
+    "no": {
+      "name": "Mamma Mø og Kråka (Jujja & Tomas Wieslander, Sven Nordqvist)",
+      "why": "En ku som vil huske, sykle og klatre i trær, og den gretne venninnen Kråka. Korte, morsomme kapitler som passer til høytlesning for barnehagebarn.",
+      "tip": "Norsk tittel «Mamma Mø og Kråka» (Cappelen Damm, fra 3 år), en samling med 12 fortellinger."
+    }
   },
   {
     "id": "proysen-songs-stories",
+    "code": "20",
     "name": "Songs and Stories for Children (Alf Prøysen)",
     "kind": "book",
     "plastic": "none",
@@ -4613,6 +5410,649 @@
         "label": "Used copies",
         "q": "Teskjekjerringa"
       }
-    ]
+    ],
+    "no": {
+      "name": "Sanger og fortellinger for barn (Alf Prøysen)",
+      "why": "Prøysens mest kjente barnesanger og fortellinger i én bok, blant annet Teskjekjerringa. Dette er sangene norske barnehager fortsatt synger, så lesing og sang går hånd i hånd.",
+      "tip": "Norsk tittel «Sanger og fortellinger for barn» (Gyldendal 2025), illustrert av blant andre Kari Grossmann og Hans Normann Dahl."
+    }
+  },
+  {
+    "id": "doctor-kit",
+    "code": "21",
+    "name": "Doctor's kit for pretend play",
+    "kind": "toy",
+    "plastic": "some",
+    "ages": [
+      30,
+      72
+    ],
+    "price": 349,
+    "skills": [
+      "pretend",
+      "social",
+      "language"
+    ],
+    "gift": [
+      "want"
+    ],
+    "core": "pretend",
+    "why": "Playing doctor lets children act out check-ups and jabs on their own terms. Reviews of 'teddy bear hospital' and medical play find lower anxiety and better understanding of health care.",
+    "tip": "Wooden or fabric kits last longest. Play through an upcoming visit beforehand: the child is the doctor, a teddy is the patient.",
+    "safety": "Toy syringes and small parts can be a choking risk under 3.",
+    "sources": [
+      "rashid-medplay",
+      "silva-therapeutic",
+      "lillard"
+    ],
+    "links": [
+      {
+        "store": "barnashus",
+        "label": "Search: wooden doctor's kit",
+        "q": "legetøy legekoffert tre"
+      },
+      {
+        "store": "jollyroom",
+        "label": "Search: doctor's kit",
+        "q": "legekoffert"
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand doctor's kit",
+        "q": "legekoffert"
+      }
+    ],
+    "no": {
+      "name": "Legekoffert til rollelek",
+      "why": "Når barn leker doktor, kan de spille ut kontroller og stikk på sine egne premisser. Oversikter over «bamsesykehus» og medisinsk lek finner mindre angst og bedre forståelse av helsevesenet.",
+      "tip": "Koffert i tre eller stoff varer lengst. Lek gjennom et legebesøk på forhånd: barnet er legen, bamsen er pasienten.",
+      "safety": "Lekesprøyter og smådeler kan være kvelningsfare for barn under 3 år."
+    }
+  },
+  {
+    "id": "real-stethoscope",
+    "code": "22",
+    "name": "A real stethoscope",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      36,
+      84
+    ],
+    "price": 250,
+    "skills": [
+      "senses",
+      "pretend",
+      "thinking"
+    ],
+    "gift": [
+      "want"
+    ],
+    "why": "Children prefer real tools to toy copies, and a real stethoscope actually works: they can hear their own heartbeat speed up after running. It turns doctor play into a small science lesson.",
+    "tip": "A simple, cheap student or nurse model is enough. Add it to a doctor's kit, or give it on its own.",
+    "safety": "The tubing is a strangling risk: put it away after play and never leave it around a child's neck unsupervised.",
+    "sources": [
+      "taggart",
+      "rashid-medplay"
+    ],
+    "links": [
+      {
+        "store": "amazon",
+        "label": "Search: stethoscope",
+        "q": "stetoskop"
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand stethoscope",
+        "q": "stetoskop"
+      }
+    ],
+    "no": {
+      "name": "Et ekte stetoskop",
+      "why": "Barn foretrekker ekte redskaper framfor lekeversjoner, og et ekte stetoskop virker: de kan høre sitt eget hjerte slå fortere etter løping. Doktorleken blir en liten naturfagstime.",
+      "tip": "En enkel, billig modell for studenter eller sykepleiere holder. Legg det i legekofferten, eller gi det alene.",
+      "safety": "Slangen kan gi kvelningsfare: legg den bort etter leken, og la den aldri henge rundt halsen uten tilsyn."
+    }
+  },
+  {
+    "id": "body-book",
+    "code": "23",
+    "name": "Lift-the-flap book about the body",
+    "kind": "book",
+    "plastic": "none",
+    "ages": [
+      36,
+      96
+    ],
+    "price": 199,
+    "skills": [
+      "language",
+      "thinking"
+    ],
+    "gift": [
+      "read"
+    ],
+    "why": "Flaps that open onto bones, heart, lungs and tummy answer the 'what's inside me?' questions. Knowing how the body works helps children make sense of being ill, getting hurt and going to the doctor.",
+    "tip": "Look for sturdy flaps and simple text. Usborne's 'Look Inside Your Body' and similar books come in Norwegian ('Titt inn i kroppen', 'Kroppen vår'); titles change, so check the age on the back.",
+    "sources": [
+      "rashid-medplay",
+      "literacy"
+    ],
+    "links": [
+      {
+        "store": "norli",
+        "label": "Search: children's book about the body",
+        "q": "barnebok kroppen"
+      },
+      {
+        "store": "finn",
+        "label": "Used copies",
+        "q": "bok om kroppen barn"
+      }
+    ],
+    "no": {
+      "name": "Klaffebok om kroppen",
+      "why": "Klaffer som åpner seg mot skjelett, hjerte, lunger og mage svarer på «hva er inni meg?». Å vite hvordan kroppen virker hjelper barn å forstå sykdom, skader og legebesøk.",
+      "tip": "Se etter solide klaffer og enkel tekst. Usbornes «Titt inn i kroppen», «Kroppen vår» og lignende finnes på norsk; titlene skifter, så sjekk alderen bak på boka."
+    }
+  },
+  {
+    "id": "teddy-plasters",
+    "code": "24",
+    "name": "Plasters and bandage for teddy",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      24,
+      72
+    ],
+    "price": 79,
+    "skills": [
+      "pretend",
+      "hands",
+      "social"
+    ],
+    "gift": [
+      "want"
+    ],
+    "why": "A roll of gauze bandage and a box of fun plasters lets a child look after a hurt teddy. Caring for someone else is a gentle way to practise for their own scrapes and doctor visits.",
+    "tip": "Use real gauze and a pack of cheap plasters. Tear-off medical tape is good fine-motor practice.",
+    "safety": "Keep plaster wrappers away from under-3s. Don't wrap bandages around anyone's neck.",
+    "sources": [
+      "silva-therapeutic",
+      "rashid-medplay"
+    ],
+    "links": [
+      {
+        "store": "clasohlson",
+        "label": "Search: gauze bandage",
+        "q": "gasbind"
+      },
+      {
+        "store": "europris",
+        "label": "Search: plasters for children",
+        "q": "plaster barn"
+      }
+    ],
+    "no": {
+      "name": "Plaster og bandasje til bamsen",
+      "why": "En rull gasbind og en eske morsomme plaster lar barnet stelle en skadet bamse. Å ta vare på noen andre er en mild måte å øve på egne skrubbsår og legebesøk.",
+      "tip": "Bruk ekte gasbind og en billig pakke plaster. Medisinsk tape som rives av er fin finmotorisk trening.",
+      "safety": "Hold plasterpapir unna barn under 3 år. Ikke vikle bandasje rundt halsen."
+    }
+  },
+  {
+    "id": "floor-robot",
+    "code": "25",
+    "name": "Programmable floor robot",
+    "kind": "toy",
+    "plastic": "plastic",
+    "ages": [
+      42,
+      84
+    ],
+    "price": 900,
+    "skills": [
+      "thinking",
+      "math",
+      "language",
+      "social"
+    ],
+    "gift": [
+      "want"
+    ],
+    "why": "Children press arrow buttons to plan a route, then watch the robot follow it, which is coding without a screen. Kindergarten robotics studies show 4–6-year-olds can learn sequencing and debugging this way.",
+    "tip": "Bee-Bot is the classic type. Draw a grid of 15 cm squares on paper and make 'missions': drive to the shop, avoid the lake.",
+    "safety": "Choose one with a rechargeable battery or a screwed battery lid.",
+    "sources": [
+      "bers-2014",
+      "bakala-2021"
+    ],
+    "links": [
+      {
+        "store": "amazon",
+        "label": "Search: Bee-Bot floor robot",
+        "q": "Bee-Bot"
+      },
+      {
+        "store": "lekmer",
+        "label": "Search: coding robot for children",
+        "q": "programmerbar robot barn"
+      },
+      {
+        "store": "finn",
+        "label": "Secondhand floor robot",
+        "q": "Bee-Bot"
+      }
+    ],
+    "no": {
+      "name": "Programmerbar gulvrobot",
+      "why": "Barna trykker på pilknapper for å planlegge en rute og ser roboten følge den: koding uten skjerm. Studier fra barnehage og førskole viser at 4–6-åringer kan lære rekkefølge og feilsøking på denne måten.",
+      "tip": "Bee-Bot er klassikeren. Tegn et rutenett med ruter på 15 cm og lag «oppdrag»: kjør til butikken, unngå sjøen.",
+      "safety": "Velg en med oppladbart batteri eller batterilokk med skrue."
+    }
+  },
+  {
+    "id": "hello-ruby",
+    "code": "26",
+    "name": "Hello Ruby: Adventures in Coding (Linda Liukas)",
+    "kind": "book",
+    "plastic": "none",
+    "ages": [
+      48,
+      96
+    ],
+    "price": 299,
+    "skills": [
+      "thinking",
+      "language",
+      "math"
+    ],
+    "gift": [
+      "read"
+    ],
+    "why": "A picture book about a girl who solves problems step by step, followed by play exercises that teach coding ideas without a screen. Early-years studies find that computational thinking can be learnt through playful, unplugged activities.",
+    "tip": "The activities (follow instructions, find the bug, make a loop) work as games. A coding board game of the Robot Turtles type is a good companion.",
+    "sources": [
+      "bers-2014",
+      "liukas-ruby"
+    ],
+    "links": [
+      {
+        "store": "norli",
+        "label": "Search: Hello Ruby",
+        "q": "Hello Ruby"
+      },
+      {
+        "store": "amazon",
+        "label": "Hello Ruby: Adventures in Coding",
+        "q": "Hello Ruby Adventures in Coding"
+      }
+    ],
+    "no": {
+      "name": "Hello Ruby (Linda Liukas)",
+      "why": "En bildebok om en jente som løser problemer steg for steg, fulgt av lekeoppgaver som lærer bort ideer fra koding uten skjerm. Studier av små barn viser at algoritmisk tenkning kan læres gjennom leken aktivitet uten skjerm.",
+      "tip": "Oppgavene (følg instruksjoner, finn feilen, lag en løkke) fungerer som leker. Et kodebrettspill av typen Robot Turtles passer godt sammen med boka."
+    }
+  },
+  {
+    "id": "take-apart",
+    "code": "27",
+    "name": "Take-apart station",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      48,
+      96
+    ],
+    "price": 150,
+    "skills": [
+      "hands",
+      "thinking",
+      "independence"
+    ],
+    "gift": [
+      "do"
+    ],
+    "why": "An old keyboard, radio or kitchen gadget plus a small real screwdriver set. Opening a device to see what is inside is real work, which children prefer to pretend versions, and it builds a feel for how technology is made.",
+    "tip": "Old keyboards, DVD players and wind-up clocks are good. Give a tray for screws and do the first one together.",
+    "safety": "Remove all batteries first, especially button cells and lithium batteries. Avoid old TVs/monitors (CRT), microwaves, power supplies and anything with large capacitors. Cut off the power cable.",
+    "sources": [
+      "taggart",
+      "udir-nmt",
+      "nhi-battery"
+    ],
+    "links": [
+      {
+        "store": "clasohlson",
+        "label": "Search: precision screwdriver set",
+        "q": "presisjonsskrutrekker sett"
+      },
+      {
+        "store": "finn",
+        "label": "Free old electronics",
+        "q": "gis bort tastatur"
+      }
+    ],
+    "no": {
+      "name": "Skru-fra-hverandre-stasjon",
+      "why": "Et gammelt tastatur, en radio eller en kjøkkenmaskin pluss et lite, ekte skrutrekkersett. Å åpne en dings og se hva som er inni er ekte arbeid, som barn liker bedre enn late som, og gir en følelse for hvordan teknologi er laget.",
+      "tip": "Gamle tastaturer, DVD-spillere og opptrekksklokker er fine. Gi et brett til skruene, og gjør den første sammen.",
+      "safety": "Ta ut alle batterier først, særlig knappecellebatterier og litiumbatterier. Unngå gamle TV-er/skjermer med bilderør, mikrobølgeovner, strømforsyninger og alt med store kondensatorer. Klipp av strømledningen."
+    }
+  },
+  {
+    "id": "magnetic-gears",
+    "code": "28",
+    "name": "Gear set",
+    "kind": "toy",
+    "plastic": "plastic",
+    "ages": [
+      30,
+      72
+    ],
+    "price": 299,
+    "skills": [
+      "thinking",
+      "hands",
+      "math"
+    ],
+    "gift": [
+      "want"
+    ],
+    "why": "Children fit gears on a board or fridge and turn one to make the others spin, seeing cause and effect and how machines work. Building and fitting parts in space is linked to later maths.",
+    "tip": "Sets that stick to a board or fridge are easiest for small hands. Add a crank and see which way each gear turns.",
+    "safety": "Under 3: avoid small pegs. Any magnets must be fully enclosed.",
+    "sources": [
+      "udir-nmt",
+      "verdine"
+    ],
+    "links": [
+      {
+        "store": "barnashus",
+        "label": "Search: gear toy",
+        "q": "tannhjul leke"
+      },
+      {
+        "store": "jollyroom",
+        "label": "Search: gear set",
+        "q": "tannhjul byggesett"
+      }
+    ],
+    "no": {
+      "name": "Tannhjulsett",
+      "why": "Barna fester tannhjul på et brett eller kjøleskapet og snur ett for å få de andre til å gå rundt, og ser årsak og virkning og hvordan maskiner virker. Å bygge og passe deler sammen i rommet henger sammen med senere matematikk.",
+      "tip": "Sett som fester seg på et brett eller kjøleskapet er lettest for små hender. Sett på en sveiv og se hvilken vei hvert hjul går.",
+      "safety": "Under 3 år: unngå små plugger. Eventuelle magneter må være helt innkapslet."
+    }
+  },
+  {
+    "id": "sit-pad",
+    "code": "29",
+    "name": "Sit pad for trips (sitteunderlag)",
+    "kind": "everyday",
+    "plastic": "plastic",
+    "ages": [
+      12,
+      96
+    ],
+    "price": 99,
+    "skills": [
+      "nature",
+      "independence"
+    ],
+    "gift": [
+      "need"
+    ],
+    "why": "A small foam pad keeps a child dry and warm on a rock or snowy log at lunch break. Being comfortable outdoors is what makes the trip long enough for the free nature play that does them good.",
+    "tip": "Pick one that folds into the backpack or clips onto it. Write the name on it, as barnehager use them too.",
+    "sources": [
+      "dnt-barnas",
+      "dankiw"
+    ],
+    "links": [
+      {
+        "store": "xxl",
+        "label": "Search: sit pad",
+        "q": "sitteunderlag"
+      },
+      {
+        "store": "clasohlson",
+        "label": "Search: sit pad",
+        "q": "sitteunderlag"
+      }
+    ],
+    "no": {
+      "name": "Sitteunderlag til tur",
+      "why": "Et lite skumunderlag holder barnet tørt og varmt på en stein eller en snødekt stokk i matpausen. Å ha det behagelig ute gjør at turen varer lenge nok til den frie naturleken som gjør dem godt.",
+      "tip": "Velg et som kan brettes ned i sekken eller festes på den. Skriv navn på, for barnehagen bruker dem også."
+    }
+  },
+  {
+    "id": "whittling-knife",
+    "code": "2a",
+    "name": "First whittling knife (spikkekniv)",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      60,
+      96
+    ],
+    "price": 200,
+    "skills": [
+      "hands",
+      "nature",
+      "independence"
+    ],
+    "gift": [
+      "want"
+    ],
+    "why": "Many Norwegian barnehager teach spikking: whittling sticks for stick bread and simple figures. Handling a real tool with care is the kind of manageable risk that research links to confidence and judgement.",
+    "tip": "Choose a children's knife with a rounded tip and finger guard, such as Morakniv Scout 39 Safe. Start by peeling bark off a fresh green stick.",
+    "safety": "Only with an adult close by. Sit down, carve away from the body with elbows on knees, and keep an 'arm's-length bubble'. A sharp knife is safer than a blunt one. Keep it in its sheath when not carving.",
+    "sources": [
+      "sandseter-2007",
+      "brussoni-2015",
+      "udir-nmt"
+    ],
+    "links": [
+      {
+        "store": "xxl",
+        "label": "Search: children's knife",
+        "q": "barnekniv Morakniv"
+      },
+      {
+        "store": "clasohlson",
+        "label": "Search: carving knife for children",
+        "q": "spikkekniv barn"
+      }
+    ],
+    "no": {
+      "name": "Første spikkekniv",
+      "why": "Mange norske barnehager lærer barna å spikke: pinner til pinnebrød og enkle figurer. Å håndtere et ekte redskap forsiktig er den typen overkommelig risiko som forskning knytter til mestring og vurderingsevne.",
+      "tip": "Velg en barnekniv med avrundet spiss og fingervern, for eksempel Morakniv Scout 39 Safe. Begynn med å skrelle bark av en fersk, grønn pinne.",
+      "safety": "Bare med en voksen like ved. Sitt ned, spikk bort fra kroppen med albuene på knærne, og hold en armlengdes avstand til andre. En skarp kniv er tryggere enn en sløv. Ha kniven i sliren når den ikke brukes."
+    }
+  },
+  {
+    "id": "headlamp",
+    "code": "2b",
+    "name": "Child's headlamp",
+    "kind": "everyday",
+    "plastic": "plastic",
+    "ages": [
+      36,
+      96
+    ],
+    "price": 199,
+    "skills": [
+      "nature",
+      "independence",
+      "pretend"
+    ],
+    "gift": [
+      "want"
+    ],
+    "why": "In the dark Norwegian winter a headlamp means the walk, the den or the sledging can go on, with both hands free. Kids love a real tool that works.",
+    "tip": "Pick one with a soft, adjustable strap and a low setting. A red-light mode is good for tents and stargazing.",
+    "safety": "Choose AAA batteries or a built-in rechargeable battery, never button cells. Don't shine it in eyes.",
+    "sources": [
+      "taggart",
+      "dankiw",
+      "nhi-battery"
+    ],
+    "links": [
+      {
+        "store": "xxl",
+        "label": "Search: headlamp for children",
+        "q": "hodelykt barn"
+      },
+      {
+        "store": "clasohlson",
+        "label": "Search: headlamp for children",
+        "q": "hodelykt barn"
+      }
+    ],
+    "no": {
+      "name": "Hodelykt til barn",
+      "why": "I det mørke norske vinterhalvåret betyr en hodelykt at turen, hytta eller akingen kan fortsette, med begge hender fri. Barn elsker et ekte redskap som virker.",
+      "tip": "Velg en med mykt, justerbart bånd og svak innstilling. Rødt lys er fint i telt og til stjernekikking.",
+      "safety": "Velg AAA-batterier eller innebygd oppladbart batteri, aldri knappecellebatterier. Ikke lys i øynene."
+    }
+  },
+  {
+    "id": "kuksa",
+    "code": "2c",
+    "name": "Own trip cup (kuksa)",
+    "kind": "everyday",
+    "plastic": "none",
+    "ages": [
+      24,
+      96
+    ],
+    "price": 250,
+    "skills": [
+      "nature",
+      "independence"
+    ],
+    "gift": [
+      "want"
+    ],
+    "why": "A wooden cup on a cord for hot cocoa or stream water makes the child feel like a proper trip member. Small rituals like this help make going outdoors a habit.",
+    "tip": "Birch kuksas are traditional; rinse with water only, no dishwasher. A small children's thermos completes it.",
+    "safety": "Let hot drinks cool. Take the cord off the neck when playing or climbing.",
+    "sources": [
+      "dnt-barnas",
+      "taggart"
+    ],
+    "links": [
+      {
+        "store": "xxl",
+        "label": "Search: kuksa",
+        "q": "kuksa"
+      },
+      {
+        "store": "clasohlson",
+        "label": "Search: children's thermos",
+        "q": "termos barn"
+      }
+    ],
+    "no": {
+      "name": "Egen turkopp (kuksa)",
+      "why": "En trekopp i snor til varm kakao eller bekkevann får barnet til å føle seg som et ordentlig turmedlem. Små ritualer som dette gjør det lettere å gjøre uteturer til en vane.",
+      "tip": "Kuksa i bjørk er tradisjonelt; skyll med bare vann, ikke i oppvaskmaskin. En liten barnetermos gjør settet komplett.",
+      "safety": "La varm drikke kjøle seg ned. Ta snoren av halsen ved lek og klatring."
+    }
+  },
+  {
+    "id": "kitchen-science",
+    "code": "2d",
+    "name": "Kitchen science kit",
+    "kind": "everyday",
+    "plastic": "some",
+    "ages": [
+      36,
+      84
+    ],
+    "price": 150,
+    "skills": [
+      "thinking",
+      "math",
+      "senses",
+      "language"
+    ],
+    "gift": [
+      "do"
+    ],
+    "why": "Baking soda, vinegar, food colouring, pipettes and measuring spoons in a box. Fizzing volcanoes and colour mixing let children guess, test and see what happens, using real ingredients.",
+    "tip": "Add a recipe card for a volcano (baking soda + vinegar + dish soap) and a tray to keep the mess in.",
+    "safety": "Adult in charge of the ingredients. Vinegar stings in eyes; rinse with water.",
+    "sources": [
+      "taggart",
+      "udir-nmt"
+    ],
+    "links": [
+      {
+        "store": "clasohlson",
+        "label": "Search: pipettes",
+        "q": "pipette"
+      },
+      {
+        "store": "europris",
+        "label": "Search: measuring spoons",
+        "q": "måleskjeer"
+      }
+    ],
+    "no": {
+      "name": "Kjøkkeneksperiment-sett",
+      "why": "Natron, eddik, konditorfarge, pipetter og måleskjeer i en eske. Bruseende vulkaner og fargeblanding lar barn gjette, teste og se hva som skjer, med ekte ingredienser.",
+      "tip": "Legg ved en oppskrift på vulkan (natron + eddik + oppvaskmiddel) og et brett som holder sølet på plass.",
+      "safety": "En voksen har ansvar for ingrediensene. Eddik svir i øynene; skyll med vann."
+    }
+  },
+  {
+    "id": "magnetic-letters",
+    "code": "2e",
+    "name": "Magnetic letters with ÆØÅ",
+    "kind": "toy",
+    "plastic": "plastic",
+    "ages": [
+      30,
+      84
+    ],
+    "price": 199,
+    "skills": [
+      "language",
+      "hands",
+      "thinking"
+    ],
+    "gift": [
+      "want"
+    ],
+    "why": "Letters on the fridge invite children to find and spell their own name. Children learn the letters of their own name first, so it is a natural start.",
+    "tip": "Check that the set has Æ, Ø and Å (Danish sets do too). Lowercase plus uppercase sets are most useful.",
+    "safety": "Under 3: choose large letters with no loose magnets. Swallowed strong magnets are dangerous.",
+    "sources": [
+      "treiman",
+      "cpsc-small"
+    ],
+    "links": [
+      {
+        "store": "nille",
+        "label": "Search: magnetic letters",
+        "q": "magnetbokstaver"
+      },
+      {
+        "store": "barnashus",
+        "label": "Search: magnetic letters",
+        "q": "magnetbokstaver"
+      }
+    ],
+    "no": {
+      "name": "Magnetbokstaver med ÆØÅ",
+      "why": "Bokstaver på kjøleskapet inviterer barn til å finne og stave sitt eget navn. Barn lærer bokstavene i sitt eget navn først, så det er en naturlig start.",
+      "tip": "Sjekk at settet har Æ, Ø og Å (danske sett har det også). Sett med både små og store bokstaver er mest nyttige.",
+      "safety": "Under 3 år: velg store bokstaver uten løse magneter. Svelgede sterke magneter er farlige."
+    }
   }
 ]

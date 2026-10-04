@@ -15,9 +15,9 @@ from concurrent.futures import ThreadPoolExecutor
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
 
-# Must match STORES in app.js.
-app_js = (ROOT / "app.js").read_text()
-STORES = dict(re.findall(r'(\w+): \{ name: "[^"]+", search: "([^"]+)" \}', app_js))
+# Must match STORES in common.js.
+common_js = (ROOT / "common.js").read_text()
+STORES = dict(re.findall(r'(\w+): \{ name: "[^"]+", search: "([^"]*)" \}', common_js))
 
 
 def urls():

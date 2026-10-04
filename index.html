@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Language and theme before first paint: stored choice, else browser language / system theme. Same in every page. -->
+  <script>(function(){var d=document.documentElement,l=null;try{var t=localStorage.getItem("lt-theme");if(t==="light"||t==="dark")d.dataset.theme=t;l=localStorage.getItem("lt-lang")}catch(e){}var q=new URLSearchParams(location.search).get("lang");if(q==="no"||q==="en")l=q;if(l!=="no"&&l!=="en"){var n=(navigator.languages||[navigator.language||""]).join(",").toLowerCase();l=/(^|,)(nb|nn|no)\b/.test(n)?"no":"en"}d.dataset.lang=l;d.lang=l==="no"?"nb":"en"})()</script>
   <title>Little Things</title>
+  <meta name="lt-title-en" content="Little Things">
+  <meta name="lt-title-no" content="Små ting">
   <meta name="description" content="Cheap, simple things babies and young children actually play with, picked by developmental stage and backed by research. A gift guide for friends with little kids.">
   <meta property="og:title" content="Little Things: gifts kids actually use">
   <meta property="og:description" content="Everyday objects and simple toys for 0–6 year olds, sorted by developmental stage, with plastic-free filter and Norwegian store links.">
@@ -16,111 +20,128 @@
 <body>
   <header class="hero">
     <div class="wrap">
-      <p class="eyebrow">A gift guide for friends with little ones</p>
-      <h1>Little things</h1>
-      <p class="lede">Cheap, simple things babies and young children actually play with, sorted by developmental stage, with the research behind each one. Many of them are already in a kitchen drawer.</p>
-      <ul class="principles">
+      <div class="topbar">
+        <p class="eyebrow"><span lang="en">A gift guide for friends with little ones</span><span lang="nb">En gaveguide for venner med små barn</span></p>
+        <div id="site-tools" class="site-tools"></div>
+      </div>
+      <h1><span lang="en">Little things</span><span lang="nb">Små ting</span></h1>
+      <p class="lede" lang="en">Cheap, simple things babies and young children actually play with, sorted by developmental stage, with the research behind each one. Many of them are already in a kitchen drawer.</p>
+      <p class="lede" lang="nb">Billige, enkle ting som babyer og små barn faktisk leker med, sortert etter utviklingstrinn og med forskningen bak hver av dem. Mange av dem ligger allerede i en kjøkkenskuff.</p>
+      <ul class="principles" lang="en">
         <li><strong>You are the best toy.</strong> For babies, play matters most as time together. Simple things that get adults talking beat toys that talk for them.</li>
         <li><strong>Fewer is better.</strong> Toddlers with 4 toys played longer and more creatively than toddlers with 16. Pick one or two things.</li>
         <li><strong>Real things count.</strong> Kids prefer real activities and tools over pretend copies, and everyday objects are great play material.</li>
       </ul>
-      <p class="hero-links"><a href="gift-rule.html">Want, need, wear, read: the gift rule</a> · <a href="gift-rule.html#deep">Go deep, not wide</a> · <a href="#sources">Sources and safety</a> · <a href="https://github.com/dagfrode/little-things">Suggest an item</a></p>
+      <ul class="principles" lang="nb">
+        <li><strong>Du er den beste leken.</strong> For babyer handler lek mest om tid sammen. Enkle ting som får voksne til å snakke, slår leker som snakker for dem.</li>
+        <li><strong>Færre er bedre.</strong> Småbarn med 4 leker lekte lenger og mer kreativt enn småbarn med 16. Velg én eller to ting.</li>
+        <li><strong>Ekte ting teller.</strong> Barn foretrekker ekte aktiviteter og redskaper framfor lekekopier, og hverdagsting er flott lekemateriale.</li>
+      </ul>
+      <p class="hero-links" lang="en"><a href="wish.html?edit=1">Make a wish list</a> · <a href="gift-rule.html">Want, need, wear, read: the gift rule</a> · <a href="gift-rule.html#deep">Go deep, not wide</a> · <a href="#sources">Sources and safety</a> · <a href="https://github.com/dagfrode/little-things">Suggest an item</a></p>
+      <p class="hero-links" lang="nb"><a href="wish.html?edit=1">Lag en ønskeliste</a> · <a href="gift-rule.html">Ønske, trenge, ha på, lese: gaveregelen</a> · <a href="gift-rule.html#deep">Gå i dybden</a> · <a href="#sources">Kilder og sikkerhet</a> · <a href="https://github.com/dagfrode/little-things">Foreslå en ting</a></p>
     </div>
   </header>
 
   <main class="wrap">
     <section class="filters" aria-label="Filters">
       <div class="filter-group">
-        <h2 class="filter-label" id="lbl-age">Age</h2>
+        <h2 class="filter-label" id="lbl-age" data-i18n="age">Age</h2>
         <div class="chips" role="group" aria-labelledby="lbl-age" id="f-age"></div>
       </div>
 
       <div class="filter-group">
-        <h2 class="filter-label"><span id="lbl-gift">Gift rule</span> <a class="label-help" href="gift-rule.html">what's this?</a></h2>
+        <h2 class="filter-label"><span id="lbl-gift" data-i18n="gift_rule">Gift rule</span> <a class="label-help" href="gift-rule.html" data-i18n="whats_this">what's this?</a></h2>
         <div class="seg" role="group" aria-labelledby="lbl-gift" id="f-gift"></div>
       </div>
 
       <div class="filter-group">
-        <h2 class="filter-label"><span id="lbl-core">Core toy sets</span> <a class="label-help" href="gift-rule.html#deep">go deep, not wide</a></h2>
+        <h2 class="filter-label"><span id="lbl-core" data-i18n="core_sets">Go deep</span> <a class="label-help" href="gift-rule.html#deep" data-i18n="go_deep_link">go deep, not wide</a></h2>
         <div class="seg" role="group" aria-labelledby="lbl-core" id="f-core"></div>
       </div>
 
       <div class="filter-row">
         <div class="filter-group">
-          <h2 class="filter-label" id="lbl-kind">Type</h2>
+          <h2 class="filter-label" id="lbl-kind" data-i18n="type">Type</h2>
           <div class="seg" role="group" aria-labelledby="lbl-kind" id="f-kind"></div>
         </div>
         <div class="filter-group">
-          <h2 class="filter-label" id="lbl-plastic">Plastic</h2>
+          <h2 class="filter-label" id="lbl-plastic" data-i18n="plastic">Plastic</h2>
           <div class="seg" role="group" aria-labelledby="lbl-plastic" id="f-plastic"></div>
         </div>
         <div class="filter-group">
-          <h2 class="filter-label" id="lbl-price">Budget</h2>
+          <h2 class="filter-label" id="lbl-price" data-i18n="budget">Budget</h2>
           <div class="seg" role="group" aria-labelledby="lbl-price" id="f-price"></div>
         </div>
       </div>
 
-      <label class="toggle"><input type="checkbox" id="f-years"> Only things that last for years <span class="muted">(4+ years of use)</span></label>
+      <label class="toggle"><input type="checkbox" id="f-years"> <span data-i18n="years_toggle">Only things that last for years</span> <span class="muted" data-i18n="years_note">(4+ years of use)</span></label>
 
       <details class="more-filters" id="more-filters">
-        <summary>Skills and search</summary>
+        <summary data-i18n="skills_search">Skills and search</summary>
         <div class="filter-group">
-          <h2 class="filter-label" id="lbl-skill">Good for (any of)</h2>
+          <h2 class="filter-label" id="lbl-skill" data-i18n="good_for">Good for (any of)</h2>
           <div class="chips" role="group" aria-labelledby="lbl-skill" id="f-skill"></div>
         </div>
         <div class="filter-group">
-          <label class="filter-label" for="f-q">Search</label>
-          <input type="search" id="f-q" placeholder="e.g. bowl, puzzle, bath" autocomplete="off">
+          <label class="filter-label" for="f-q" data-i18n="search">Search</label>
+          <input type="search" id="f-q" placeholder="e.g. bowl, puzzle, bath" data-i18n-placeholder="search_ph" autocomplete="off">
         </div>
       </details>
 
       <div class="result-bar">
         <p id="count" aria-live="polite"></p>
         <div class="result-actions">
-          <button type="button" class="link-btn" id="reset">Reset filters</button>
-          <button type="button" class="link-btn" id="share">Copy link to this selection</button>
+          <button type="button" class="link-btn" id="reset" data-i18n="reset">Reset filters</button>
+          <button type="button" class="link-btn" id="share" data-i18n="share">Copy link to this selection</button>
         </div>
       </div>
     </section>
 
     <section id="items" class="grid" aria-label="Items"></section>
-    <p id="empty" class="empty" hidden>No matches. Try a wider age or budget.</p>
+    <p id="empty" class="empty" hidden data-i18n="empty">No matches. Try a wider age or budget.</p>
 
     <section id="sources" class="about">
-      <h2>Safety basics</h2>
-      <ul>
-        <li><strong>Choking:</strong> for children under 3 (and older ones who still mouth things), anything that fits through a toilet-roll tube is too small. Balls should be larger than about 4.5 cm.</li>
-        <li><strong>Never:</strong> button/coin batteries, loose magnets, balloons, or cords longer than 30 cm near babies.</li>
-        <li><strong>Everyday objects</strong> aren't tested as toys. Check edges and loose parts, and stay close.</li>
-        <li><strong>Plastic:</strong> the EU bans the most harmful phthalates in toys, but enforcement checks still find them in cheap soft-PVC toys. Buying from established stores, buying secondhand quality, or choosing steel, wood, cotton and natural rubber lowers the risk.</li>
-      </ul>
-      <p class="muted">The plastic filter: <em>plastic-free</em> means no plastic parts; <em>little plastic</em> also includes items that are mainly another material with some plastic parts, or polyester stuffing.</p>
-
-      <h2>Sources</h2>
-      <p class="muted">Every item lists the sources behind it. Prices are approximate (NOK), and IKEA prices were checked in October 2026. Other store links open a search, so they keep working when a product changes.</p>
+      <div lang="en">
+        <h2>Safety basics</h2>
+        <ul>
+          <li><strong>Choking:</strong> for children under 3 (and older ones who still mouth things), anything that fits through a toilet-roll tube is too small. Balls should be larger than about 4.5 cm.</li>
+          <li><strong>Never:</strong> button/coin batteries, loose magnets, balloons, or cords longer than 30 cm near babies.</li>
+          <li><strong>Everyday objects</strong> aren't tested as toys. Check edges and loose parts, and stay close.</li>
+          <li><strong>Plastic:</strong> the EU bans the most harmful phthalates in toys, but enforcement checks still find them in cheap soft-PVC toys. Buying from established stores, buying secondhand quality, or choosing steel, wood, cotton and natural rubber lowers the risk.</li>
+        </ul>
+        <p class="muted">The plastic filter: <em>plastic-free</em> means no plastic parts; <em>little plastic</em> also includes items that are mainly another material with some plastic parts, or polyester stuffing.</p>
+        <h2>Sources</h2>
+        <p class="muted">Every item lists the sources behind it. Prices are approximate (NOK), and IKEA prices were checked in October 2026. Other store links open a search, so they keep working when a product changes.</p>
+      </div>
+      <div lang="nb">
+        <h2>Sikkerhet</h2>
+        <ul>
+          <li><strong>Kvelning:</strong> for barn under 3 år (og eldre barn som fortsatt putter ting i munnen) er alt som går gjennom en dorullhylse for lite. Baller bør være større enn ca. 4,5 cm.</li>
+          <li><strong>Aldri:</strong> knappecellebatterier, løse magneter, ballonger eller snorer lengre enn 30 cm i nærheten av babyer.</li>
+          <li><strong>Hverdagsting</strong> er ikke testet som leker. Sjekk kanter og løse deler, og vær i nærheten.</li>
+          <li><strong>Plast:</strong> EU forbyr de mest skadelige ftalatene i leker, men kontroller finner dem fortsatt i billige leker av myk PVC. Kjøp fra etablerte butikker, kjøp god kvalitet brukt, eller velg stål, tre, bomull og naturgummi for å senke risikoen.</li>
+        </ul>
+        <p class="muted">Plastfilteret: <em>plastfri</em> betyr ingen plastdeler; <em>lite plast</em> tar også med ting som hovedsakelig er av et annet materiale med noen plastdeler, eller polyesterfyll.</p>
+        <h2>Kilder</h2>
+        <p class="muted">Hver ting viser kildene bak den. Prisene er omtrentlige (NOK), og IKEA-prisene ble sjekket i oktober 2026. Andre butikklenker åpner et søk, så de fortsetter å virke når et produkt endres.</p>
+      </div>
       <ol id="source-list" class="source-list"></ol>
     </section>
   </main>
 
   <footer class="wrap footer">
-    <p>Made by <a href="https://dagfrode.com">Dag Frode</a> for friends with new babies. Not medical advice; every child develops at their own pace.</p>
+    <p lang="en">Made by <a href="https://dagfrode.com">Dag Frode</a> for friends with new babies. Not medical advice; every child develops at their own pace.</p>
+    <p lang="nb">Laget av <a href="https://dagfrode.com">Dag Frode</a> for venner med nye babyer. Ikke medisinske råd; hvert barn utvikler seg i sitt eget tempo.</p>
   </footer>
 
-  <template id="card-tpl">
-    <article class="card">
-      <header class="card-head">
-        <h3 class="card-title"></h3>
-        <p class="card-meta"></p>
-      </header>
-      <ul class="badges"></ul>
-      <p class="why"></p>
-      <p class="tip"></p>
-      <p class="safety"></p>
-      <div class="buy"></div>
-      <p class="cites"></p>
-    </article>
-  </template>
+  <div id="wish-bar" class="wish-bar" hidden>
+    <div class="wrap wish-bar-inner">
+      <span id="wish-count"></span>
+      <a id="wish-open" href="wish.html?edit=1"></a>
+    </div>
+  </div>
 
+  <script src="common.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

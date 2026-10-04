@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Language and theme before first paint: stored choice, else browser language / system theme. Same in every page. -->
+  <script>(function(){var d=document.documentElement,l=null;try{var t=localStorage.getItem("lt-theme");if(t==="light"||t==="dark")d.dataset.theme=t;l=localStorage.getItem("lt-lang")}catch(e){}var q=new URLSearchParams(location.search).get("lang");if(q==="no"||q==="en")l=q;if(l!=="no"&&l!=="en"){var n=(navigator.languages||[navigator.language||""]).join(",").toLowerCase();l=/(^|,)(nb|nn|no)\b/.test(n)?"no":"en"}d.dataset.lang=l;d.lang=l==="no"?"nb":"en"})()</script>
+  <title>Wish list · Little Things</title>
+  <meta name="robots" content="noindex">
+  <meta name="description" content="A wish list made with Little Things: a few good gifts, chosen with care.">
+  <meta property="og:title" content="A wish list">
+  <meta property="og:description" content="Something they want, something they need, something to wear, something to read.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23e8a33d'/><circle cx='50' cy='50' r='22' fill='%23fdf8f0'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero hero-slim">
+    <div class="wrap">
+      <div class="topbar">
+        <p class="eyebrow"><a href="./"><span lang="en">Little things</span><span lang="nb">Små ting</span></a> · <span lang="en">Wish list</span><span lang="nb">Ønskeliste</span></p>
+        <div id="site-tools" class="site-tools"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" id="wish-root"></main>
+
+  <footer class="wrap footer">
+    <p lang="en">Made with <a href="./">Little things</a>, a gift guide for friends with little ones.</p>
+    <p lang="nb">Laget med <a href="./">Små ting</a>, en gaveguide for venner med små barn.</p>
+  </footer>
+
+  <script src="common.js"></script>
+  <script src="wish.js"></script>
+</body>
+</html>
